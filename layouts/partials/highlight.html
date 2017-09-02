@@ -7,9 +7,11 @@
                     <thead>
                         <tr>
                             <th>{{ .Site.Params.highlight.confname }}</th>
+                            <th>{{ .Site.Params.highlight.when }}</th>
                             <th>{{ .Site.Params.highlight.absddl }}</th>
                             <th>{{ .Site.Params.highlight.submddl }}</th>
                             <th>{{ .Site.Params.highlight.notidue }}</th>
+                            <th>{{ .Site.Params.highlight.final }}</th>
                             <th>{{ .Site.Params.highlight.countdown }}</th>
                         </tr>
                     </thead>
@@ -20,9 +22,11 @@
                           <th scope="row"> 
                               <a href="{{ $p.confsite }}">{{ $p.confname }}</a>
                           </th>
-                          <td>{{ $p.absddl }}</td> 
-                          <td>{{ $p.submddl }}</td> 
-                          <td>{{ $p.notidue }}</td>
+                          <td>{{ $p.when | markdownify }}</td> 
+                          <td>{{ $p.absddl | markdownify }}</td> 
+                          <td>{{ $p.submddl | markdownify }}</td> 
+                          <td>{{ $p.notidue | markdownify }}</td>
+                          <td>{{ $p.final | markdownify }}</td>
                           <td>
                               <div id="countdown"></div>
                           </td>

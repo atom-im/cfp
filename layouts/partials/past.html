@@ -3,10 +3,12 @@
                 <h2>{{ .Site.Params.past.title }}</h2>
             </header>
             <div class="hide-body hidden">
+            <!-- <div class="hide-body"> -->
                 <table class="table table-bordered table-striped table-condensed">
                     <thead>
                         <tr>
                             <th>{{ .Site.Params.past.confname }}</th>
+                            <th>{{ .Site.Params.past.when }}</th>
                             <th>{{ .Site.Params.past.absddl }}</th>
                             <th>{{ .Site.Params.past.submddl }}</th>
                             <th>{{ .Site.Params.past.notidue }}</th>
@@ -18,11 +20,12 @@
                       {{ with .enable }}
                       <tr>
                           <th scope="row"> 
-                              <a href="{{ $p.confsite }}">{{ $p.confname }}</a>
+                              <a href="{{ $p.confsite }}" target="_blank">{{ $p.confname }}</a>
                           </th>
-                          <td>{{ $p.absddl }}</td> 
-                          <td>{{ $p.submddl }}</td> 
-                          <td>{{ $p.notidue }}</td>
+                          <td>{{ $p.when | markdownify }}</td> 
+                          <td>{{ $p.absddl | markdownify }}</td> 
+                          <td>{{ $p.submddl | markdownify }}</td> 
+                          <td>{{ $p.notidue | markdownify }}</td>
                           <td>
                               <div data-countdown="{{ $p.countdown }}"></div>
                           </td>

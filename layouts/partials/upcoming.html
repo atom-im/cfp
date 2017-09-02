@@ -7,6 +7,7 @@
                     <thead>
                         <tr>
                             <th>{{ .Site.Params.upcoming.confname }}</th>
+                            <th>{{ .Site.Params.upcoming.when }}</th>
                             <th>{{ .Site.Params.upcoming.absddl }}</th>
                             <th>{{ .Site.Params.upcoming.submddl }}</th>
                             <th>{{ .Site.Params.upcoming.notidue }}</th>
@@ -18,11 +19,12 @@
                       {{ with .enable }}
                       <tr>
                           <th scope="row"> 
-                              <a href="{{ $p.confsite }}">{{ $p.confname }}</a>
+                              <a href="{{ $p.confsite }}" target="_blank">{{ $p.confname }}</a>
                           </th>
-                          <td>{{ $p.absddl }}</td> 
-                          <td>{{ $p.submddl }}</td> 
-                          <td>{{ $p.notidue }}</td>
+                          <td>{{ $p.when | markdownify }}</td> 
+                          <td>{{ $p.absddl | markdownify }}</td> 
+                          <td>{{ $p.submddl | markdownify }}</td> 
+                          <td>{{ $p.notidue | markdownify }}</td>
                           <td>
                               <div data-countdown="{{ $p.countdown }}"></div>
                           </td>
