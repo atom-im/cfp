@@ -20,7 +20,7 @@
                       {{ with .enable }}
                       <tr style="background-color:YellowGreen">
                           <th scope="row"> 
-                              <a href="{{ $p.confsite }}">{{ $p.confname }}</a>
+                              <a href="{{ $p.confsite }}" target="_blank">{{ $p.confname }}</a>
                           </th>
                           <td>{{ $p.when | markdownify }}</td> 
                           <td>{{ $p.absddl | markdownify }}</td> 
