@@ -1,0 +1,92 @@
+# Page settings
+
+baseurl = "http://www.atom.im/"
+languageCode = "en-us"
+title = "Call for papers"
+
+# Do not build files for websites. Need them? Set to false
+disableKinds=["404", "RSS", "sitemap"]
+
+[blackfriday]
+  fractions = false
+  hrefTargetBlank = true
+
+[params]
+
+# Meta
+    description = "Selected call for papers from top computer architecture & system conferences."
+    keywords = "conference, computer science and technology, non-volatile memory, NVM, file system, operating system"
+    author = "Hu WAN"
+
+    # Introduction section
+    [params.intro]
+        enable = true
+        title = "Call for Papers!"
+        intro = "Selected call for papers from top computer architecture & system conferences."
+
+    # Highlight section
+    [params.highlight]
+        enable = true
+        title = "Highlight"
+        confname = "Name"
+        absddl = "Abstract Deadline"
+        submddl = "Submission Deadline"
+        notidue = "Notification Due"
+        countdown = "Countdown"
+
+        # there can be only one highlight item
+        [[params.highlight.list]]
+		enable = true
+        confname = "FAST'19"
+        confsite = "https://www.usenix.org/conference/fast18/call-for-papers"
+	    absddl = "N/A"
+	    submddl = "TBD"
+	    notidue = "TBD"
+	    countdown = "2019-06-09 23:59" #precise time
+
+    # Upcoming section
+    [params.upcoming]
+        enable = true
+        title = "Upcoming"
+        confname = "Name"
+        absddl = "Abstract Deadline"
+        submddl = "Submission Deadline"
+        notidue = "Notification Due"
+        countdown = "Countdown"
+
+        [[params.upcoming.list]]
+		enable = true
+        confname = "FAST'19"
+        confsite = "https://www.usenix.org/conference/fast18/call-for-papers"
+	    absddl = "N/A"
+	    submddl = "TBD"
+	    notidue = "TBD"
+	    countdown = "2019/1/1"
+
+    # Past section
+    [params.past]
+        enable = false
+        title = "Past"
+        confname = "Name"
+        absddl = "Abstract Deadline"
+        submddl = "Submission Deadline"
+        notidue = "Notification Due"
+        countdown = "Countdown"
+
+        [[params.past.list]]
+		enable = true
+        confname = "FAST'19"
+        confsite = "https://www.usenix.org/conference/fast18/call-for-papers"
+	    absddl = "N/A"
+	    submddl = "TBD"
+	    notidue = "TBD"
+	    countdown = "2019/1/1"
+
+    [params.info]
+        enable = true
+        info = "**Link**: [Chinese Computing Federation (CCF) Ranking List for Conferences](http://atom.im/ccf/ccf-ranking)"
+
+    # Footer section
+
+    [params.footer]
+        copyright = "Theme designed by [dblp](http://dblp.uni-trier.de/), customized by [atom.im](http://atom.im/)."

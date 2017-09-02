@@ -1,0 +1,35 @@
+        <div class="hideable" id="past">
+            <header class="hide-head nowrap">
+                <h2>{{ .Site.Params.past.title }}</h2>
+            </header>
+            <div class="hide-body hidden">
+                <table class="table table-bordered table-striped table-condensed">
+                    <thead>
+                        <tr>
+                            <th>{{ .Site.Params.past.confname }}</th>
+                            <th>{{ .Site.Params.past.absddl }}</th>
+                            <th>{{ .Site.Params.past.submddl }}</th>
+                            <th>{{ .Site.Params.past.notidue }}</th>
+                            <th>{{ .Site.Params.past.countdown }}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                      {{ range $p := .Site.Params.past.list }}
+                      {{ with .enable }}
+                      <tr>
+                          <th scope="row"> 
+                              <a href="{{ $p.confsite }}">{{ $p.confname }}</a>
+                          </th>
+                          <td>{{ $p.absddl }}</td> 
+                          <td>{{ $p.submddl }}</td> 
+                          <td>{{ $p.notidue }}</td>
+                          <td>
+                              <div data-countdown="{{ $p.countdown }}"></div>
+                          </td>
+                      </tr>
+                      {{ end }}
+                      {{ end }}
+                    </tbody>
+                </table>
+            </div>
+        </div>
