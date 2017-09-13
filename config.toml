@@ -332,7 +332,7 @@ disableKinds=["404", "RSS", "sitemap"]
 
     [params.info]
         enable = true
-        info = "**Link**: [Chinese Computing Federation (CCF) Ranking List for Conferences](http://atom.im/ccf/ccf-ranking)"
+        info = "**Link**: [Chinese Computing Federation (CCF) Ranking List](http://atom.im/ccf)"
 
     # Footer section
 
