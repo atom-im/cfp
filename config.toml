@@ -160,6 +160,16 @@ disableKinds=["404", "RSS", "sitemap"]
 	    countdown = "2018/1/10"
 
         [[params.upcoming.list]]
+		enable = true
+        confname = "DAC 2018"
+        confsite = "https://dac.com"
+        when = "Jun 24-28, 2018"
+	    absddl = "TBA"
+	    submddl = "TBA"
+	    notidue = "TBA"
+	    countdown = "2017/11/17"
+
+        [[params.upcoming.list]]
 		enable = false
         confname = ""
         confsite = ""
