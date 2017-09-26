@@ -313,7 +313,7 @@ disableKinds=["404", "RSS", "sitemap"]
        [[params.past.list]]
 		enable = true
         confname = "SOSP 2017"
-        confsite = "https://www.sigops.org/sosp/sosp17/call-for-contributions.html"
+        confsite = "https://www.sigops.org/sosp/sosp17"
         when = "**Oct 29-31, 2017**"
 	    absddl = "Apr 14, 2017"
 	    submddl = "Apr 21, 2017"
