@@ -58,7 +58,7 @@ submddl = "Submission Deadline"
 notidue = "Notification Due"
 countdown = "Countdown"
 
-[[params.upcoming.list]]
+[[params.past.list]]
 enable = true
 confname = "FAST 2018"
 confsite = "https://www.usenix.org/conference/fast18/call-for-papers"
@@ -80,6 +80,16 @@ countdown = "2018/2/6"
 
 [[params.upcoming.list]]
 enable = true
+confname = "HotStorage 2018"
+confsite = "https://www.usenix.org/conference/hotstorage18"
+when = "Jul 9-10, 2018"
+absddl = "TBA"
+submddl = "Mar 15, 2018"
+notidue = "TBA"
+countdown = "2018/3/15"
+
+[[params.upcoming.list]]
+enable = true
 confname = "NVMSA 2018"
 confsite = "http://dblp.uni-trier.de/db/conf/nvmsa/"
 when = "mid Aug, 2018"
@@ -98,7 +108,7 @@ submddl = "TBA"
 notidue = "TBA"
 countdown = "2018/5/1"
 
-[[params.upcoming.list]]
+[[params.past.list]]
 enable = true
 confname = "DATE 2018"
 confsite = "https://www.date-conference.com/"
@@ -108,7 +118,7 @@ submddl = "Sep 10, 2017"
 notidue = "Nov 10, 2017"
 countdown = "2017/9/10"
 
-[[params.upcoming.list]]
+[[params.past.list]]
 enable = true
 confname = "EuroSys 2018"
 confsite = "http://eurosys2018.org/call-for-papers/"
@@ -128,7 +138,7 @@ submddl = "Nov 21, 2017"
 notidue = "Mar 13, 2018"
 countdown = "2017/11/14"
 
-[[params.upcoming.list]]
+[[params.past.list]]
 enable = true
 confname = "IPDPS"
 confsite = "http://www.ipdps.org/"
