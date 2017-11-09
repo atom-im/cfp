@@ -173,10 +173,10 @@ enable = true
 confname = "DAC 2018"
 confsite = "https://dac.com"
 when = "Jun 24-28, 2018"
-absddl = "TBA"
-submddl = "TBA"
+absddl = "Nov 14, 2017"
+submddl = "Nov 21, 2017"
 notidue = "TBA"
-countdown = "2017/11/17"
+countdown = "2017/11/14"
 
 [[params.upcoming.list]]
 enable = true
