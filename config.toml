@@ -103,10 +103,10 @@ enable = true
 confname = "OSDI 2018"
 confsite = "https://www.usenix.org/conference/osdi18/"
 when = "Oct 8-10, 2018"
-absddl = "early May, 2018"
+absddl = "Apr 26, 2018"
 submddl = "TBA"
 notidue = "TBA"
-countdown = "2018/5/1"
+countdown = "2018/4/26"
 
 [[params.past.list]]
 enable = true
