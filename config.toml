@@ -207,7 +207,7 @@ when = "Jul 11-13, 2018"
 absddl = "N/A"
 submddl = "Feb 6, 2018"
 notidue = "Apr 18, 2018"
-countdown = "2018-02-06 23:59" #precise time
+countdown = "2018/02/06"
 
 [[params.past.list]]
 enable = true
