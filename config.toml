@@ -209,6 +209,16 @@ submddl = "Feb 6, 2018"
 notidue = "Apr 18, 2018"
 countdown = "2018/02/06"
 
+[[params.upcoming.list]]
+enable = true
+confname = "ASPLOS 2019"
+confsite = "http://www.asplos2018.org"
+when = "April 13-17, 2019"
+absddl = "TBD"
+submddl = "TBD"
+notidue = "TBD"
+countdown = "2018/8/8"
+
 [[params.past.list]]
 enable = true
 confname = "ASPLOS 2018"
