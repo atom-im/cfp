@@ -29,23 +29,11 @@ enable = true
 title = "Highlight"
 confname = "Name"
 when = "When"
-absddl = "Abstract"
-submddl = "Submission"
-notidue = "Notification"
-final = "Final Version"
+absddl = "Abstract Deadline"
+submddl = "Submission Deadline"
+notidue = "Notification Due"
+#final = "Final Version"
 countdown = "Countdown"
-
-# there can be only one highlight item
-[[params.highlight.list]]
-enable = true
-confname = "NVMSA 2018"
-confsite = "https://nvmsa18.github.io"
-when = "Aug 28-31, 2018"
-absddl = "**Apr 20, 2018**"
-submddl = "Apr 27, 2018"
-notidue = "Jun 1, 2018"
-final = "Jun 15, 2018"
-countdown = "2018/4/21 19:59"
 
 # Upcoming section
 [params.upcoming]
@@ -58,6 +46,39 @@ submddl = "Submission Deadline"
 notidue = "Notification Due"
 countdown = "Countdown"
 
+# Past section
+[params.past]
+enable = true
+title = "Past"
+confname = "Name"
+when = "When"
+absddl = "Abstract Deadline"
+submddl = "Submission Deadline"
+notidue = "Notification Due"
+countdown = "Countdown"
+
+# One highlight item allowed
+[[params.highlight.list]]
+enable = true
+confname = "NVMSA 2018"
+confsite = "https://nvmsa18.github.io"
+when = "Aug 28-31, 2018"
+absddl = "Apr 20, 2018"
+submddl = "Apr 27, 2018"
+notidue = "**Jun 1, 2018**"
+countdown = "2018/6/1 12:00"
+
+# Template
+[[params.upcoming.list]]
+enable = false
+confname = ""
+confsite = ""
+when = ""
+absddl = ""
+submddl = ""
+notidue = ""
+countdown = ""
+
 [[params.past.list]]
 enable = true
 confname = "FAST 2018"
@@ -69,16 +90,6 @@ notidue = "Dec 11, 2017"
 countdown = "2017/9/28"
 
 [[params.past.list]]
-enable = false
-confname = "ATC 2018"
-confsite = "https://www.usenix.org/conference/atc18/call-for-papers"
-when = "Jul 11-13, 2018"
-absddl = "N/A"
-submddl = "Feb 6, 2018"
-notidue = "Apr 18, 2018"
-countdown = "2018/2/6"
-
-[[params.past.list]]
 enable = true
 confname = "HotStorage 2018"
 confsite = "https://www.usenix.org/conference/hotstorage18"
@@ -88,7 +99,7 @@ submddl = "Mar 15, 2018"
 notidue = "TBA"
 countdown = "2018/3/15"
 
-[[params.upcoming.list]]
+[[params.past.list]]
 enable = true
 confname = "OSDI 2018"
 confsite = "https://www.usenix.org/conference/osdi18/"
@@ -179,25 +190,14 @@ notidue = "Mar 7, 2018"
 countdown = "2018/01/21"
 
 [[params.upcoming.list]]
-enable = false
-confname = ""
-confsite = ""
-when = ""
-absddl = ""
-submddl = ""
-notidue = ""
-countdown = ""
-
-# Past section
-[params.past]
 enable = true
-title = "Past"
-confname = "Name"
-when = "When"
-absddl = "Abstract Deadline"
-submddl = "Submission Deadline"
-notidue = "Notification Due"
-countdown = "Countdown"
+confname = "EuroSys 2019"
+confsite = "https://www.eurosys2019.org"
+when = "Mar 25-28, 2018"
+absddl = "Sep 24, 2019"
+submddl = "Oct 1, 2018"
+notidue = "21 Dec, 2018"
+countdown = "2018/9/24"
 
 [[params.past.list]]
 enable = true
@@ -358,6 +358,7 @@ absddl = "N/A"
 submddl = "Aug 1, 2016"
 notidue = "Nov 12, 2016"
 countdown = ""
+
 
 [params.info]
 enable = true
