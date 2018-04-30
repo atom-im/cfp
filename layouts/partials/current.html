@@ -1,25 +1,25 @@
-	<div class="hideable" id="upcoming">
+	<div class="hideable" id="current">
 		<header class="hide-head nowrap">
-			<h2>{{ .Site.Params.upcoming.title }}</h2>
+			<h2>{{ .Site.Params.current.title }}</h2>
 		</header>
 		<div class="hide-body">
 			<table class="table table-bordered table-condensed">
 				<thead>
 					<tr>
-						<th>{{ .Site.Params.upcoming.confname }}</th>
-						<th>{{ .Site.Params.upcoming.when }}</th>
-						<th>{{ .Site.Params.upcoming.absddl }}</th>
-						<th>{{ .Site.Params.upcoming.submddl }}</th>
-						<th>{{ .Site.Params.upcoming.notidue }}</th>
-						<th>{{ .Site.Params.upcoming.countdown }}</th>
+						<th>{{ .Site.Params.current.confname }}</th>
+						<th>{{ .Site.Params.current.when }}</th>
+						<th>{{ .Site.Params.current.absddl }}</th>
+						<th>{{ .Site.Params.current.submddl }}</th>
+						<th>{{ .Site.Params.current.notidue }}</th>
+						<th>{{ .Site.Params.current.countdown }}</th>
 					</tr>
 				</thead>
 				<tbody>
-{{- range $p := .Site.Params.upcoming.list -}}
+{{- range $p := .Site.Params.current.list -}}
 {{ if (eq .enable 1) }}
 					<tr style="background-color:Wheat">
 						<th scope="row">
-							<a href="{{ $p.confsite }}" target="_blank">{{ $p.confname }} {{ $.Site.Params.upcoming.year }}</a>
+							<a href="{{ $p.confsite }}" target="_blank">{{ $p.confname }} {{ $.Site.Params.current.year }}</a>
 						</th>
 						<td>{{ $p.when | markdownify }}</td>
 						<td>{{ $p.absddl | markdownify }}</td>
@@ -30,9 +30,9 @@
 						</td>
 					</tr>
 {{ else if (eq .enable -1) }}
-					<tr style="background-color:Wheat">
+					<tr style="background-color:white">
 						<th scope="row">
-							<a href="{{ $p.confsite }}" target="_blank">{{ $p.confname }} {{ $.Site.Params.upcoming.year }}</a>
+							<a href="{{ $p.confsite }}" target="_blank">{{ $p.confname }} {{ $.Site.Params.current.year }}</a>
 						</th>
 						<td>{{ $p.when | markdownify }}</td>
 						<td>{{ $p.absddl | markdownify }}</td>

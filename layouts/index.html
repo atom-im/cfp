@@ -20,6 +20,10 @@
 {{ partial "upcoming.html" . }}
 {{- end -}}
 
+{{ if .Site.Params.current.enable }}
+{{ partial "current.html" . }}
+{{- end -}}
+
 {{ if .Site.Params.past.enable }}
 {{ partial "past.html" . }}
 {{- end -}}

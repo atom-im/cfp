@@ -1,5 +1,4 @@
 # Page settings
-
 baseurl = "http://www.atom.im/"
 languageCode = "en-us"
 title = "Call for papers"
@@ -38,7 +37,8 @@ countdown = "Countdown"
 # Upcoming section
 [params.upcoming]
 enable = true
-title = "Upcoming"
+title = "Next Year"
+year = "2019"
 confname = "Name"
 when = "When"
 absddl = "Abstract Deadline"
@@ -46,10 +46,23 @@ submddl = "Submission Deadline"
 notidue = "Notification Due"
 countdown = "Countdown"
 
-# Past section
+# current section
+[params.current]
+enable = true
+title = "This Year"
+year = "2018"
+confname = "Name"
+when = "When"
+absddl = "Abstract Deadline"
+submddl = "Submission Deadline"
+notidue = "Notification Due"
+countdown = "Countdown"
+
+# past section
 [params.past]
 enable = true
-title = "Past"
+title = "Archives"
+year = "2018"
 confname = "Name"
 when = "When"
 absddl = "Abstract Deadline"
@@ -59,7 +72,7 @@ countdown = "Countdown"
 
 # One highlight item allowed
 [[params.highlight.list]]
-enable = true
+enable = 1
 confname = "NVMSA 2018"
 confsite = "https://nvmsa18.github.io"
 when = "Aug 28-31, 2018"
@@ -68,150 +81,9 @@ submddl = "Apr 27, 2018"
 notidue = "**Jun 1, 2018**"
 countdown = "2018/6/1 12:00"
 
-# Template
 [[params.upcoming.list]]
-enable = false
-confname = ""
-confsite = ""
-when = ""
-absddl = ""
-submddl = ""
-notidue = ""
-countdown = ""
-
-[[params.past.list]]
-enable = true
-confname = "FAST 2018"
-confsite = "https://www.usenix.org/conference/fast18/call-for-papers"
-when = "Feb 12-15, 2018"
-absddl = "N/A"
-submddl = "Sep 28, 2017"
-notidue = "Dec 11, 2017"
-countdown = "2017/9/28"
-
-[[params.past.list]]
-enable = true
-confname = "HotStorage 2018"
-confsite = "https://www.usenix.org/conference/hotstorage18"
-when = "Jul 9-10, 2018"
-absddl = "TBA"
-submddl = "Mar 15, 2018"
-notidue = "TBA"
-countdown = "2018/3/15"
-
-[[params.past.list]]
-enable = true
-confname = "OSDI 2018"
-confsite = "https://www.usenix.org/conference/osdi18/"
-when = "Oct 8-10, 2018"
-absddl = "Apr 26, 2018"
-submddl = "May 3, 2018"
-notidue = "Jul 24, 2018"
-countdown = "2018/4/26"
-
-[[params.past.list]]
-enable = true
-confname = "DATE 2018"
-confsite = "https://www.date-conference.com/"
-when = "Mar 19-23, 2018"
-absddl = "N/A"
-submddl = "Sep 10, 2017"
-notidue = "Nov 10, 2017"
-countdown = "2017/9/10"
-
-[[params.past.list]]
-enable = true
-confname = "EuroSys 2018"
-confsite = "http://eurosys2018.org/call-for-papers/"
-when = "Apr 23-26, 2018"
-absddl = "Oct 20, 2017"
-submddl = "Oct 27, 2017"
-notidue = "Jan 22, 2018"
-countdown = "2017/10/20"
-
-[[params.past.list]]
-enable = true
-confname = "ISCA 2018"
-confsite = "http://isca2018.ece.ucr.edu/"
-when = "Jun 2-6, 2018"
-absddl = "Nov 14, 2017"
-submddl = "Nov 21, 2017"
-notidue = "Mar 13, 2018"
-countdown = "2017/11/14"
-
-[[params.past.list]]
-enable = true
-confname = "IPDPS"
-confsite = "http://www.ipdps.org/"
-when = "May 21-15, 2018"
-absddl = "Oct 17, 2017"
-submddl = "Oct 22, 2017"
-notidue = "Dec 8, 2017"
-countdown = "2017/10/17"
-
-[[params.past.list]]
-enable = true
-confname = "ICS 2018"
-confsite = "http://ics2018.ict.ac.cn"
-when = "Jun 13-15, 2018"
-absddl = "N/A"
-submddl = "Jan 18, 2018"
-notidue = "Apr 1, 2018"
-countdown = "2018/1/18"
-
-[[params.past.list]]
-enable = true
-confname = "HPDC 2018"
-confsite = "http://www.hpdc.org/2018/"
-when = "Jun 11-15, 2018"
-absddl = "mid Jan, 2018"
-submddl = "TBA"
-notidue = "TBA"
-countdown = "2018/1/10"
-
-[[params.past.list]]
-enable = true
-confname = "DAC 2018"
-confsite = "https://dac.com"
-when = "Jun 24-28, 2018"
-absddl = "Nov 14, 2017"
-submddl = "Nov 21, 2017"
-notidue = "TBA"
-countdown = "2017/11/14"
-
-[[params.past.list]]
-enable = true
-confname = "CF 2018"
-confsite = "http://www.computingfrontiers.org/2018/"
-when = "May 8-10, 2018"
-absddl = "N/A"
-submddl = "Jan 21, 2018"
-notidue = "Mar 7, 2018"
-countdown = "2018/01/21"
-
-[[params.upcoming.list]]
-enable = true
-confname = "EuroSys 2019"
-confsite = "https://www.eurosys2019.org"
-when = "Mar 25-28, 2018"
-absddl = "Sep 24, 2019"
-submddl = "Oct 1, 2018"
-notidue = "21 Dec, 2018"
-countdown = "2018/9/24"
-
-[[params.past.list]]
-enable = true
-confname = "ATC 2018"
-confsite = "https://www.usenix.org/conference/atc18/call-for-papers"
-when = "Jul 11-13, 2018"
-absddl = "N/A"
-submddl = "Feb 6, 2018"
-notidue = "Apr 18, 2018"
-countdown = "2018/02/06"
-
-[[params.upcoming.list]]
-enable = true
-confname = "ASPLOS 2019"
+enable = 1
+confname = "ASPLOS"
 confsite = "http://www.asplos2018.org"
 when = "Apr 13-17, 2019"
 absddl = "TBD"
@@ -219,19 +91,19 @@ submddl = "TBD"
 notidue = "TBD"
 countdown = "2018/8/8"
 
-[[params.past.list]]
-enable = true
-confname = "ASPLOS 2018"
-confsite = "http://www.asplos2018.org"
-when = "Mar 24-28, 2018"
-absddl = "Aug 8, 2017"
-submddl = "Aug 11, 2017"
-notidue = "Nov 13, 2017"
-countdown = "2018/3/24"
+[[params.upcoming.list]]
+enable = 1
+confname = "FAST"
+confsite = "https://www.usenix.org/conference/fast19/call-for-papers"
+when = "Feb 25-28, 2019"
+absddl = "N/A"
+submddl = "Sep 26, 2018"
+notidue = "Dec 11, 2018"
+countdown = "2018/8/26"
 
 [[params.past.list]]
-enable = true
-confname = "HPCA 2018"
+enable = -1
+confname = "HPCA"
 confsite = "http://hpca2018.ece.ucsb.edu"
 when = "Feb 24-28, 2018"
 absddl = "Jul 25, 2017"
@@ -240,126 +112,356 @@ notidue = "Oct 27, 2017"
 countdown = "2018/2/24"
 
 [[params.past.list]]
-enable = true
-confname = "MICRO 2017"
-confsite = "https://www.microarch.org/micro50/"
-when = "Oct 14-18, 2017"
-absddl = "Mar 28, 2017"
-submddl = "Apr 4, 2017"
-notidue = "Jul 5, 2017"
-countdown = "2017/10/14"
+enable = -1
+confname = "ISCA"
+confsite = "http://isca2018.ece.ucr.edu/"
+when = "Jun 2-6, 2018"
+absddl = "Nov 14, 2017"
+submddl = "Nov 21, 2017"
+notidue = "Mar 13, 2018"
+countdown = "2017/11/14"
 
 [[params.past.list]]
-enable = true
-confname = "ICCD 2017"
-confsite = "http://www.iccd-conf.com/Home.html"
-when = "Nov 5-7, 2017"
-absddl = "Jun 19, 2017"
-submddl = "Jun 28, 2017"
-notidue = "Sep 1, 2017"
-countdown = "2017/11/5"
+enable = -1
+confname = "MICRO"
+confsite = "https://www.microarch.org/micro51/"
+when = "Oct 20-24, 2018"
+absddl = "Mar 30, 2018"
+submddl = "Apr 6, 2018"
+notidue = "Jul 18, 2018"
+countdown = "2018/4/6"
 
 [[params.past.list]]
-enable = true
-confname = "HiPEAC 2017"
-confsite = "https://www.hipeac.net/2017/stockholm/"
-when = "Jan 23-25, 2017"
+enable = -1
+confname = "SC"
+confsite = "https://sc18.supercomputing.org/submit/submission-deadlines/"
+when = "Nov 11-16, 2018"
+absddl = "Mar 19, 2018"
+submddl = "Mar 26, 2018"
+notidue = "Jun 15, 2018"
+countdown = "2018/3/19"
+
+[[params.past.list]]
+enable = -1
+confname = "USENIX ATC"
+confsite = "https://www.usenix.org/conference/atc18/call-for-papers"
+when = "Jul 11-13, 2018"
 absddl = "N/A"
-submddl = "Jun 1, 2017"
-notidue = "-"
-countdown = "2017/1/23"
+submddl = "Feb 6, 2018"
+notidue = "Apr 18, 2018"
+countdown = "2018/02/06"
 
 [[params.past.list]]
-enable = true
-confname = "ICPP 2017"
-confsite = "http://www.icpp-conf.org/2017/index.php"
-when = "Aug 14-17, 2017"
-absddl = "N/A"
-submddl = "Feb 27, 2017"
-notidue = "May 8, 2017"
-countdown = ""
-
-[[params.past.list]]
-enable = true
-confname = "MSST 2017"
-confsite = "http://storageconference.us/2017"
-when = "May 15-19, 2017"
-absddl = "Feb 10, 2017"
-submddl = "Feb 17, 2017"
-notidue = "Mar 31, 2017"
-countdown = ""
-
-[[params.past.list]]
-enable = true
-confname = "CF 2017"
-confsite = "http://www.computingfrontiers.org/2017/index.html"
-when = "May 15-17, 2017"
-absddl = "N/A"
-submddl = "Feb 5, 2017"
-notidue = "Mar 14, 2017"
-countdown = ""
-
-[[params.past.list]]
-enable = true
-confname = "HPCC"
-confsite = "http://hpcl.seas.gwu.edu/hpcc2017/"
-when = "Dec 18-20, 2017"
-absddl = "N/A"
-submddl = "Jun 15, 2017"
-notidue = "Aug 15, 2017"
-countdown = ""
-
-[[params.past.list]]
-enable = true
-confname = "HotOS 2017"
-confsite = "http://www.sigops.org/hotos/hotos17/cfp.html"
-when = "May 7-10, 2017"
-absddl = "N/A"
-submddl = "Jan 25, 2017"
-notidue = "Apr 7, 2017"
-countdown = ""
-
-[[params.past.list]]
-enable = true
-confname = "NVMSA 2017"
-confsite = "http://nvmsa2017.iis.sinica.edu.tw/index.html"
-when = "Aug 16-18, 2017"
-absddl = "Apr 14"
-submddl = "Apr 23"
-notidue = "Jun 2"
-countdown = "2017/4/14"
-
-[[params.past.list]]
-enable = true
-confname = "SYSTOR 2017"
-confsite = "http://www.systor.org/2017"
-when = "May 22-24, 2017"
-absddl = "N/A"
-submddl = "Feb 28, 2017"
-notidue = "Mar 29, 2017"
-countdown = ""
-
-[[params.past.list]]
-enable = true
-confname = "SOSP 2017"
-confsite = "https://www.sigops.org/sosp/sosp17"
-when = "Oct 29-31, 2017"
-absddl = "Apr 14, 2017"
-submddl = "Apr 21, 2017"
-notidue = "Aug 7, 2017"
-countdown = "2017/10/29"
-
-[[params.past.list]]
-enable = true
+enable = -1
 confname = "PPoPP"
-confsite = "http://conf.researchr.org/home/ppopp-2017"
-when = "Feb 4-8, 2017"
+confsite = "https://ppopp18.sigplan.org"
+when = "Feb 24-28, 2018"
 absddl = "N/A"
-submddl = "Aug 1, 2016"
-notidue = "Nov 12, 2016"
+submddl = "Aug 25, 2017"
+notidue = "Dec 6, 2017"
 countdown = ""
 
+[[params.past.list]]
+enable = -1
+confname = "SPAA"
+confsite = "http://spaa.acm.org/"
+when = "Jul 16-18, 2018"
+absddl = "Feb 6, 2018"
+submddl = "Feb 13, 2018"
+notidue = "Apr 18, 2018"
+countdown = ""
 
+[[params.past.list]]
+enable = -1
+confname = "PODC"
+confsite = "https://www.podc.org/"
+when = "Jul 23-27, 2018"
+absddl = "Feb 11, 2018"
+submddl = "Feb 18, 2018"
+notidue = "Apr 28, 2018"
+countdown = ""
+
+[[params.past.list]]
+enable = -1
+confname = "DAC"
+confsite = "https://dac.com"
+when = "Jun 24-28, 2018"
+absddl = "Nov 14, 2017"
+submddl = "Nov 21, 2017"
+notidue = "TBA"
+countdown = "2017/11/14"
+
+[[params.past.list]]
+enable = -1
+confname = "DATE"
+confsite = "https://www.date-conference.com/"
+when = "Mar 19-23, 2018"
+absddl = "N/A"
+submddl = "Sep 10, 2017"
+notidue = "Nov 10, 2017"
+countdown = "2017/9/10"
+
+[[params.upcoming.list]]
+enable = 1
+confname = "EuroSys"
+confsite = "https://www.eurosys2019.org"
+when = "Mar 25-28, 2018"
+absddl = "Sep 24, 2019"
+submddl = "Oct 1, 2018"
+notidue = "21 Dec, 2018"
+countdown = "2018/9/24"
+
+[[params.past.list]]
+enable = -1
+confname = "HPDC"
+confsite = "http://www.hpdc.org/2018/"
+when = "Jun 11-15, 2018"
+absddl = "Jan 17, 2018"
+submddl = "Jan 24, 2018"
+notidue = "Mar 29, 2018"
+countdown = ""
+
+[[params.current.list]]
+enable = 1
+confname = "ICCD"
+confsite = "http://www.iccd-conf.com"
+when = "Oct 7-10, 2018"
+absddl = "May 18, 2018"
+submddl = "May 25, 2018"
+notidue = "Aug 6, 2018"
+countdown = "2018/5/18"
+
+[[params.past.list]]
+enable = -1
+confname = "ICCAD"
+confsite = "http://www.iccad2018.com"
+when = "Mar 19-21, 2018"
+absddl = "N/A"
+submddl = "Dec 25, 2017"
+notidue = "Jan 201, 2018"
+countdown = ""
+
+[[params.upcoming.list]]
+enable = 1
+confname = "HiPEAC"
+confsite = "http://hipeac.net/conference"
+when = "Jan 21-23, 2019"
+absddl = "N/A"
+submddl = "Jun 1, 2018"
+notidue = "N/A"
+countdown = "2018/6/1"
+
+[[params.past.list]]
+enable = -1
+confname = "SIGMETRICS"
+confsite = "https://www.sigmetrics.org/sigmetrics2018/"
+when = "Jun 18-22, 2018"
+absddl = "Jul 10, 2017"
+submddl = "Jul 17, 2017"
+notidue = "Sep 22, 2017"
+countdown = ""
+
+[[params.past.list]]
+enable = -1
+confname = "ICPP"
+confsite = "http://www.icpp-conf.org"
+when = "Aug 13-16, 2018"
+absddl = "N/A"
+submddl = "Apr 9, 2018"
+notidue = "May 3, 2018"
+countdown = ""
+
+[[params.past.list]]
+enable = -1
+confname = "ICS"
+confsite = "http://ics2018.ict.ac.cn/#call-for-papers/"
+when = "Jun 12-15, 2018"
+absddl = "N/A"
+submddl = "Jan 29, 2018"
+notidue = "Mar 25, 2018"
+countdown = ""
+
+[[params.past.list]]
+enable = -1
+confname = "IPDPS"
+confsite = "http://www.ipdps.org/"
+when = "May 21-25, 2018"
+absddl = "Oct 17, 2017"
+submddl = "Oct 22, 2017"
+notidue = "Jan 22, 2017"
+countdown = ""
+
+[[params.current.list]]
+enable = 1
+confname = "Performance"
+confsite = "https://performance2018.sciencesconf.org/"
+when = "Dec 5-7, 2018"
+absddl = "May 4th, 2018"
+submddl = "May 11th, 2018"
+notidue = "July 13th, 2018"
+countdown = "2018/5/4"
+
+[[params.past.list]]
+enable = -1
+confname = "MSST"
+confsite = "http://storageconference.us/"
+when = "May 14-16, 2018"
+absddl = "-"
+submddl = "-"
+notidue = "-"
+countdown = ""
+
+[[params.past.list]]
+enable = -1
+confname = "PACT"
+confsite = "http://pactconf.org/index.php"
+when = "Nov 1-4, 2018"
+absddl = "Apr 8, 2018"
+submddl = "Apr 15, 2018"
+notidue = "Jun 20, 2018"
+countdown = ""
+
+[[params.past.list]]
+enable = -1
+confname = "CODES+ISSS"
+confsite = "http://www.esweek.org"
+when = "Sep 30+, 2018"
+absddl = "Mar 27, 2018"
+submddl = "Apr 3, 2018"
+notidue = "Jul 1, 2018"
+countdown = ""
+
+[[params.past.list]]
+enable = -1
+confname = "FSE/ESEC"
+confsite = "https://2018.fseconference.org"
+when = "Nov 4-9, 2018"
+absddl = "N/A"
+submddl = "Mar 9, 2018"
+notidue = "Jun 11, 2018"
+countdown = ""
+
+[[params.past.list]]
+enable = -1
+confname = "OOPSLA"
+confsite = "https://conf.researchr.org/track/splash-2018/splash-2018-OOPSLA"
+when = "Nov 4-9, 2018"
+absddl = "N/A"
+submddl = "Apr 16, 2018"
+notidue = "Jun 10, 2018"
+countdown = ""
+
+[[params.past.list]]
+enable = -1
+confname = "ICSE"
+confsite = ""
+when = "May 27+, 2018"
+absddl = "N/A"
+submddl = "Oct 10, 2017"
+notidue = "Nov 20, 2017"
+countdown = ""
+
+[[params.past.list]]
+enable = -1
+confname = "OSDI"
+confsite = "https://www.usenix.org/conference/osdi18/"
+when = "Oct 8-10, 2018"
+absddl = "Apr 26, 2018"
+submddl = "May 3, 2018"
+notidue = "Jul 24, 2018"
+countdown = "2018/4/26"
+
+[[params.past.list]]
+enable = -1
+confname = "PLDI"
+confsite = "http://pldi18.sigplan.org"
+when = "Jun 20-22, 2018"
+absddl = "N/A"
+submddl = "Nov 16, 2017"
+notidue = "Feb 13, 2018"
+countdown = ""
+
+[[params.upcoming.list]]
+enable = 1
+confname = "POPL"
+confsite = "https://popl19.sigplan.org/"
+when = "Jan 6-26, 2019"
+absddl = "N/A"
+submddl = "Jul 11, 2018"
+notidue = "Sep 17, 2018"
+countdown = "2018/7/11"
+
+[[params.upcoming.list]]
+enable = 1
+confname = "SOSP"
+confsite = "https://www.sigops.org/sosp/sosp19"
+when = "2019"
+absddl = "TBA"
+submddl = "TBA"
+notidue = "TBA"
+countdown = "2019/1/1"
+
+[[params.upcoming.list]]
+enable = 1
+confname = "HotOS"
+confsite = ""
+when = "2019"
+absddl = "TBA"
+submddl = "TBA"
+notidue = "TBA"
+countdown = "2019/1/1"
+
+[[params.past.list]]
+enable = -1
+confname = "SIGMOD"
+confsite = "https://sigmod2018.org/"
+when = "Jun 10-15, 2018"
+absddl = "Jul 6, 2017"
+submddl = "Jul 13, 2017"
+notidue = "Nov 3, 2017"
+countdown = ""
+
+[[params.past.list]]
+enable = -1
+confname = "VLDB"
+confsite = "http://vldb2018.lncc.br/"
+when = "Aug 27-31, 2018"
+absddl = "Mar 1, 2018"
+submddl = "Mar 1, 2018"
+notidue = "Apr 15, 2018"
+countdown = ""
+
+[[params.past.list]]
+enable = -1
+confname = "ICDE"
+confsite = "https://icde2018.org/"
+when = "Apr 16-20, 2018"
+absddl = "Sep 22, 2017"
+submddl = "Sep 29, 2017"
+notidue = "Dec 22, 2017"
+countdown = ""
+
+[[params.current.list]]
+enable = 1
+confname = "CIDR"
+confsite = "http://cidrdb.org/cidr2019/"
+when = "Jan 13-16, 2019"
+absddl = "N/A"
+submddl = "Aug 20, 2018"
+notidue = "Oct 22, 2018"
+countdown = "2018/8/20"
+
+[[params.past.list]]
+enable = -1
+confname = "EMSOFT"
+confsite = "http://www.esweek.org"
+when = "Sep 30+, 2018"
+absddl = "Mar 27, 2018"
+submddl = "Apr 3, 2018"
+notidue = "Jul 1, 2018"
+countdown = ""
+
+# Links
 [params.info]
 enable = true
 info = "**Link**: [Chinese Computing Federation (CCF) Ranking List](http://atom.im/ccf)"
@@ -367,3 +469,4 @@ info = "**Link**: [Chinese Computing Federation (CCF) Ranking List](http://atom.
 # Footer section
 [params.footer]
 copyright = "Theme designed by [dblp](http://dblp.uni-trier.de/), customized by [atom.im](http://atom.im/)."
+

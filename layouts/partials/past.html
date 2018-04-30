@@ -3,7 +3,7 @@
 			<h2>{{ .Site.Params.past.title }}</h2>
 		</header>
 		<div class="hide-body hidden">
-			<table class="table table-bordered table-striped table-condensed">
+			<table class="table table-bordered table-condensed">
 				<thead>
 					<tr>
 						<th>{{ .Site.Params.past.confname }}</th>
@@ -16,10 +16,10 @@
 				</thead>
 				<tbody>
 {{- range $p := .Site.Params.past.list -}}
-{{ with .enable }}
-					<tr>
+{{ if (eq .enable 1) }}
+					<tr style="background-color:Wheat">
 						<th scope="row">
-							<a href="{{ $p.confsite }}" target="_blank">{{ $p.confname }}</a>
+							<a href="{{ $p.confsite }}" target="_blank">{{ $p.confname }} {{ $.Site.Params.past.year }}</a>
 						</th>
 						<td>{{ $p.when | markdownify }}</td>
 						<td>{{ $p.absddl | markdownify }}</td>
@@ -29,6 +29,20 @@
 							<div data-countdown="{{ $p.countdown }}"></div>
 						</td>
 					</tr>
+{{ else if (eq .enable -1) }}
+					<tr style="background-color:white">
+						<th scope="row">
+							<a href="{{ $p.confsite }}" target="_blank">{{ $p.confname }} {{ $.Site.Params.past.year }}</a>
+						</th>
+						<td>{{ $p.when | markdownify }}</td>
+						<td>{{ $p.absddl | markdownify }}</td>
+						<td>{{ $p.submddl | markdownify }}</td>
+						<td>{{ $p.notidue | markdownify }}</td>
+						<td>
+							<div data-countdown="{{ $p.countdown }}"></div>
+						</td>
+					</tr>
+{{ else }}
 {{- end -}}
 {{- end }}
 				</tbody>
