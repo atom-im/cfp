@@ -464,9 +464,9 @@ countdown = "2018/9/30"
 # Links
 [params.info]
 enable = true
-info = "**Link**: [Chinese Computing Federation (CCF) Ranking List](http://atom.im/ccf)"
+info = "**Link**: [Chinese Computing Federation (CCF) Ranking List](https://atom.im/ccf)"
 
 # Footer section
 [params.footer]
-copyright = "Theme designed by [dblp](http://dblp.uni-trier.de/), customized by [atom.im](http://atom.im/)."
+copyright = "Theme designed by [dblp](https://dblp.uni-trier.de/), customized by [atom.im](https://atom.im/)."
 
