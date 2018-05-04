@@ -101,15 +101,15 @@ submddl = "Sep 26, 2018"
 notidue = "Dec 11, 2018"
 countdown = "2018/8/26"
 
-[[params.past.list]]
-enable = -1
+[[params.upcoming.list]]
+enable = 1
 confname = "HPCA"
-confsite = "http://hpca2018.ece.ucsb.edu"
-when = "Feb 24-28, 2018"
-absddl = "Jul 25, 2017"
-submddl = "Aug 1, 2017"
-notidue = "Oct 27, 2017"
-countdown = "2018/2/24"
+confsite = "http://hpca2019.seas.gwu.edu/"
+when = "Feb 16-20, 2019"
+absddl = "Jul 27, 2018"
+submddl = "Aug 3, 2017"
+notidue = "Nov 6, 2017"
+countdown = "2018/7/27"
 
 [[params.past.list]]
 enable = -1
