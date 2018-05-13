@@ -32,7 +32,7 @@ absddl = "Abstract Deadline"
 submddl = "Submission Deadline"
 notidue = "Notification Due"
 #final = "Final Version"
-countdown = "Countdown"
+countdown = "Countdown" # yyyy/mm/dd hh:mm (Asia/Shanghai)
 
 # Upcoming section
 [params.upcoming]

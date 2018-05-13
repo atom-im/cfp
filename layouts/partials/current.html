@@ -17,7 +17,7 @@
 				<tbody>
 {{- range $p := .Site.Params.current.list -}}
 {{ if (eq .enable 1) }}
-					<tr style="background-color:Wheat">
+					<tr class="item" style="background-color:Wheat">
 						<th scope="row">
 							<a href="{{ $p.confsite }}" target="_blank">{{ $p.confname }} {{ $.Site.Params.current.year }}</a>
 						</th>
@@ -30,7 +30,7 @@
 						</td>
 					</tr>
 {{ else if (eq .enable -1) }}
-					<tr style="background-color:white">
+					<tr class="item" style="background-color:white">
 						<th scope="row">
 							<a href="{{ $p.confsite }}" target="_blank">{{ $p.confname }} {{ $.Site.Params.current.year }}</a>
 						</th>
