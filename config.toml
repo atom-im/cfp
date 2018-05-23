@@ -84,12 +84,12 @@ countdown = "2018/6/1 12:00"
 [[params.upcoming.list]]
 enable = 1
 confname = "ASPLOS"
-confsite = "http://www.asplos2018.org"
+confsite = "https://asplos-conference.org/"
 when = "Apr 13-17, 2019"
-absddl = "TBD"
-submddl = "TBD"
-notidue = "TBD"
-countdown = "2018/8/8"
+absddl = "Jul 31, 2018"
+submddl = "Aug 7, 2018"
+notidue = "Nov 7, 2018"
+countdown = "2018/7/31"
 
 [[params.upcoming.list]]
 enable = 1
