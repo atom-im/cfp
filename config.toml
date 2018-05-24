@@ -221,15 +221,15 @@ submddl = "Jan 24, 2018"
 notidue = "Mar 29, 2018"
 countdown = "2018/6/11"
 
-[[params.current.list]]
-enable = 1
+[[params.past.list]]
+enable = -1
 confname = "ICCD"
 confsite = "http://www.iccd-conf.com"
 when = "Oct 7-10, 2018"
 absddl = "May 18, 2018"
 submddl = "May 25, 2018"
 notidue = "Aug 6, 2018"
-countdown = "2018/5/18"
+countdown = "2018/10/7"
 
 [[params.past.list]]
 enable = -1
@@ -291,15 +291,15 @@ submddl = "Oct 22, 2017"
 notidue = "Jan 22, 2017"
 countdown = "2018/5/21"
 
-[[params.current.list]]
-enable = 1
+[[params.past.list]]
+enable = -1
 confname = "Performance"
 confsite = "https://performance2018.sciencesconf.org/"
 when = "Dec 5-7, 2018"
-absddl = "May 4th, 2018"
-submddl = "May 11th, 2018"
-notidue = "July 13th, 2018"
-countdown = "2018/5/4"
+absddl = "May 4, 2018"
+submddl = "May 11, 2018"
+notidue = "July 13, 2018"
+countdown = "2018/12/5"
 
 [[params.past.list]]
 enable = -1
