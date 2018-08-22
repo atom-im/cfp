@@ -100,7 +100,7 @@ when = "Feb 25-28, 2019"
 absddl = "N/A"
 submddl = "Sep 26, 2018"
 notidue = "Dec 11, 2018"
-countdown2ddl = "2018/8/26"
+countdown2ddl = "2018/9/26"
 countdown2event = "2019/2/25"
 
 [[params.past.list]]
