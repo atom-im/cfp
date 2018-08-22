@@ -17,7 +17,7 @@
 				<tbody>
 {{- range $p := .Site.Params.past.list -}}
 {{ if (eq .enable 1) }}
-					<tr class="item" style="background-color:Wheat">
+					<tr class="item" style="background-color:white">
 						<th scope="row">
 							<a href="{{ $p.confsite }}" target="_blank">{{ $p.confname }} {{ $.Site.Params.past.year }}</a>
 						</th>
@@ -26,7 +26,7 @@
 						<td>{{ $p.submddl | markdownify }}</td>
 						<td>{{ $p.notidue | markdownify }}</td>
 						<td>
-							<div data-countdown="{{ $p.countdown }}"></div>
+							<div data-countdown="{{ $p.countdown2event }}"></div>
 						</td>
 					</tr>
 {{ else if (eq .enable -1) }}
@@ -39,7 +39,7 @@
 						<td>{{ $p.submddl | markdownify }}</td>
 						<td>{{ $p.notidue | markdownify }}</td>
 						<td>
-							<div data-countdown="{{ $p.countdown }}"></div>
+							<div data-countdown="{{ $p.countdown2event }}"></div>
 						</td>
 					</tr>
 {{ else }}

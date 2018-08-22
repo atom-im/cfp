@@ -70,7 +70,7 @@ submddl = "Submission Deadline"
 notidue = "Notification Due"
 countdown = "Event starts in:"
 
-# One highlight item allowed
+# [ONE] highlight item
 [[params.highlight.list]]
 enable = 1
 confname = "NVMSA 2018"
@@ -79,17 +79,18 @@ when = "Aug 28-31, 2018"
 absddl = "Apr 20, 2018"
 submddl = "Apr 27, 2018"
 notidue = "**Jun 1, 2018**"
-countdown = "2018/6/1 12:00"
+countdown = "2018/8/28 00:00"
 
-[[params.upcoming.list]]
-enable = 1
+[[params.past.list]]
+enable = -1
 confname = "ASPLOS"
 confsite = "https://asplos-conference.org/"
 when = "Apr 13-17, 2019"
 absddl = "Jul 31, 2018"
 submddl = "Aug 7, 2018"
 notidue = "Nov 7, 2018"
-countdown = "2018/7/31"
+countdown2ddl = "2018/7/31"
+countdown2event = "2019/4/13"
 
 [[params.upcoming.list]]
 enable = 1
@@ -99,9 +100,10 @@ when = "Feb 25-28, 2019"
 absddl = "N/A"
 submddl = "Sep 26, 2018"
 notidue = "Dec 11, 2018"
-countdown = "2018/8/26"
+countdown2ddl = "2018/8/26"
+countdown2event = "2019/2/25"
 
-[[params.upcoming.list]]
+[[params.past.list]]
 enable = 1
 confname = "HPCA"
 confsite = "http://hpca2019.seas.gwu.edu/"
@@ -109,7 +111,8 @@ when = "Feb 16-20, 2019"
 absddl = "Jul 27, 2018"
 submddl = "Aug 3, 2017"
 notidue = "Nov 6, 2017"
-countdown = "2018/7/27"
+countdown2ddl = "2018/7/27"
+countdown2event = "2019/2/16"
 
 [[params.past.list]]
 enable = -1
@@ -119,7 +122,8 @@ when = "Jun 2-6, 2018"
 absddl = "Nov 14, 2017"
 submddl = "Nov 21, 2017"
 notidue = "Mar 13, 2018"
-countdown = "2018/6/2"
+countdown2ddl = "2018/6/2"
+countdown2event = "2018/6/2"
 
 [[params.past.list]]
 enable = -1
@@ -129,7 +133,8 @@ when = "Oct 20-24, 2018"
 absddl = "Mar 30, 2018"
 submddl = "Apr 6, 2018"
 notidue = "Jul 18, 2018"
-countdown = "2018/10/20"
+countdown2ddl = "2018/10/20"
+countdown2event = "2018/10/20"
 
 [[params.past.list]]
 enable = -1
@@ -139,7 +144,8 @@ when = "Nov 11-16, 2018"
 absddl = "Mar 19, 2018"
 submddl = "Mar 26, 2018"
 notidue = "Jun 15, 2018"
-countdown = "2018/11/11"
+countdown2ddl = "2018/11/11"
+countdown2event = "2018/11/11"
 
 [[params.past.list]]
 enable = -1
@@ -149,7 +155,8 @@ when = "Jul 11-13, 2018"
 absddl = "N/A"
 submddl = "Feb 6, 2018"
 notidue = "Apr 18, 2018"
-countdown = "2018/7/11"
+countdown2ddl = "2018/7/11"
+countdown2event = ""
 
 [[params.past.list]]
 enable = -1
@@ -159,7 +166,8 @@ when = "Feb 24-28, 2018"
 absddl = "N/A"
 submddl = "Aug 25, 2017"
 notidue = "Dec 6, 2017"
-countdown = ""
+countdown2ddl = ""
+countdown2event = ""
 
 [[params.past.list]]
 enable = -1
@@ -169,7 +177,8 @@ when = "Jul 16-18, 2018"
 absddl = "Feb 6, 2018"
 submddl = "Feb 13, 2018"
 notidue = "Apr 18, 2018"
-countdown = "2018/7/16"
+countdown2ddl = "2018/7/16"
+countdown2event = ""
 
 [[params.past.list]]
 enable = -1
@@ -179,7 +188,8 @@ when = "Jul 23-27, 2018"
 absddl = "Feb 11, 2018"
 submddl = "Feb 18, 2018"
 notidue = "Apr 28, 2018"
-countdown = "2018/7/23"
+countdown2ddl = "2018/7/23"
+countdown2event = ""
 
 [[params.past.list]]
 enable = -1
@@ -189,17 +199,19 @@ when = "Jun 24-28, 2018"
 absddl = "Nov 14, 2017"
 submddl = "Nov 21, 2017"
 notidue = "TBA"
-countdown = "2018/7/24"
+countdown2ddl = "2018/7/24"
+countdown2event = ""
 
-[[params.past.list]]
-enable = -1
+[[params.upcoming.list]]
+enable = 1
 confname = "DATE"
 confsite = "https://www.date-conference.com/"
-when = "Mar 19-23, 2018"
+when = "Mar 25-29, 2019"
 absddl = "N/A"
-submddl = "Sep 10, 2017"
-notidue = "Nov 10, 2017"
-countdown = "2017/9/10"
+submddl = "Sep 9, 2018"
+notidue = "Nov 8, 2018"
+countdown2ddl = "2018/9/9"
+countdown2event = "2019/3/25"
 
 [[params.upcoming.list]]
 enable = 1
@@ -209,7 +221,8 @@ when = "Mar 25-28, 2018"
 absddl = "Sep 24, 2019"
 submddl = "Oct 1, 2018"
 notidue = "21 Dec, 2018"
-countdown = "2018/9/24"
+countdown2ddl = "2018/9/24"
+countdown2event = "2019/3/25"
 
 [[params.past.list]]
 enable = -1
@@ -219,7 +232,8 @@ when = "Jun 11-15, 2018"
 absddl = "Jan 17, 2018"
 submddl = "Jan 24, 2018"
 notidue = "Mar 29, 2018"
-countdown = "2018/6/11"
+countdown2ddl = "2018/6/11"
+countdown2event = ""
 
 [[params.past.list]]
 enable = -1
@@ -229,7 +243,8 @@ when = "Oct 7-10, 2018"
 absddl = "May 18, 2018"
 submddl = "May 25, 2018"
 notidue = "Aug 6, 2018"
-countdown = "2018/10/7"
+countdown2ddl = "2018/10/7"
+countdown2event = "2018/10/7"
 
 [[params.past.list]]
 enable = -1
@@ -239,9 +254,10 @@ when = "Mar 19-21, 2018"
 absddl = "N/A"
 submddl = "Dec 25, 2017"
 notidue = "Jan 201, 2018"
-countdown = ""
+countdown2ddl = ""
+countdown2event = ""
 
-[[params.upcoming.list]]
+[[params.past.list]]
 enable = 1
 confname = "HiPEAC"
 confsite = "http://hipeac.net/conference"
@@ -249,7 +265,8 @@ when = "Jan 21-23, 2019"
 absddl = "N/A"
 submddl = "Jun 1, 2018"
 notidue = "N/A"
-countdown = "2018/6/1"
+countdown2ddl = "2018/6/1"
+countdown2event = "2019/1/21"
 
 [[params.past.list]]
 enable = -1
@@ -259,7 +276,8 @@ when = "Jun 18-22, 2018"
 absddl = "Jul 10, 2017"
 submddl = "Jul 17, 2017"
 notidue = "Sep 22, 2017"
-countdown = "2018/6/18"
+countdown2ddl = "2018/6/18"
+countdown2event = ""
 
 [[params.past.list]]
 enable = -1
@@ -269,7 +287,8 @@ when = "Aug 13-16, 2018"
 absddl = "N/A"
 submddl = "Apr 9, 2018"
 notidue = "May 3, 2018"
-countdown = "2018/8/13"
+countdown2ddl = "2018/8/13"
+countdown2event = ""
 
 [[params.past.list]]
 enable = -1
@@ -279,7 +298,8 @@ when = "Jun 12-15, 2018"
 absddl = "N/A"
 submddl = "Jan 29, 2018"
 notidue = "Mar 25, 2018"
-countdown = "2018/6/12"
+countdown2ddl = "2018/6/12"
+countdown2event = ""
 
 [[params.past.list]]
 enable = -1
@@ -289,7 +309,8 @@ when = "May 21-25, 2018"
 absddl = "Oct 17, 2017"
 submddl = "Oct 22, 2017"
 notidue = "Jan 22, 2017"
-countdown = "2018/5/21"
+countdown2ddl = "2018/5/21"
+countdown2event = ""
 
 [[params.past.list]]
 enable = -1
@@ -299,7 +320,8 @@ when = "Dec 5-7, 2018"
 absddl = "May 4, 2018"
 submddl = "May 11, 2018"
 notidue = "July 13, 2018"
-countdown = "2018/12/5"
+countdown2ddl = "2018/12/5"
+countdown2event = "2018/12/5"
 
 [[params.past.list]]
 enable = -1
@@ -309,7 +331,8 @@ when = "May 14-16, 2018"
 absddl = "-"
 submddl = "-"
 notidue = "-"
-countdown = "2018/5/14"
+countdown2ddl = "2018/5/14"
+countdown2event = ""
 
 [[params.past.list]]
 enable = -1
@@ -319,7 +342,8 @@ when = "Nov 1-4, 2018"
 absddl = "Apr 8, 2018"
 submddl = "Apr 15, 2018"
 notidue = "Jun 20, 2018"
-countdown = "2018/11/1"
+countdown2ddl = "2018/11/1"
+countdown2event = "2018/11/1"
 
 [[params.past.list]]
 enable = -1
@@ -329,7 +353,8 @@ when = "Sep 30 - Oct 5, 2018"
 absddl = "Mar 27, 2018"
 submddl = "Apr 3, 2018"
 notidue = "Jul 1, 2018"
-countdown = "2018/9/30"
+countdown2ddl = "2018/9/30"
+countdown2event = "2018/9/30"
 
 [[params.past.list]]
 enable = -1
@@ -339,7 +364,8 @@ when = "Nov 4-9, 2018"
 absddl = "N/A"
 submddl = "Mar 9, 2018"
 notidue = "Jun 11, 2018"
-countdown = "2018/11/4"
+countdown2ddl = "2018/11/4"
+countdown2event = "2018/11/4"
 
 [[params.past.list]]
 enable = -1
@@ -349,7 +375,8 @@ when = "Nov 4-9, 2018"
 absddl = "N/A"
 submddl = "Apr 16, 2018"
 notidue = "Jun 10, 2018"
-countdown = "2018/11/4"
+countdown2ddl = "2018/11/4"
+countdown2event = "2018/11/4"
 
 [[params.past.list]]
 enable = -1
@@ -359,7 +386,8 @@ when = "May 27 - Jun 3, 2018"
 absddl = "N/A"
 submddl = "Oct 10, 2017"
 notidue = "Nov 20, 2017"
-countdown = "2018/5/27"
+countdown2ddl = "2018/5/27"
+countdown2event = ""
 
 [[params.past.list]]
 enable = -1
@@ -369,7 +397,8 @@ when = "Oct 8-10, 2018"
 absddl = "Apr 26, 2018"
 submddl = "May 3, 2018"
 notidue = "Jul 24, 2018"
-countdown = "2018/10/8"
+countdown2ddl = "2018/10/8"
+countdown2event = "2018/10/8"
 
 [[params.past.list]]
 enable = -1
@@ -379,9 +408,10 @@ when = "Jun 20-22, 2018"
 absddl = "N/A"
 submddl = "Nov 16, 2017"
 notidue = "Feb 13, 2018"
-countdown = "2018/6/20"
+countdown2ddl = "2018/6/20"
+countdown2event = ""
 
-[[params.upcoming.list]]
+[[params.past.list]]
 enable = 1
 confname = "POPL"
 confsite = "https://popl19.sigplan.org/"
@@ -389,17 +419,19 @@ when = "Jan 6-26, 2019"
 absddl = "N/A"
 submddl = "Jul 11, 2018"
 notidue = "Sep 17, 2018"
-countdown = "2018/7/11"
+countdown2ddl = "2018/7/11"
+countdown2event = "2019/1/6"
 
 [[params.upcoming.list]]
 enable = 1
 confname = "SOSP"
 confsite = "https://www.sigops.org/sosp/sosp19"
 when = "2019"
-absddl = "TBA"
+absddl = "Mar 2019"
 submddl = "TBA"
 notidue = "TBA"
-countdown = "2019/1/1"
+countdown2ddl = "2019/4/14"
+countdown2event = "2019/10/28"
 
 [[params.upcoming.list]]
 enable = 1
@@ -409,7 +441,8 @@ when = "2019"
 absddl = "TBA"
 submddl = "TBA"
 notidue = "TBA"
-countdown = "2019/1/1"
+countdown2ddl = "2019/1/1"
+countdown2event = ""
 
 [[params.past.list]]
 enable = -1
@@ -419,7 +452,8 @@ when = "Jun 10-15, 2018"
 absddl = "Jul 6, 2017"
 submddl = "Jul 13, 2017"
 notidue = "Nov 3, 2017"
-countdown = "2018/6/10"
+countdown2ddl = "2018/6/10"
+countdown2event = ""
 
 [[params.past.list]]
 enable = -1
@@ -429,7 +463,8 @@ when = "Aug 27-31, 2018"
 absddl = "Mar 1, 2018"
 submddl = "Mar 1, 2018"
 notidue = "Apr 15, 2018"
-countdown = "2018/8/27"
+countdown2ddl = "2018/8/27"
+countdown2event = "2018/8/27"
 
 [[params.past.list]]
 enable = -1
@@ -439,7 +474,8 @@ when = "Apr 16-20, 2018"
 absddl = "Sep 22, 2017"
 submddl = "Sep 29, 2017"
 notidue = "Dec 22, 2017"
-countdown = ""
+countdown2ddl = ""
+countdown2event = ""
 
 [[params.current.list]]
 enable = 1
@@ -449,7 +485,8 @@ when = "Jan 13-16, 2019"
 absddl = "N/A"
 submddl = "Aug 20, 2018"
 notidue = "Oct 22, 2018"
-countdown = "2018/8/20"
+countdown2ddl = "2018/8/20"
+countdown2event = "2019/1/13"
 
 [[params.past.list]]
 enable = -1
@@ -459,7 +496,8 @@ when = "Sep 30 - Oct 5, 2018"
 absddl = "Mar 27, 2018"
 submddl = "Apr 3, 2018"
 notidue = "Jul 1, 2018"
-countdown = "2018/9/30"
+countdown2ddl = "2018/9/30"
+countdown2event = "2018/9/30"
 
 # Links
 [params.info]
