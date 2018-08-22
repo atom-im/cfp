@@ -68,7 +68,7 @@ when = "When"
 absddl = "Abstract Deadline"
 submddl = "Submission Deadline"
 notidue = "Notification Due"
-countdown = "Event starts in:"
+countdown = "Event starts in"
 
 # [ONE] highlight item
 [[params.highlight.list]]
@@ -78,7 +78,7 @@ confsite = "https://nvmsa18.github.io"
 when = "Aug 28-31, 2018"
 absddl = "Apr 20, 2018"
 submddl = "Apr 27, 2018"
-notidue = "**Jun 1, 2018**"
+notidue = "Jun 1, 2018"
 countdown = "2018/8/28 00:00"
 
 [[params.past.list]]
@@ -477,7 +477,7 @@ notidue = "Dec 22, 2017"
 countdown2ddl = ""
 countdown2event = ""
 
-[[params.current.list]]
+[[params.past.list]]
 enable = 1
 confname = "CIDR"
 confsite = "http://cidrdb.org/cidr2019/"
