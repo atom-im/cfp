@@ -21,6 +21,9 @@ a:hover mark { color:#1889c4; }
 li { list-style-type:square; }
 li.no-bullet { list-style-type:none; }
 
+a.hl:link, a.hl:visited { color: #ffffff; }
+a.hl:hover { text-decoration:underline; }
+
 /** FIXME: compatibility with old bht, do this before new headers to override later */
 h2 { clear:both; font-size:1em; font-weight:700; border-bottom:2px #7d848a solid;
           padding:0px 0px 0px 24px; margin:2ex 0em; }
