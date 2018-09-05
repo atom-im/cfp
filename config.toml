@@ -114,16 +114,16 @@ notidue = "Nov 6, 2017"
 countdown2ddl = "2018/7/27"
 countdown2event = "2019/2/16"
 
-[[params.past.list]]
-enable = -1
+[[params.upcoming.list]]
+enable = 1
 confname = "ISCA"
-confsite = "http://isca2018.ece.ucr.edu/"
-when = "Jun 2-6, 2018"
-absddl = "Nov 14, 2017"
-submddl = "Nov 21, 2017"
-notidue = "Mar 13, 2018"
-countdown2ddl = "2018/6/2"
-countdown2event = "2018/6/2"
+confsite = "http://iscaconf.org/isca2019"
+when = "Jun 22-26, 2019"
+absddl = "Nov 14, 2018"
+submddl = "TBA"
+notidue = "TBA"
+countdown2ddl = "2018/11/14"
+countdown2event = "2019/6/22"
 
 [[params.past.list]]
 enable = -1
@@ -268,16 +268,16 @@ notidue = "N/A"
 countdown2ddl = "2018/6/1"
 countdown2event = "2019/1/21"
 
-[[params.past.list]]
+[[params.upcoming.list]]
 enable = -1
 confname = "SIGMETRICS"
-confsite = "https://www.sigmetrics.org/sigmetrics2018/"
-when = "Jun 18-22, 2018"
-absddl = "Jul 10, 2017"
-submddl = "Jul 17, 2017"
-notidue = "Sep 22, 2017"
-countdown2ddl = "2018/6/18"
-countdown2event = ""
+confsite = "https://www.sigmetrics.org/sigmetrics2019"
+when = "Jun 24-28, 2019"
+absddl = "Oct 22, 2018"
+submddl = "Oct 29, 2018"
+notidue = "Dec 17, 2018"
+countdown2ddl = "2018/10/22"
+countdown2event = "2019/6/24"
 
 [[params.past.list]]
 enable = -1
@@ -312,16 +312,16 @@ notidue = "Jan 22, 2017"
 countdown2ddl = "2018/5/21"
 countdown2event = ""
 
-[[params.past.list]]
-enable = -1
+[[params.upcoming.list]]
+enable = 1
 confname = "Performance"
-confsite = "https://performance2018.sciencesconf.org/"
-when = "Dec 5-7, 2018"
-absddl = "May 4, 2018"
-submddl = "May 11, 2018"
-notidue = "July 13, 2018"
-countdown2ddl = "2018/12/5"
-countdown2event = "2018/12/5"
+confsite = "https://www.sigmetrics.org/sigmetrics2019"
+when = "Jun 24-28, 2019"
+absddl = "Oct 22, 2018"
+submddl = "Oct 29, 2018"
+notidue = "Dec 17, 2018"
+countdown2ddl = "2018/10/22"
+countdown2event = "2019/6/24"
 
 [[params.past.list]]
 enable = -1
@@ -400,16 +400,16 @@ notidue = "Jul 24, 2018"
 countdown2ddl = "2018/10/8"
 countdown2event = "2018/10/8"
 
-[[params.past.list]]
-enable = -1
+[[params.upcoming.list]]
+enable = 1
 confname = "PLDI"
-confsite = "http://pldi18.sigplan.org"
-when = "Jun 20-22, 2018"
+confsite = "http://pldi19.sigplan.org"
+when = "Jun 22-26, 2019"
 absddl = "N/A"
-submddl = "Nov 16, 2017"
-notidue = "Feb 13, 2018"
-countdown2ddl = "2018/6/20"
-countdown2event = ""
+submddl = "Nov 16, 2018"
+notidue = "Feb 15, 2018"
+countdown2ddl = "2018/11/22"
+countdown2event = "2019/6/22"
 
 [[params.past.list]]
 enable = 1
