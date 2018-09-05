@@ -302,16 +302,16 @@ notidue = "Mar 25, 2018"
 countdownd = "2018/6/12"
 countdownc = ""
 
-[[params.past.list]]
-enable = -1
+[[params.upcoming.list]]
+enable = 1
 confname = "IPDPS"
 confsite = "http://www.ipdps.org/"
-when = "May 21-25, 2018"
-absddl = "Oct 17, 2017"
-submddl = "Oct 22, 2017"
-notidue = "Jan 22, 2017"
-countdownd = "2018/5/21"
-countdownc = ""
+when = "May 20-24, 2019"
+absddl = "Oct 8, 2018"
+submddl = "Oct 15, 2018"
+notidue = "Dec 10, 2018"
+countdownd = "2018/10/8"
+countdownc = "2019/5/20"
 
 [[params.upcoming.list]]
 enable = 1
@@ -379,16 +379,16 @@ notidue = "Jun 10, 2018"
 countdownd = "2018/11/4"
 countdownc = "2018/11/4"
 
-[[params.past.list]]
-enable = -1
+[[params.upcoming.list]]
+enable = 1
 confname = "ICSE"
-confsite = "https://www.icse2018.org/"
-when = "May 27 - Jun 3, 2018"
+confsite = "https://2019.icse-conferences.org"
+when = "May 25-31, 2019"
 absddl = "N/A"
-submddl = "Oct 10, 2017"
-notidue = "Nov 20, 2017"
-countdownd = "2018/5/27"
-countdownc = ""
+submddl = "Oct 1, 2018"
+notidue = "Nov 14, 2017"
+countdownd = "2018/10/1"
+countdownc = "2019/5/25"
 
 [[params.past.list]]
 enable = -1
@@ -467,16 +467,16 @@ notidue = "Apr 15, 2018"
 countdownd = "2018/8/27"
 countdownc = "2018/8/27"
 
-[[params.past.list]]
-enable = -1
+[[params.upcoming.list]]
+enable = 1
 confname = "ICDE"
-confsite = "https://icde2018.org/"
-when = "Apr 16-20, 2018"
-absddl = "Sep 22, 2017"
-submddl = "Sep 29, 2017"
-notidue = "Dec 22, 2017"
-countdownd = ""
-countdownc = ""
+confsite = "http://conferences.cis.umac.mo/icde2019"
+when = "Apr 8-12, 2019"
+absddl = "Sep 28, 2018"
+submddl = "Oct 5, 2018"
+notidue = "Dec 14, 2018"
+countdownd = "2018/9/28"
+countdownc = "2019/4/8"
 
 [[params.past.list]]
 enable = 1
