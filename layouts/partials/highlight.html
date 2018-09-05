@@ -19,7 +19,7 @@
 {{ with .enable }}
 					<tr class="item" style="background-color:purple;color:white">
 						<th scope="row">
-							<a class="hl" href="{{ $p.confsite }}" target="_blank">{{ $p.confname }}</a>
+							<a class="hl" href="{{ $p.confsite }}" target="_blank">{{ $p.confname }} {{ $.Site.Params.highlight.year }}</a>
 						</th>
 						<td>{{ $p.when | markdownify }}</td>
 						<td>{{ $p.absddl | markdownify }}</td>
