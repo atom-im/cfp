@@ -6,10 +6,10 @@
 	</script>
 	<script src="assets/js/moment.min.js">
 	</script>
-	<script src="assets/js/moment-timezone-with-data.min.js">
+	<script src="assets/js/moment-timezone-with-data-2012-2022.min.js">
 	</script>
 	<script>
-	var deadline = moment.tz("{{ range .Site.Params.highlight.list }}{{ .countdown }}{{ end }}", "Asia/Shanghai");
+	var deadline = moment.tz("{{ range .Site.Params.highlight.list }}{{ .countdown }}{{ end }}", "Asia/Hong_Kong");
 	$('#countdown').countdown(deadline.toDate(), function(event) {
 			$(this).html(event.strftime('%D days %H:%M:%S'));
 			});

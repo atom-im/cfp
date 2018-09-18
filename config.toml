@@ -80,7 +80,7 @@ when = "Jun 22-26, 2019"
 absddl = "Dec 3, 2018"
 submddl = "Dec 7, 2018"
 notidue = "Mar 15, 2019"
-countdown = "2018/12/4 15:59"
+countdown = "2018-12-03 23:59:59"
 
 [[params.past.list]]
 enable = -1
