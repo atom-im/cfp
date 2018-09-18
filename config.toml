@@ -77,10 +77,10 @@ enable = 1
 confname = "ISCA"
 confsite = "http://iscaconf.org/isca2019"
 when = "Jun 22-26, 2019"
-absddl = "Nov 14, 2018"
-submddl = "TBA"
-notidue = "TBA"
-countdown = "2018/11/14 00:00"
+absddl = "Dec 3, 2018"
+submddl = "Dec 7, 2018"
+notidue = "Mar 15, 2019"
+countdown = "2018/12/4 15:59"
 
 [[params.past.list]]
 enable = -1
