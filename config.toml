@@ -50,14 +50,14 @@ countdown = "Countdown"
 # current section
 [params.current]
 enable = true
-title = "Active Calls"
-year = "2018"
+title = "Inactive Calls"
+year = "2019"
 confname = "Name"
 when = "When"
 absddl = "Abstract Deadline"
 submddl = "Submission Deadline"
 notidue = "Notification Due"
-countdown = "Countdown"
+countdown = "Event starts in"
 
 # past section
 [params.past]
@@ -203,8 +203,8 @@ notidue = "TBA"
 countdownd = "2018/7/24"
 countdownc = ""
 
-[[params.upcoming.list]]
-enable = 1
+[[params.current.list]]
+enable = -1
 confname = "DATE"
 confsite = "https://www.date-conference.com/"
 when = "Mar 25-29, 2019"

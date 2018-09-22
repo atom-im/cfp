@@ -30,7 +30,7 @@
 						</td>
 					</tr>
 {{ else if (eq .enable -1) }}
-					<tr class="item" style="background-color:Wheat">
+					<tr class="item" style="background-color:white">
 						<th scope="row">
 							<a href="{{ $p.confsite }}" target="_blank">{{ $p.confname }} {{ $.Site.Params.current.year }}</a>
 						</th>
@@ -39,7 +39,7 @@
 						<td>{{ $p.submddl | markdownify }}</td>
 						<td>{{ $p.notidue | markdownify }}</td>
 						<td>
-							<div data-countdown="{{ $p.countdownd }}"></div>
+							<div data-countdown="{{ $p.countdownc }}"></div>
 						</td>
 					</tr>
 {{ else }}
