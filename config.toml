@@ -94,7 +94,7 @@ countdownd = "2018/7/31"
 countdownc = "2019/4/13"
 
 [[params.current.list]]
-enable = 1
+enable = -1
 confname = "FAST"
 confsite = "https://www.usenix.org/conference/fast19/call-for-papers"
 when = "Feb 25-28, 2019"
@@ -215,7 +215,7 @@ countdownd = "2018/9/9"
 countdownc = "2019/3/25"
 
 [[params.current.list]]
-enable = 1
+enable = -1
 confname = "EuroSys"
 confsite = "https://www.eurosys2019.org"
 when = "Mar 25-28, 2018"
@@ -303,7 +303,7 @@ countdownd = "2018/6/12"
 countdownc = ""
 
 [[params.current.list]]
-enable = 1
+enable = -1
 confname = "IPDPS"
 confsite = "http://www.ipdps.org/"
 when = "May 20-24, 2019"
@@ -314,7 +314,7 @@ countdownd = "2018/10/8"
 countdownc = "2019/5/20"
 
 [[params.current.list]]
-enable = 1
+enable = -1
 confname = "Performance"
 confsite = "https://www.sigmetrics.org/sigmetrics2019"
 when = "Jun 24-28, 2019"
@@ -380,7 +380,7 @@ countdownd = "2018/11/4"
 countdownc = "2018/11/4"
 
 [[params.current.list]]
-enable = 1
+enable = -1
 confname = "ICSE"
 confsite = "https://2019.icse-conferences.org"
 when = "May 25-31, 2019"
@@ -468,7 +468,7 @@ countdownd = "2018/8/27"
 countdownc = "2018/8/27"
 
 [[params.current.list]]
-enable = 1
+enable = -1
 confname = "ICDE"
 confsite = "http://conferences.cis.umac.mo/icde2019"
 when = "Apr 8-12, 2019"
