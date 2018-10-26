@@ -93,7 +93,7 @@ notidue = "Nov 7, 2018"
 countdownd = "2018/7/31"
 countdownc = "2019/4/13"
 
-[[params.upcoming.list]]
+[[params.current.list]]
 enable = 1
 confname = "FAST"
 confsite = "https://www.usenix.org/conference/fast19/call-for-papers"
@@ -214,7 +214,7 @@ notidue = "Nov 8, 2018"
 countdownd = "2018/9/9"
 countdownc = "2019/3/25"
 
-[[params.upcoming.list]]
+[[params.current.list]]
 enable = 1
 confname = "EuroSys"
 confsite = "https://www.eurosys2019.org"
@@ -269,7 +269,7 @@ notidue = "N/A"
 countdownd = "2018/6/1"
 countdownc = "2019/1/21"
 
-[[params.upcoming.list]]
+[[params.current.list]]
 enable = -1
 confname = "SIGMETRICS"
 confsite = "https://www.sigmetrics.org/sigmetrics2019"
@@ -302,7 +302,7 @@ notidue = "Mar 25, 2018"
 countdownd = "2018/6/12"
 countdownc = ""
 
-[[params.upcoming.list]]
+[[params.current.list]]
 enable = 1
 confname = "IPDPS"
 confsite = "http://www.ipdps.org/"
@@ -313,7 +313,7 @@ notidue = "Dec 10, 2018"
 countdownd = "2018/10/8"
 countdownc = "2019/5/20"
 
-[[params.upcoming.list]]
+[[params.current.list]]
 enable = 1
 confname = "Performance"
 confsite = "https://www.sigmetrics.org/sigmetrics2019"
@@ -325,15 +325,15 @@ countdownd = "2018/10/22"
 countdownc = "2019/6/24"
 
 [[params.past.list]]
-enable = -1
+enable = 1
 confname = "MSST"
 confsite = "http://storageconference.us/"
-when = "May 14-16, 2018"
-absddl = "-"
-submddl = "-"
-notidue = "-"
-countdownd = "2018/5/14"
-countdownc = ""
+when = "May 20-24, 2019"
+absddl = "N/A"
+submddl = "Jan 7, 2019"
+notidue = "Feb 15, 2019"
+countdownd = "2019/1/7"
+countdownc = "2019/5/20"
 
 [[params.past.list]]
 enable = -1
@@ -379,7 +379,7 @@ notidue = "Jun 10, 2018"
 countdownd = "2018/11/4"
 countdownc = "2018/11/4"
 
-[[params.upcoming.list]]
+[[params.current.list]]
 enable = 1
 confname = "ICSE"
 confsite = "https://2019.icse-conferences.org"
@@ -467,7 +467,7 @@ notidue = "Apr 15, 2018"
 countdownd = "2018/8/27"
 countdownc = "2018/8/27"
 
-[[params.upcoming.list]]
+[[params.current.list]]
 enable = 1
 confname = "ICDE"
 confsite = "http://conferences.cis.umac.mo/icde2019"
