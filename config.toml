@@ -324,7 +324,7 @@ notidue = "Dec 17, 2018"
 countdownd = "2018/10/22"
 countdownc = "2019/6/24"
 
-[[params.past.list]]
+[[params.upcoming.list]]
 enable = 1
 confname = "MSST"
 confsite = "http://storageconference.us/"
