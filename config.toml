@@ -453,7 +453,7 @@ when = "Jun 30-Jul 5, 2019"
 absddl = "N/A"
 submddl = "-"
 notidue = "-"
-countdownd = "-"
+countdownd = ""
 countdownc = "2019/6/30"
 
 [[params.upcoming.list]]
@@ -519,7 +519,7 @@ when = "Jul 8-9, 2019"
 absddl = "N/A"
 submddl= "Mar 13, 2019"
 notidue = "Apr 17, 2019"
-countdownd = "2019/4/13"
+countdownd = "2019/3/13"
 countdownc = "2019/7/8"
 
 # Links
