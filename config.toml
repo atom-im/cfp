@@ -363,17 +363,17 @@ notidue = "Feb 15, 2019"
 countdownd = "2019/1/7"
 countdownc = "2019/5/20"
 
-[[params.current.list]]
+[[params.upcoming.list]]
 enable = -1
 name = "PACT"
 rank="B"
 site = "http://ssd.sscc.ru/conference/pact2019/"
-when = "Aug 19-23, 2019"
-absddl = "N/A"
-submddl = "Feb 17, 2019"
-notidue = "Apr 15, 2019"
-countdownd = "2019/2/17"
-countdownc = "2019/8/19"
+when = "Sep 23-26, 2019"
+absddl = "Apr 11, 2019"
+submddl = "Apr 15, 2019"
+notidue = "Jun 8, 2019"
+countdownd = "2019/4/11"
+countdownc = "2019/9/23"
 
 [[params.upcoming.list]]
 enable = -1
