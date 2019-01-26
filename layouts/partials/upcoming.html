@@ -6,7 +6,8 @@
 			<table class="table table-bordered table-condensed">
 				<thead>
 					<tr>
-						<th>{{ .Site.Params.upcoming.confname }}</th>
+						<th>{{ .Site.Params.upcoming.name }}</th>
+						<th>{{ .Site.Params.upcoming.rank }}</th>
 						<th>{{ .Site.Params.upcoming.when }}</th>
 						<th>{{ .Site.Params.upcoming.absddl }}</th>
 						<th>{{ .Site.Params.upcoming.submddl }}</th>
@@ -19,8 +20,9 @@
 {{ if (eq .enable 1) }}
 					<tr class="item" style="background-color:Wheat">
 						<th scope="row">
-							<a href="{{ $p.confsite }}" target="_blank">{{ $p.confname }} {{ $.Site.Params.upcoming.year }}</a>
+							<a href="{{ $p.site }}" target="_blank">{{ $p.name }} {{ $.Site.Params.upcoming.year }}</a>
 						</th>
+						<td>{{ $p.rank | markdownify }}</td>
 						<td>{{ $p.when | markdownify }}</td>
 						<td>{{ $p.absddl | markdownify }}</td>
 						<td>{{ $p.submddl | markdownify }}</td>
@@ -32,8 +34,9 @@
 {{ else if (eq .enable -1) }}
 					<tr class="item" style="background-color:Wheat">
 						<th scope="row">
-							<a href="{{ $p.confsite }}" target="_blank">{{ $p.confname }} {{ $.Site.Params.upcoming.year }}</a>
+							<a href="{{ $p.site }}" target="_blank">{{ $p.name }} {{ $.Site.Params.upcoming.year }}</a>
 						</th>
+						<td>{{ $p.rank | markdownify }}</td>
 						<td>{{ $p.when | markdownify }}</td>
 						<td>{{ $p.absddl | markdownify }}</td>
 						<td>{{ $p.submddl | markdownify }}</td>

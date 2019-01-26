@@ -20,14 +20,15 @@ author = "Hu WAN"
 [params.intro]
 enable = true
 title = "Call for Papers!"
-intro = "Important dates of selected Call for Papers in computer architecture & system fields."
+intro = "Important dates of selected conferences in computer architecture & system fields."
 
 # Highlight section
 [params.highlight]
 enable = true
 title = "Highlight"
 year = "2019"
-confname = "Name"
+name = "Name"
+rank="Rank"
 when = "When"
 absddl = "Abstract Deadline"
 submddl = "Submission Deadline"
@@ -40,7 +41,8 @@ countdown = "Countdown" # yyyy/mm/dd hh:mm (Asia/Shanghai)
 enable = true
 title = "Upcoming Calls"
 year = "2019"
-confname = "Name"
+name = "Name"
+rank="Rank"
 when = "When"
 absddl = "Abstract Deadline"
 submddl = "Submission Deadline"
@@ -52,7 +54,8 @@ countdown = "Countdown"
 enable = true
 title = "Inactive Calls"
 year = "2019"
-confname = "Name"
+name = "Name"
+rank="Rank"
 when = "When"
 absddl = "Abstract Deadline"
 submddl = "Submission Deadline"
@@ -64,7 +67,8 @@ countdown = "Event starts in"
 enable = true
 title = "Past Calls"
 year = "2019"
-confname = "Name"
+name = "Name"
+rank="Rank"
 when = "When"
 absddl = "Abstract Deadline"
 submddl = "Submission Deadline"
@@ -74,8 +78,9 @@ countdown = "Event starts in"
 # [ONE] highlight item
 [[params.highlight.list]]
 enable = 1
-confname = "MICRO"
-confsite = "https://www.microarch.org/micro52/"
+name = "MICRO"
+rank="A"
+site = "https://www.microarch.org/micro52/"
 when = "Oct, 2019"
 absddl = "TBA"
 submddl = "TBA"
@@ -84,8 +89,9 @@ countdown = "2019-03-31 23:59:59"
 
 [[params.current.list]]
 enable = -1
-confname = "ASPLOS"
-confsite = "https://asplos-conference.org/"
+name = "ASPLOS"
+rank="A"
+site = "https://asplos-conference.org/"
 when = "Apr 13-17, 2019"
 absddl = "Jul 31, 2018"
 submddl = "Aug 7, 2018"
@@ -95,8 +101,9 @@ countdownc = "2019/4/13"
 
 [[params.current.list]]
 enable = -1
-confname = "FAST"
-confsite = "https://www.usenix.org/conference/fast19/call-for-papers"
+name = "FAST"
+rank="A"
+site = "https://www.usenix.org/conference/fast19/call-for-papers"
 when = "Feb 25-28, 2019"
 absddl = "N/A"
 submddl = "Sep 26, 2018"
@@ -106,8 +113,9 @@ countdownc = "2019/2/25"
 
 [[params.current.list]]
 enable = -1
-confname = "HPCA"
-confsite = "http://hpca2019.seas.gwu.edu/"
+name = "HPCA"
+rank="A"
+site = "http://hpca2019.seas.gwu.edu/"
 when = "Feb 16-20, 2019"
 absddl = "Jul 27, 2018"
 submddl = "Aug 3, 2018"
@@ -117,8 +125,9 @@ countdownc = "2019/2/16"
 
 [[params.upcoming.list]]
 enable = 0
-confname = "ISCA"
-confsite = "http://iscaconf.org/isca2019"
+name = "ISCA"
+rank="A"
+site = "http://iscaconf.org/isca2019"
 when = "Jun 22-26, 2019"
 absddl = "Nov 14, 2018"
 submddl = "TBA"
@@ -128,8 +137,9 @@ countdownc = "2019/6/22"
 
 [[params.upcoming.list]]
 enable = 0
-confname = "MICRO"
-confsite = "https://www.microarch.org/micro52/"
+name = "MICRO"
+rank="A"
+site = "https://www.microarch.org/micro52/"
 when = "Oct, 2019"
 absddl = "TBA"
 submddl = "TBA"
@@ -139,8 +149,9 @@ countdownc = "2019/10/20"
 
 [[params.upcoming.list]]
 enable = 1
-confname = "SC"
-confsite = "https://sc19.supercomputing.org"
+name = "SC"
+rank="A"
+site = "https://sc19.supercomputing.org"
 when = "Nov 17-22, 2019"
 absddl = "Apr 2, 2019"
 submddl = "Apr 10, 2019"
@@ -150,8 +161,9 @@ countdownc = "2019/11/11"
 
 [[params.current.list]]
 enable = -1
-confname = "USENIX ATC"
-confsite = "https://www.usenix.org/conference/atc19/call-for-papers"
+name = "USENIX ATC"
+rank="A"
+site = "https://www.usenix.org/conference/atc19/call-for-papers"
 when = "Jul 10-12, 2019"
 absddl = "N/A"
 submddl = "Jan 10, 2019"
@@ -161,8 +173,9 @@ countdownc = "2019/7/10"
 
 [[params.current.list]]
 enable = -1
-confname = "PPoPP"
-confsite = "https://ppopp19.sigplan.org"
+name = "PPoPP"
+rank="A"
+site = "https://ppopp19.sigplan.org"
 when = "Feb 16-20, 2019"
 absddl = "N/A"
 submddl = "-"
@@ -172,8 +185,9 @@ countdownc = "2019/2/16"
 
 [[params.current.list]]
 enable = -1
-confname = "SPAA"
-confsite = "http://spaa.acm.org/"
+name = "SPAA"
+rank="B"
+site = "http://spaa.acm.org/"
 when = "Jun 22-24, 2019"
 absddl = "Jan 8, 2019"
 submddl = "Jan 11, 2019"
@@ -183,8 +197,9 @@ countdownc = "2019/6/22"
 
 [[params.upcoming.list]]
 enable = -1
-confname = "PODC"
-confsite = "https://www.podc.org/"
+name = "PODC"
+rank="B"
+site = "https://www.podc.org/"
 when = "Jul 29-Aug 2, 2019"
 absddl = "N/A"
 submddl = "Feb 18, 2019"
@@ -194,8 +209,9 @@ countdownc = "2019/7/29"
 
 [[params.current.list]]
 enable = -1
-confname = "DAC"
-confsite = "https://dac.com"
+name = "DAC"
+rank="B"
+site = "https://dac.com"
 when = "Jun 2-6, 2019"
 absddl = "Nov 20, 2018"
 submddl = "Nov 27, 2018"
@@ -205,8 +221,9 @@ countdownc = "2019/6/2"
 
 [[params.current.list]]
 enable = -1
-confname = "DATE"
-confsite = "https://www.date-conference.com/"
+name = "DATE"
+rank="B"
+site = "https://www.date-conference.com/"
 when = "Mar 25-29, 2019"
 absddl = "N/A"
 submddl = "Sep 9, 2018"
@@ -216,8 +233,9 @@ countdownc = "2019/3/25"
 
 [[params.current.list]]
 enable = -1
-confname = "EuroSys"
-confsite = "https://www.eurosys2019.org"
+name = "EuroSys"
+rank="B"
+site = "https://www.eurosys2019.org"
 when = "Mar 25-28, 2018"
 absddl = "Sep 24, 2019"
 submddl = "Oct 1, 2018"
@@ -227,8 +245,9 @@ countdownc = "2019/3/25"
 
 [[params.current.list]]
 enable = -1
-confname = "HPDC"
-confsite = "http://www.hpdc.org/2019/"
+name = "HPDC"
+rank="B"
+site = "http://www.hpdc.org/2019/"
 when = "Jun 24-28, 2019"
 absddl = "Jan 16, 2019"
 submddl = "Jan 23, 2019"
@@ -238,8 +257,9 @@ countdownc = "2019/6/24"
 
 [[params.upcoming.list]]
 enable = -1
-confname = "ICCD"
-confsite = "http://www.iccd-conf.com"
+name = "ICCD"
+rank="B"
+site = "http://www.iccd-conf.com"
 when = "Nov 17-20, 2019"
 absddl = "Jun 21, 2019"
 submddl = "Jun 28, 2019"
@@ -249,8 +269,9 @@ countdownc = "2019/11/17"
 
 [[params.current.list]]
 enable = -1
-confname = "ICCAD"
-confsite = "http://www.iccad-conf.com"
+name = "ICCAD"
+rank="B"
+site = "http://www.iccad-conf.com"
 when = "Jul 2-4, 2019"
 absddl = "N/A"
 submddl = "-"
@@ -260,8 +281,9 @@ countdownc = "2019/7/2"
 
 [[params.past.list]]
 enable = 1
-confname = "HiPEAC"
-confsite = "http://hipeac.net/conference"
+name = "HiPEAC"
+rank="B"
+site = "http://hipeac.net/conference"
 when = "Jan 21-23, 2019"
 absddl = "N/A"
 submddl = "Jun 1, 2018"
@@ -271,8 +293,9 @@ countdownc = "2019/1/21"
 
 [[params.current.list]]
 enable = -1
-confname = "SIGMETRICS"
-confsite = "https://www.sigmetrics.org/sigmetrics2019"
+name = "SIGMETRICS"
+rank="B"
+site = "https://www.sigmetrics.org/sigmetrics2019"
 when = "Jun 24-28, 2019"
 absddl = "Oct 22, 2018"
 submddl = "Oct 29, 2018"
@@ -282,8 +305,9 @@ countdownc = "2019/6/24"
 
 [[params.upcoming.list]]
 enable = -1
-confname = "ICPP"
-confsite = "http://www.icpp-conf.org"
+name = "ICPP"
+rank="B"
+site = "http://www.icpp-conf.org"
 when = "Aug 5-8, 2019"
 absddl = "N/A"
 submddl = "Apr 15, 2019"
@@ -293,8 +317,9 @@ countdownc = "2019/8/5"
 
 [[params.current.list]]
 enable = -1
-confname = "ICS"
-confsite = "https://ics19.eecis.udel.edu/"
+name = "ICS"
+rank="B"
+site = "https://ics19.eecis.udel.edu/"
 when = "Jun 26-28, 2019"
 absddl = "Jan 25, 2019"
 submddl = "Feb 1, 2019"
@@ -304,8 +329,9 @@ countdownc = "2019/6/26"
 
 [[params.current.list]]
 enable = -1
-confname = "IPDPS"
-confsite = "http://www.ipdps.org/"
+name = "IPDPS"
+rank="B"
+site = "http://www.ipdps.org/"
 when = "May 20-24, 2019"
 absddl = "Oct 8, 2018"
 submddl = "Oct 15, 2018"
@@ -315,8 +341,9 @@ countdownc = "2019/5/20"
 
 [[params.current.list]]
 enable = -1
-confname = "Performance"
-confsite = "https://www.sigmetrics.org/sigmetrics2019"
+name = "Performance"
+rank="B"
+site = "https://www.sigmetrics.org/sigmetrics2019"
 when = "Jun 24-28, 2019"
 absddl = "Oct 22, 2018"
 submddl = "Oct 29, 2018"
@@ -326,8 +353,9 @@ countdownc = "2019/6/24"
 
 [[params.current.list]]
 enable = -1
-confname = "MSST"
-confsite = "http://storageconference.us/"
+name = "MSST"
+rank="B"
+site = "http://storageconference.us/"
 when = "May 20-24, 2019"
 absddl = "N/A"
 submddl = "Jan 7, 2019"
@@ -337,8 +365,9 @@ countdownc = "2019/5/20"
 
 [[params.current.list]]
 enable = -1
-confname = "PACT"
-confsite = "http://ssd.sscc.ru/conference/pact2019/"
+name = "PACT"
+rank="B"
+site = "http://ssd.sscc.ru/conference/pact2019/"
 when = "Aug 19-23, 2019"
 absddl = "N/A"
 submddl = "Feb 17, 2019"
@@ -348,8 +377,9 @@ countdownc = "2019/8/19"
 
 [[params.upcoming.list]]
 enable = -1
-confname = "CODES+ISSS"
-confsite = "http://www.esweek.org"
+name = "CODES+ISSS"
+rank="B"
+site = "http://www.esweek.org"
 when = "Oct 13-18, 2019"
 absddl = "Apr 5, 2019"
 submddl = "Apr 12, 2019"
@@ -359,8 +389,9 @@ countdownc = "2019/10/13"
 
 [[params.current.list]]
 enable = -1
-confname = "FSE/ESEC"
-confsite = "https://esec-fse19.ut.ee/"
+name = "FSE/ESEC"
+rank="A"
+site = "https://esec-fse19.ut.ee/"
 when = "Aug 26-30, 2019"
 absddl = "N/A"
 submddl = "Feb 20, 2019"
@@ -370,8 +401,9 @@ countdownc = "2019/8/26"
 
 [[params.upcoming.list]]
 enable = -1
-confname = "OOPSLA"
-confsite = "https://2019.splashcon.org/track/splash-2019-oopsla"
+name = "OOPSLA"
+rank="A"
+site = "https://2019.splashcon.org/track/splash-2019-oopsla"
 when = "Oct 20-25, 2019"
 absddl = "N/A"
 submddl = "Apr 5, 2019"
@@ -381,8 +413,9 @@ countdownc = "2019/11/4"
 
 [[params.current.list]]
 enable = -1
-confname = "ICSE"
-confsite = "https://2019.icse-conferences.org"
+name = "ICSE"
+rank="A"
+site = "https://2019.icse-conferences.org"
 when = "May 25-31, 2019"
 absddl = "N/A"
 submddl = "Oct 1, 2018"
@@ -392,8 +425,9 @@ countdownc = "2019/5/25"
 
 [[params.past.list]]
 enable = -1
-confname = "OSDI*"
-confsite = "https://www.usenix.org/conference/osdi18/"
+name = "OSDI*"
+rank="A"
+site = "https://www.usenix.org/conference/osdi18/"
 when = "Oct 8-10, 2018"
 absddl = "Apr 26, 2018"
 submddl = "May 3, 2018"
@@ -403,8 +437,9 @@ countdownc = "2018/10/8"
 
 [[params.current.list]]
 enable = -1
-confname = "PLDI"
-confsite = "http://pldi19.sigplan.org"
+name = "PLDI"
+rank="A"
+site = "http://pldi19.sigplan.org"
 when = "Jun 22-26, 2019"
 absddl = "N/A"
 submddl = "Nov 16, 2018"
@@ -414,8 +449,9 @@ countdownc = "2019/6/22"
 
 [[params.past.list]]
 enable = -1
-confname = "POPL"
-confsite = "https://popl19.sigplan.org/"
+name = "POPL"
+rank="A"
+site = "https://popl19.sigplan.org/"
 when = "Jan 13-19, 2019"
 absddl = "N/A"
 submddl = "Jul 11, 2018"
@@ -425,8 +461,9 @@ countdownc = "2019/1/6"
 
 [[params.upcoming.list]]
 enable = 1
-confname = "SOSP"
-confsite = "https://www.sigops.org/sosp/sosp19"
+name = "SOSP"
+rank="A"
+site = "https://www.sigops.org/sosp/sosp19"
 when = "Oct 27-30, 2019"
 absddl = "Apr 17, 2019"
 submddl = "Apr 24, 2019"
@@ -436,8 +473,9 @@ countdownc = "2019/10/27"
 
 [[params.current.list]]
 enable = -1
-confname = "HotOS"
-confsite = "https://www.sigops.org/2018/hotos2019/"
+name = "HotOS"
+rank="B"
+site = "https://www.sigops.org/2018/hotos2019/"
 when = "May 12-15, 2019"
 absddl = "N/A"
 submddl = "Jan 17, 2019"
@@ -447,8 +485,9 @@ countdownc = "2019/5/12"
 
 [[params.current.list]]
 enable = -1
-confname = "SIGMOD"
-confsite = "https://sigmod2019.org/"
+name = "SIGMOD"
+rank="A"
+site = "https://sigmod2019.org/"
 when = "Jun 30-Jul 5, 2019"
 absddl = "N/A"
 submddl = "-"
@@ -458,8 +497,9 @@ countdownc = "2019/6/30"
 
 [[params.upcoming.list]]
 enable = -1
-confname = "VLDB"
-confsite = "http://vldb.org/2019/"
+name = "VLDB"
+rank="A"
+site = "http://vldb.org/2019/"
 when = "Aug 26-30, 2018"
 absddl = "Mar 1, 2019"
 submddl = "Mar 1, 2019"
@@ -469,8 +509,9 @@ countdownc = "2019/8/26"
 
 [[params.current.list]]
 enable = -1
-confname = "ICDE"
-confsite = "http://conferences.cis.umac.mo/icde2019"
+name = "ICDE"
+rank="A"
+site = "http://conferences.cis.umac.mo/icde2019"
 when = "Apr 8-12, 2019"
 absddl = "Sep 28, 2018"
 submddl = "Oct 5, 2018"
@@ -480,8 +521,9 @@ countdownc = "2019/4/8"
 
 [[params.past.list]]
 enable = 1
-confname = "CIDR"
-confsite = "http://cidrdb.org/cidr2019/"
+name = "CIDR"
+rank="A"
+site = "http://cidrdb.org/cidr2019/"
 when = "Jan 13-16, 2019"
 absddl = "N/A"
 submddl = "Aug 20, 2018"
@@ -491,8 +533,9 @@ countdownc = "2019/1/13"
 
 [[params.upcoming.list]]
 enable = -1
-confname = "EMSOFT"
-confsite = "http://www.esweek.org"
+name = "EMSOFT"
+rank="B"
+site = "http://www.esweek.org"
 when = "Oct 13-18, 2019"
 absddl = "Apr 5, 2019"
 submddl = "Apr 12, 2019"
@@ -502,8 +545,9 @@ countdownc = "2019/10/13"
 
 [[params.upcoming.list]]
 enable = 1
-confname = "NVMSA"
-confsite = "https://nvmsa2019.github.io/index"
+name = "NVMSA"
+rank="-"
+site = "https://nvmsa2019.github.io/index"
 when = "Aug 18-21, 2019"
 absddl = "Apr 5, 2019"
 submddl = "Apr 12, 2019"
@@ -513,8 +557,9 @@ countdownc = "2019/8/18"
 
 [[params.upcoming.list]]
 enable = 1
-confname = "HotStorage"
-confsite = "https://www.usenix.org/conference/hotstorage19"
+name = "HotStorage"
+rank="-"
+site = "https://www.usenix.org/conference/hotstorage19"
 when = "Jul 8-9, 2019"
 absddl = "N/A"
 submddl= "Mar 13, 2019"

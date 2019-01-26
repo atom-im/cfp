@@ -6,7 +6,8 @@
 			<table class="table table-bordered table-condensed">
 				<thead>
 					<tr>
-						<th>{{ .Site.Params.current.confname }}</th>
+						<th>{{ .Site.Params.current.name }}</th>
+						<th>{{ .Site.Params.current.rank }}</th>
 						<th>{{ .Site.Params.current.when }}</th>
 						<th>{{ .Site.Params.current.absddl }}</th>
 						<th>{{ .Site.Params.current.submddl }}</th>
@@ -19,8 +20,9 @@
 {{ if (eq .enable 1) }}
 					<tr class="item" style="background-color:Wheat">
 						<th scope="row">
-							<a href="{{ $p.confsite }}" target="_blank">{{ $p.confname }} {{ $.Site.Params.current.year }}</a>
+							<a href="{{ $p.site }}" target="_blank">{{ $p.name }} {{ $.Site.Params.current.year }}</a>
 						</th>
+						<td>{{ $p.rank | markdownify }}</td>
 						<td>{{ $p.when | markdownify }}</td>
 						<td>{{ $p.absddl | markdownify }}</td>
 						<td>{{ $p.submddl | markdownify }}</td>
@@ -32,8 +34,9 @@
 {{ else if (eq .enable -1) }}
 					<tr class="item" style="background-color:white">
 						<th scope="row">
-							<a href="{{ $p.confsite }}" target="_blank">{{ $p.confname }} {{ $.Site.Params.current.year }}</a>
+							<a href="{{ $p.site }}" target="_blank">{{ $p.name }} {{ $.Site.Params.current.year }}</a>
 						</th>
+						<td>{{ $p.rank | markdownify }}</td>
 						<td>{{ $p.when | markdownify }}</td>
 						<td>{{ $p.absddl | markdownify }}</td>
 						<td>{{ $p.submddl | markdownify }}</td>

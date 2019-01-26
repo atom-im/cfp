@@ -6,7 +6,8 @@
 			<table class="table table-bordered table-condensed">
 				<thead>
 					<tr>
-						<th>{{ .Site.Params.highlight.confname }}</th>
+						<th>{{ .Site.Params.highlight.name }}</th>
+						<th>{{ .Site.Params.highlight.rank }}</th>
 						<th>{{ .Site.Params.highlight.when }}</th>
 						<th>{{ .Site.Params.highlight.absddl }}</th>
 						<th>{{ .Site.Params.highlight.submddl }}</th>
@@ -19,8 +20,9 @@
 {{ with .enable }}
 					<tr class="item" style="background-color:purple;color:white">
 						<th scope="row">
-							<a class="hl" href="{{ $p.confsite }}" target="_blank">{{ $p.confname }} {{ $.Site.Params.highlight.year }}</a>
+							<a class="hl" href="{{ $p.site }}" target="_blank">{{ $p.name }} {{ $.Site.Params.highlight.year }}</a>
 						</th>
+						<td>{{ $p.rank | markdownify }}</td>
 						<td>{{ $p.when | markdownify }}</td>
 						<td>{{ $p.absddl | markdownify }}</td>
 						<td>{{ $p.submddl | markdownify }}</td>
