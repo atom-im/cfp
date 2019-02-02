@@ -85,7 +85,7 @@ when = "Oct 12-16, 2019"
 absddl = "Mar 29, 2019"
 submddl = "Apr 5, 2019"
 notidue = "TBA"
-countdown = "2019-03-30, 08:59:59"
+countdown = "2019-03-30 07:59:59"
 
 [[params.current.list]]
 enable = -1
