@@ -25,7 +25,7 @@ intro = "Important dates of selected conferences in computer architecture & syst
 # Highlight section
 [params.highlight]
 enable = true
-title = "Highlight"
+title = "Featured Call"
 year = "2019"
 name = "Name"
 rank="Rank"
@@ -99,7 +99,7 @@ notidue = "Nov 7, 2018"
 countdownd = "2018/7/31"
 countdownc = "2019/4/13"
 
-[[params.current.list]]
+[[params.past.list]]
 enable = -1
 name = "FAST"
 rank="A"
@@ -111,7 +111,7 @@ notidue = "Dec 11, 2018"
 countdownd = "2018/9/26"
 countdownc = "2019/2/25"
 
-[[params.current.list]]
+[[params.past.list]]
 enable = -1
 name = "HPCA"
 rank="A"
@@ -171,7 +171,7 @@ notidue = "Apr 16, 2019"
 countdownd = "2019/1/10"
 countdownc = "2019/7/10"
 
-[[params.current.list]]
+[[params.past.list]]
 enable = -1
 name = "PPoPP"
 rank="A"
@@ -195,7 +195,7 @@ notidue = "Mar 11, 2019"
 countdownd = "2019/1/8"
 countdownc = "2019/6/22"
 
-[[params.upcoming.list]]
+[[params.current.list]]
 enable = -1
 name = "PODC"
 rank="B"
@@ -495,7 +495,7 @@ notidue = "-"
 countdownd = ""
 countdownc = "2019/6/30"
 
-[[params.upcoming.list]]
+[[params.current.list]]
 enable = -1
 name = "VLDB"
 rank="A"
@@ -555,8 +555,8 @@ notidue = "May 20, 2019"
 countdownd = "2019/4/5"
 countdownc = "2019/8/18"
 
-[[params.upcoming.list]]
-enable = 1
+[[params.current.list]]
+enable = -1
 name = "HotStorage"
 rank="-"
 site = "https://www.usenix.org/conference/hotstorage19"
