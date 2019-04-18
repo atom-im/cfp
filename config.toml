@@ -78,16 +78,16 @@ countdown = "Event starts in"
 # [ONE] highlight item
 [[params.highlight.list]]
 enable = 1
-name = "MICRO"
-rank="A"
-site = "https://www.microarch.org/micro52/"
-when = "Oct 12-16, 2019"
-absddl = "Mar 29, 2019"
-submddl = "Apr 5, 2019"
-notidue = "Jul 27, 2019"
-countdown = "2019-03-30 07:59:59"
+name = "ICCD"
+rank="B"
+site = "http://www.iccd-conf.com"
+when = "Nov 17-20, 2019"
+absddl = "Jun 21, 2019"
+submddl = "Jun 28, 2019"
+notidue = "Sep 9, 2019"
+countdown = "2019-06-22 19:59:59"
 
-[[params.current.list]]
+[[params.past.list]]
 enable = -1
 name = "ASPLOS"
 rank="A"
@@ -135,20 +135,20 @@ notidue = "TBA"
 countdownd = "2018/11/14"
 countdownc = "2019/6/22"
 
-[[params.upcoming.list]]
-enable = 0
+[[params.current.list]]
+enable = -1
 name = "MICRO"
 rank="A"
 site = "https://www.microarch.org/micro52/"
 when = "Oct 12-16, 2019"
-absddl = "TBA"
-submddl = "TBA"
-notidue = "TBA"
+absddl = "Mar 29, 2019"
+submddl = "Apr 5, 2019"
+notidue = "Jul 27, 2019"
 countdownd = "2019/3/30"
 countdownc = "2019/10/20"
 
-[[params.upcoming.list]]
-enable = 1
+[[params.current.list]]
+enable = -1
 name = "SC"
 rank="A"
 site = "https://sc19.supercomputing.org"
@@ -219,7 +219,7 @@ notidue = "Feb 14, 2019"
 countdownd = "2018/11/20"
 countdownc = "2019/6/2"
 
-[[params.current.list]]
+[[params.past.list]]
 enable = -1
 name = "DATE"
 rank="B"
@@ -231,7 +231,7 @@ notidue = "Nov 8, 2018"
 countdownd = "2018/9/9"
 countdownc = "2019/3/25"
 
-[[params.current.list]]
+[[params.past.list]]
 enable = -1
 name = "EuroSys"
 rank="B"
@@ -256,7 +256,7 @@ countdownd = "2019/1/16"
 countdownc = "2019/6/24"
 
 [[params.upcoming.list]]
-enable = -1
+enable = 0
 name = "ICCD"
 rank="B"
 site = "http://www.iccd-conf.com"
@@ -303,7 +303,7 @@ notidue = "Dec 17, 2018"
 countdownd = "2018/10/22"
 countdownc = "2019/6/24"
 
-[[params.upcoming.list]]
+[[params.current.list]]
 enable = -1
 name = "ICPP"
 rank="B"
@@ -363,7 +363,7 @@ notidue = "Feb 15, 2019"
 countdownd = "2019/1/7"
 countdownc = "2019/5/20"
 
-[[params.upcoming.list]]
+[[params.current.list]]
 enable = -1
 name = "PACT"
 rank="B"
@@ -375,7 +375,7 @@ notidue = "Jun 8, 2019"
 countdownd = "2019/4/11"
 countdownc = "2019/9/23"
 
-[[params.upcoming.list]]
+[[params.current.list]]
 enable = -1
 name = "CODES+ISSS"
 rank="B"
@@ -459,8 +459,8 @@ notidue = "Sep 17, 2018"
 countdownd = "2018/7/11"
 countdownc = "2019/1/6"
 
-[[params.upcoming.list]]
-enable = 1
+[[params.current.list]]
+enable = -1
 name = "SOSP"
 rank="A"
 site = "https://www.sigops.org/sosp/sosp19"
@@ -507,7 +507,7 @@ notidue = "Apr 15, 2019"
 countdownd = "2019/3/1"
 countdownc = "2019/8/26"
 
-[[params.current.list]]
+[[params.past.list]]
 enable = -1
 name = "ICDE"
 rank="A"
@@ -531,7 +531,7 @@ notidue = "Oct 22, 2018"
 countdownd = "2018/8/20"
 countdownc = "2019/1/13"
 
-[[params.upcoming.list]]
+[[params.current.list]]
 enable = -1
 name = "EMSOFT"
 rank="B"
@@ -543,14 +543,14 @@ notidue = "Jul 10, 2019"
 countdownd = "2019/4/5"
 countdownc = "2019/10/13"
 
-[[params.upcoming.list]]
-enable = 1
+[[params.current.list]]
+enable = -1
 name = "NVMSA"
 rank="-"
 site = "https://nvmsa2019.github.io/index"
 when = "Aug 18-21, 2019"
-absddl = "Apr 5, 2019"
-submddl = "Apr 12, 2019"
+absddl = "Apr 12, 2019"
+submddl = "Apr 19, 2019"
 notidue = "May 20, 2019"
 countdownd = "2019/4/5"
 countdownc = "2019/8/18"
