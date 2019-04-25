@@ -210,7 +210,7 @@ countdownc = "2019/7/29"
 [[params.current.list]]
 enable = -1
 name = "DAC"
-rank="B"
+rank="A"
 site = "https://dac.com"
 when = "Jun 2-6, 2019"
 absddl = "Nov 20, 2018"
