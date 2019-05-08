@@ -1,5 +1,5 @@
 # Page settings
-baseurl = "http://www.atom.im/"
+baseurl = "https://cfp.atom.im"
 languageCode = "en-us"
 title = "Call for papers"
 
@@ -570,9 +570,9 @@ countdownc = "2019/7/8"
 # Links
 [params.info]
 enable = true
-info = "**Link**: [Chinese Computing Federation (CCF) Ranking List](https://atom.im/ccf)"
+info = "**Link**: [Chinese Computing Federation (CCF) Ranking List](https://ccf.atom.im)"
 
 # Footer section
 [params.footer]
-copyright = "Theme designed by [dblp](https://dblp.uni-trier.de/), customized by [atom.im](https://atom.im/)."
+copyright = "Theme designed by [dblp](https://dblp.uni-trier.de/), customized by [atom.im](https://atom.im)."
 
