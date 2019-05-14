@@ -507,17 +507,29 @@ notidue = "Apr 15, 2019"
 countdownd = "2019/3/1"
 countdownc = "2019/8/26"
 
-[[params.past.list]]
+[[params.upcoming.list]]
 enable = -1
-name = "ICDE"
+name = "ICDE-1"
 rank="A"
-site = "http://conferences.cis.umac.mo/icde2019"
-when = "Apr 8-12, 2019"
-absddl = "Sep 28, 2018"
-submddl = "Oct 5, 2018"
-notidue = "Dec 14, 2018"
-countdownd = "2018/9/28"
-countdownc = "2019/4/8"
+site = "https://www.utdallas.edu/icde/"
+when = "Apr 20-24, 2020"
+absddl = "Jun 8, 2019"
+submddl = "Jun 15, 2019"
+notidue = "Aug 10, 2019"
+countdownd = "2019/6/8"
+countdownc = "2020/4/20"
+
+[[params.upcoming.list]]
+enable = -1
+name = "ICDE-2"
+rank="A"
+site = "https://www.utdallas.edu/icde/"
+when = "Apr 20-24, 2020"
+absddl = "Oct 8, 2019"
+submddl = "Oct 15, 2019"
+notidue = "Dec 14, 2019"
+countdownd = "2019/10/8"
+countdownc = "2020/4/20"
 
 [[params.past.list]]
 enable = 1
