@@ -123,16 +123,16 @@ notidue = "Nov 6, 2018"
 countdownd = "2018/7/27"
 countdownc = "2019/2/16"
 
-[[params.upcoming.list]]
-enable = 0
+[[params.current.list]]
+enable = -1
 name = "ISCA"
 rank="A"
 site = "http://iscaconf.org/isca2019"
 when = "Jun 22-26, 2019"
-absddl = "Nov 14, 2018"
-submddl = "TBA"
-notidue = "TBA"
-countdownd = "2018/11/14"
+absddl = "Dec 3, 2018"
+submddl = "Dec 7, 2018"
+notidue = "Mar 15, 2019"
+countdownd = "2018/12/3"
 countdownc = "2019/6/22"
 
 [[params.current.list]]
@@ -471,7 +471,7 @@ notidue = "Jul 8/22, 2019"
 countdownd = "2019/4/17"
 countdownc = "2019/10/27"
 
-[[params.current.list]]
+[[params.past.list]]
 enable = -1
 name = "HotOS"
 rank="B"
