@@ -12,9 +12,13 @@
 {{ partial "intro.html" . }}
 {{- end -}}
 
+{{ if .Site.Params.timeline.enable }}
+{{ partial "timeline.html" . }}
+{{- end -}}
+
 {{ if .Site.Params.highlight.enable }}
 {{ partial "highlight.html" . }}
-{{- end -}}
+{{ end -}}
 
 {{ if .Site.Params.upcoming.enable }}
 {{ partial "upcoming.html" . }}

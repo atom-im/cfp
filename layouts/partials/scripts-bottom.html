@@ -1,13 +1,9 @@
-	<script src="assets/js/dblp-2015-02-11.min.js">
-	</script>
-	<script src="assets/js/dblp-ui-2014-06-16.min.js">
-	</script>
-	<script src="assets/js/jquery.countdown.min.js">
-	</script>
-	<script src="assets/js/moment.min.js">
-	</script>
-	<script src="assets/js/moment-timezone-with-data-2012-2022.min.js">
-	</script>
+	<script src="assets/js/dblp-2015-02-11.min.js"></script>
+	<script src="assets/js/dblp-ui-2014-06-16.min.js"></script>
+	<script src="assets/js/jquery.timeline.min.js"></script>
+	<script src="assets/js/jquery.countdown.min.js"></script>
+	<script src="assets/js/moment.min.js"></script>
+	<script src="assets/js/moment-timezone-with-data-2012-2022.min.js"></script>
 	<script>
 	var deadline = moment.tz("{{ range .Site.Params.highlight.list }}{{ .countdown }}{{ end }}", "Asia/Hong_Kong");
 	$('#countdown').countdown(deadline.toDate(), function(event) {
@@ -21,4 +17,34 @@
 				$this.html(event.strftime('%D days'));
 				});
 			});
+	</script>
+	<script>
+	let test_options = {
+		type          : 'bar',
+		startDatetime : 'currently',
+		endDatetime   : '2020-06-01',
+		scale         : 'day',
+		rows          : 3,
+		minGridSize   : 24 * 2,
+		rangeAlign    : 'begin',
+		sidebar       : {
+			sticky : true,
+			list   : [ 
+				'Upcoming calls', 
+				'Upcoming confs', 
+				'Future confs', 
+			]
+		},		
+		ruler         : {
+			top    : {
+				lines      : [ 'month', 'day', 'weekday' ],
+				height     : 26,
+				fontSize   : 13,
+				color      : '#777',
+				background : '#FFF',
+				format     : { timeZone: 'Asia/Hong_Kong', hour12: false, year: 'zerofill', month: 'long', weekday: 'short', hour: 'numeric', minute: 'numeric' },
+			},
+		}
+	}
+	$('#my-timeline').Timeline( test_options )
 	</script>

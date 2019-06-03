@@ -1,0 +1,34 @@
+	<div id="my-timeline">
+	    <ul class="timeline-events">
+{{- range $p := .Site.Params.upcoming.list -}}
+{{ if (eq .enable 0) }}
+{{ else }}
+{{ if eq $p.absddl "N/A" }}
+		<li data-timeline-node='{"start":"{{ $p.submddl }} 00:00:00","end":"{{ $p.submddl  }} 23:59:59","row":1,"bgColor":"Wheat","color":"Black","label":"{{ $p.name }} {{ $.Site.Params.upcoming.year }}","content":"CCF Rank: {{ $p.rank }}, When: {{  $p.when }}, Abstract Deadline: {{  $p.absddl }}, Submission Deadline: {{  $p.submddl }}, Notification Due: {{  $p.notidue }}"}'></li>
+{{ else }}
+		<li data-timeline-node='{"start":"{{ $p.absddl }}","end":"{{ $p.submddl }}","row":1,"bgColor":"Wheat","color":"Black","label":"{{ $p.name }} {{ $.Site.Params.upcoming.year }}","content":"CCF Rank: {{ $p.rank }}, When: {{  $p.when }}, Abstract Deadline: {{  $p.absddl }}, Submission Deadline: {{  $p.submddl }}, Notification Due: {{  $p.notidue }}"}'></li>
+{{- end -}}
+		<li data-timeline-node='{"start":"{{ $p.open }}","end":"{{ $p.close }}","row":3,"bgColor":"#e05f1a","color":"White","label":"{{ $p.name }} {{ $.Site.Params.upcoming.year }}","content":"CCF Rank: {{ $p.rank }}, When: {{  $p.when }}, Abstract Deadline: {{  $p.absddl }}, Submission Deadline: {{  $p.submddl }}, Notification Due: {{  $p.notidue }}"}'></li>
+{{- end -}}
+{{- end }}
+{{- range $p := .Site.Params.highlight.list -}}
+{{ if (eq .enable 0) }}
+{{ else }}
+{{ if eq $p.absddl "N/A" }}
+		<li data-timeline-node='{"start":"{{ $p.submddl }} 00:00:00","end":"{{ $p.submddl  }} 23:59:59","row":1,"bgColor":"Wheat","color":"Black","label":"{{ $p.name }} {{ $.Site.Params.upcoming.year }}","content":"CCF Rank: {{ $p.rank }}, When: {{  $p.when }}, Abstract Deadline: {{  $p.absddl }}, Submission Deadline: {{  $p.submddl }}, Notification Due: {{  $p.notidue }}"}'></li>
+{{ else }}
+		<li data-timeline-node='{"start":"{{ $p.absddl }}","end":"{{ $p.submddl }}","row":1,"bgColor":"Wheat","color":"Black","label":"{{ $p.name }} {{ $.Site.Params.upcoming.year }}","content":"CCF Rank: {{ $p.rank }}, When: {{  $p.when }}, Abstract Deadline: {{  $p.absddl }}, Submission Deadline: {{  $p.submddl }}, Notification Due: {{  $p.notidue }}"}'></li>
+{{- end -}}
+		<li data-timeline-node='{"start":"{{ $p.open }}","end":"{{ $p.close }}","row":3,"bgColor":"#e05f1a","color":"White","label":"{{ $p.name }} {{ $.Site.Params.upcoming.year }}","content":"CCF Rank: {{ $p.rank }}, When: {{  $p.when }}, Abstract Deadline: {{  $p.absddl }}, Submission Deadline: {{  $p.submddl }}, Notification Due: {{  $p.notidue }}"}'></li>
+{{- end -}}
+{{- end }}
+{{- range $p := .Site.Params.current.list -}}
+{{ if (eq .enable 0) }}
+{{ else }}
+		<li data-timeline-node='{"start":"{{ $p.open }}","end":"{{ $p.close }}","row":2,"bgColor":"#63bb55","color":"Black","label":"{{ $p.name }} {{ $.Site.Params.upcoming.year }}","content":"CCF Rank: {{ $p.rank }}, When: {{  $p.when }}, Abstract Deadline: {{  $p.absddl }}, Submission Deadline: {{  $p.submddl }}, Notification Due: {{  $p.notidue }}"}'></li>
+{{- end -}}
+{{- end }}
+	    </ul>
+	</div>
+
+	<div class="timeline-event-view"></div>
