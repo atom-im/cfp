@@ -479,7 +479,7 @@ notidue = "Jul 1, 2019"
 countdownd = "2019/11/4"
 countdownc = "2019/11/4"
 
-[[params.current.list]]
+[[params.past.list]]
 enable = -1
 name = "ICSE"
 rank="A"
