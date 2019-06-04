@@ -1,5 +1,17 @@
+	<script>
+		var el = document.getElementsByTagName("body")[0];
+		el.className = "js";
+	</script>
+	<script src="assets/js/w3.js"></script>
+	<script src="assets/js/jquery-3.3.1.min.js"></script>
+	<script src="assets/js/jquery.dblp-2014-08-07.min.js"></script>
+	<script src="assets/js/jquery.cookie-1.2.min.js"></script>
+	<script src="assets/js/encoder-2012-09-23.min.js"></script>
+	<script src="assets/js/buckets-1.0.min.js"></script>
 	<script src="assets/js/dblp-2015-02-11.min.js"></script>
 	<script src="assets/js/dblp-ui-2014-06-16.min.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/jquery.timeline.min.js"></script>
 	<script src="assets/js/jquery.countdown.min.js"></script>
 	<script src="assets/js/moment.min.js"></script>
@@ -47,4 +59,8 @@
 		}
 	}
 	$('#my-timeline').Timeline( test_options )
+	.tooltip({
+		selector: '[data-toggle="tooltip"]',
+		html: true
+	});
 	</script>
