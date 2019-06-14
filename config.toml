@@ -129,19 +129,19 @@ notidue = "Dec 11, 2019"
 countdownd = "2019/9/26"
 countdownc = "2020/2/24"
 
-[[params.past.list]]
+[[params.upcoming.list]]
 enable = -1
 name = "HPCA"
 rank="A"
-site = "http://hpca2019.seas.gwu.edu/"
-when = "Feb 16-20, 2019"
-open = "Feb 16, 2019"
-close= "Feb 20, 2019"
-absddl = "Jul 27, 2018"
-submddl = "Aug 3, 2018"
-notidue = "Nov 6, 2018"
-countdownd = "2018/7/27"
-countdownc = "2019/2/16"
+site = "https://www.hpca-conf.org/2020/"
+when = "Feb 22-26, 2020"
+open = "Feb 22, 2020"
+close= "Feb 26, 2020"
+absddl = "Jul 30, 2019"
+submddl = "Aug 6, 2019"
+notidue = "Nov 6, 2019"
+countdownd = "2019/7/30"
+countdownc = "2020/2/22"
 
 [[params.current.list]]
 enable = -1
