@@ -241,7 +241,7 @@ notidue = "May 5, 2019"
 countdownd = "2019/2/18"
 countdownc = "2019/7/29"
 
-[[params.current.list]]
+[[params.past.list]]
 enable = -1
 name = "DAC"
 rank="A"
