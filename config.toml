@@ -47,6 +47,7 @@ countdown = "Countdown" # yyyy/mm/dd hh:mm (Asia/Shanghai)
 enable = true
 title = "Upcoming Calls"
 year = "2020"
+nextyear = "2021"
 name = "Name"
 rank="Rank"
 when = "When"
@@ -62,6 +63,7 @@ countdown = "Countdown"
 enable = true
 title = "Inactive Calls"
 year = "2019"
+nextyear = "2020"
 name = "Name"
 rank="Rank"
 when = "When"
@@ -77,6 +79,7 @@ countdown = "Event starts in"
 enable = true
 title = "Past Calls"
 year = "2019"
+lastyear = "2018"
 name = "Name"
 rank="Rank"
 when = "When"
@@ -102,7 +105,7 @@ notidue = "Sep 9, 2019"
 countdown = "2019-06-22 19:59:59"
 
 [[params.upcoming.list]]
-enable = 1
+enable = -1
 name = "ASPLOS"
 rank="A"
 site = "https://asplos-conference.org/"
@@ -326,7 +329,7 @@ countdownd = ""
 countdownc = "2019/7/2"
 
 [[params.current.list]]
-enable = -1
+enable = 1
 name = "HiPEAC"
 rank="B"
 site = "http://hipeac.net/conference"
@@ -494,8 +497,8 @@ countdownd = "2019/8/23"
 countdownc = "2020/5/23"
 
 [[params.past.list]]
-enable = -1
-name = "OSDI*"
+enable = 1
+name = "OSDI"
 rank="A"
 site = "https://www.usenix.org/conference/osdi18/"
 when = "Oct 8-10, 2018"
@@ -592,7 +595,7 @@ countdownd = "2019/3/1"
 countdownc = "2019/8/26"
 
 [[params.current.list]]
-enable = -1
+enable = 1
 name = "ICDE-1"
 rank="A"
 site = "https://www.utdallas.edu/icde/"
@@ -620,7 +623,7 @@ countdownd = "2019/10/8"
 countdownc = "2020/4/20"
 
 [[params.upcoming.list]]
-enable = 1
+enable = -1
 name = "CIDR"
 rank="A"
 site = "http://cidrdb.org/cidr2020/"

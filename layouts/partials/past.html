@@ -1,6 +1,6 @@
 	<div class="hideable" id="past">
 		<header class="hide-head nowrap">
-			<h2>{{ .Site.Params.past.title }} ({{ $.Site.Params.past.year }})</h2>
+			<h2>{{ .Site.Params.past.title }}</h2>
 		</header>
 		<div class="hide-body">
 			<table class="table table-bordered table-condensed">
@@ -20,7 +20,7 @@
 {{ if (eq .enable 1) }}
 					<tr class="item" style="background-color:white">
 						<th scope="row">
-							<a href="{{ $p.site }}" target="_blank">{{ $p.name }} {{ $.Site.Params.past.year }}</a>
+							<a href="{{ $p.site }}" target="_blank">{{ $p.name }} {{ $.Site.Params.past.lastyear }}</a>
 						</th>
 						<td>{{ $p.rank | markdownify }}</td>
 						<td>{{ $p.when | markdownify }}</td>

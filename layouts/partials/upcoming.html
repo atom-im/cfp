@@ -1,6 +1,6 @@
 	<div class="hideable" id="upcoming">
 		<header class="hide-head nowrap">
-			<h2>{{ .Site.Params.upcoming.title}} ({{ $.Site.Params.upcoming.year }})</h2>
+			<h2>{{ .Site.Params.upcoming.title}}</h2>
 		</header>
 		<div class="hide-body">
 			<table class="table table-bordered table-condensed">
@@ -20,7 +20,7 @@
 {{ if (eq .enable 1) }}
 					<tr class="item" style="background-color:Wheat">
 						<th scope="row">
-							<a href="{{ $p.site }}" target="_blank">{{ $p.name }} {{ $.Site.Params.upcoming.year }}</a>
+							<a href="{{ $p.site }}" target="_blank">{{ $p.name }} {{ $.Site.Params.upcoming.nextyear }}</a>
 						</th>
 						<td>{{ $p.rank | markdownify }}</td>
 						<td>{{ $p.when | markdownify }}</td>
