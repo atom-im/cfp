@@ -325,7 +325,7 @@ notidue = "-"
 countdownd = ""
 countdownc = "2019/7/2"
 
-[[params.upcoming.list]]
+[[params.current.list]]
 enable = 1
 name = "HiPEAC"
 rank="B"
@@ -591,7 +591,7 @@ notidue = "Apr 15, 2019"
 countdownd = "2019/3/1"
 countdownc = "2019/8/26"
 
-[[params.upcoming.list]]
+[[params.current.list]]
 enable = -1
 name = "ICDE-1"
 rank="A"
