@@ -199,19 +199,19 @@ notidue = "Apr 16, 2019"
 countdownd = "2019/1/10"
 countdownc = "2019/7/10"
 
-[[params.past.list]]
+[[params.upcoming.list]]
 enable = -1
 name = "PPoPP"
 rank="A"
-site = "https://ppopp19.sigplan.org"
-when = "Feb 16-20, 2019"
-open = "Feb 16, 2019"
-close= "Feb 20, 2019"
-absddl = "N/A"
-submddl = "-"
-notidue = "-"
-countdownd = ""
-countdownc = "2019/2/16"
+site = "https://ppopp20.sigplan.org"
+when = "Feb 22-26, 2020"
+open = "Feb 22, 2020"
+close= "Feb 26, 2020"
+absddl = "Jul 31, 2019"
+submddl = "Aug 6 2019"
+notidue = "Nov 19, 2019"
+countdownd = "2019/7/31"
+countdownc = "2020/2/22"
 
 [[params.current.list]]
 enable = -1
