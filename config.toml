@@ -255,19 +255,19 @@ notidue = "Feb 14, 2019"
 countdownd = "2018/11/20"
 countdownc = "2019/6/2"
 
-[[params.past.list]]
+[[params.upcoming.list]]
 enable = -1
 name = "DATE"
 rank="B"
 site = "https://www.date-conference.com/"
-when = "Mar 25-29, 2019"
-open = "Mar 25, 2019"
-close= "Mar 29, 2019"
+when = "Mar 09-13, 2020"
+open = "Mar 9, 2020"
+close= "Mar 13, 2020"
 absddl = "N/A"
-submddl = "Sep 9, 2018"
-notidue = "Nov 8, 2018"
-countdownd = "2018/9/9"
-countdownc = "2019/3/25"
+submddl = "Sep 8, 2019"
+notidue = "Nov 7, 2019"
+countdownd = "2019/9/8"
+countdownc = "2020/3/9"
 
 [[params.past.list]]
 enable = -1
