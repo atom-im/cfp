@@ -381,19 +381,19 @@ notidue = "Mid Apr, 2019"
 countdownd = "2019/1/25"
 countdownc = "2019/6/26"
 
-[[params.past.list]]
+[[params.upcoming.list]]
 enable = -1
 name = "IPDPS"
 rank="B"
 site = "http://www.ipdps.org/"
-when = "May 20-24, 2019"
-open = "May 20, 2019"
-close= "May 24, 2019"
-absddl = "Oct 8, 2018"
-submddl = "Oct 15, 2018"
-notidue = "Dec 10, 2018"
-countdownd = "2018/10/8"
-countdownc = "2019/5/20"
+when = "May 18-22, 2020"
+open = "May 18, 2020"
+close= "May 33, 2020"
+absddl = "Oct 7, 2019"
+submddl = "Oct 14, 2019"
+notidue = "Dec 9, 2019"
+countdownd = "2019/10/7"
+countdownc = "2020/5/18"
 
 [[params.current.list]]
 enable = -1
