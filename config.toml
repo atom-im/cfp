@@ -326,7 +326,7 @@ countdownd = ""
 countdownc = "2019/7/2"
 
 [[params.current.list]]
-enable = 1
+enable = -1
 name = "HiPEAC"
 rank="B"
 site = "http://hipeac.net/conference"
