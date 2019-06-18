@@ -269,19 +269,19 @@ notidue = "Nov 7, 2019"
 countdownd = "2019/9/8"
 countdownc = "2020/3/9"
 
-[[params.past.list]]
+[[params.upcoming.list]]
 enable = -1
 name = "EuroSys"
 rank="B"
-site = "https://www.eurosys2019.org"
-when = "Mar 25-28, 2018"
-open = "Mar 25, 2018"
-close= "Mar 28, 2018"
-absddl = "Sep 24, 2019"
-submddl = "Oct 1, 2018"
-notidue = "21 Dec, 2018"
-countdownd = "2018/9/24"
-countdownc = "2019/3/25"
+site = "https://www.eurosys2020.org"
+when = "Apr 27-30, 2019"
+open = "Apr 27, 2019"
+close= "Apr 30, 2019"
+absddl = "N/A"
+submddl = "Nov 4, 2019"
+notidue = "Feb 15, 2019"
+countdownd = "2019/11/4"
+countdownc = "2020/4/27"
 
 [[params.current.list]]
 enable = -1
@@ -325,19 +325,19 @@ notidue = "-"
 countdownd = ""
 countdownc = "2019/7/2"
 
-[[params.past.list]]
+[[params.upcoming.list]]
 enable = 1
 name = "HiPEAC"
 rank="B"
 site = "http://hipeac.net/conference"
-when = "Jan 21-23, 2019"
-open = "Jan 21, 2019"
-close= "Jan 23, 2019"
+when = "Jan 20-22, 2020"
+open = "Jan 20, 2020"
+close= "Jan 22, 2020"
 absddl = "N/A"
-submddl = "Jun 1, 2018"
-notidue = "N/A"
-countdownd = "2018/6/1"
-countdownc = "2019/1/21"
+submddl = "Jun 1, 2019"
+notidue = "Nov 15"
+countdownd = "2019/6/1"
+countdownc = "2020/1/20"
 
 [[params.current.list]]
 enable = -1
@@ -409,19 +409,19 @@ notidue = "Dec 17, 2018"
 countdownd = "2018/10/22"
 countdownc = "2019/6/24"
 
-[[params.past.list]]
+[[params.upcoming.list]]
 enable = -1
-name = "MSST"
+name = "MSST*"
 rank="B"
 site = "http://storageconference.us/"
-when = "May 20-24, 2019"
-open = "May 20, 2019"
-close= "May 24, 2019"
+when = "May 4-8, 2020"
+open = "May 4, 2020"
+close= "May 8, 2020"
 absddl = "N/A"
-submddl = "Jan 7, 2019"
-notidue = "Feb 15, 2019"
-countdownd = "2019/1/7"
-countdownc = "2019/5/20"
+submddl = "Jan 7, 2020"
+notidue = "Feb 15, 2020"
+countdownd = "2020/1/7"
+countdownc = "2020/5/4"
 
 [[params.current.list]]
 enable = -1
@@ -479,19 +479,19 @@ notidue = "Jul 1, 2019"
 countdownd = "2019/11/4"
 countdownc = "2019/11/4"
 
-[[params.past.list]]
+[[params.upcoming.list]]
 enable = -1
 name = "ICSE"
 rank="A"
-site = "https://2019.icse-conferences.org"
-when = "May 25-31, 2019"
-open = "May 25, 2019"
-close= "May 31, 2019"
+site = "https://conf.researchr.org/home/icse-2020"
+when = "May 23-29, 2020"
+open = "May 23, 2020"
+close= "May 29, 2020"
 absddl = "N/A"
-submddl = "Oct 1, 2018"
-notidue = "Dec 12, 2018"
-countdownd = "2018/10/1"
-countdownc = "2019/5/25"
+submddl = "Aug 23, 2019"
+notidue = "Dec 9, 2019"
+countdownd = "2019/8/23"
+countdownc = "2020/5/23"
 
 [[params.past.list]]
 enable = -1
@@ -521,19 +521,19 @@ notidue = "Feb 15, 2018"
 countdownd = "2018/11/22"
 countdownc = "2019/6/22"
 
-[[params.past.list]]
+[[params.upcoming.list]]
 enable = -1
 name = "POPL"
 rank="A"
-site = "https://popl19.sigplan.org/"
-when = "Jan 13-19, 2019"
-open = "Jan 13, 2019"
-close= "Jan 19, 2019"
+site = "https://popl20.sigplan.org/"
+when = "Jan 19-25, 2020"
+open = "Jan 19, 2020"
+close= "Jan 25, 2020"
 absddl = "N/A"
-submddl = "Jul 11, 2018"
-notidue = "Sep 17, 2018"
-countdownd = "2018/7/11"
-countdownc = "2019/1/6"
+submddl = "Jul 10, 2019"
+notidue = "Oct 14, 2019"
+countdownd = "2019/7/10"
+countdownc = "2020/1/19"
 
 [[params.current.list]]
 enable = -1
@@ -619,19 +619,19 @@ notidue = "Dec 14, 2019"
 countdownd = "2019/10/8"
 countdownc = "2020/4/20"
 
-[[params.past.list]]
+[[params.upcoming.list]]
 enable = 1
 name = "CIDR"
 rank="A"
-site = "http://cidrdb.org/cidr2019/"
-when = "Jan 13-16, 2019"
-open = "Jan 13, 2019"
-close= "Jan 16, 2019"
+site = "http://cidrdb.org/cidr2020/"
+when = "Jan 12-15, 2020"
+open = "Jan 12, 2020"
+close= "Jan 15, 2020"
 absddl = "N/A"
-submddl = "Aug 20, 2018"
-notidue = "Oct 22, 2018"
-countdownd = "2018/8/20"
-countdownc = "2019/1/13"
+submddl = "Aug 23, 2019"
+notidue = "Oct 14, 2019"
+countdownd = "2019/8/23"
+countdownc = "2020/1/12"
 
 [[params.current.list]]
 enable = -1
