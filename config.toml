@@ -14,7 +14,7 @@ hrefTargetBlank = true
 # Meta
 description = "Selected call for papers from top computer architecture & system conferences."
 keywords = "conference, computer science and technology, non-volatile memory, NVM, file system, operating system"
-author = "Hu WAN"
+author = "Hu Wan"
 
 # Introduction section
 [params.intro]
@@ -39,10 +39,13 @@ close= "Closing"
 absddl = "Abstract Deadline"
 submddl = "Submission Deadline"
 notidue = "Notification Due"
-#final = "Final Version"
-countdown = "Countdown" # yyyy/mm/dd hh:mm (Asia/Shanghai)
+countdown = "Countdown (HKT)" # yyyy/mm/dd hh:mm:ss (Asia/Hong_Kong)
 
 # Upcoming section
+# enable:
+#  0 - disable
+#  1 - nextyear (2021)
+# -1 - year (2020)
 [params.upcoming]
 enable = true
 title = "Upcoming Calls"
@@ -59,6 +62,10 @@ notidue = "Notification Due"
 countdown = "Countdown"
 
 # current section
+# enable:
+#  0 - disable
+#  1 - nextyear (2020)
+# -1 - year (2019)
 [params.current]
 enable = true
 title = "Inactive Calls"
@@ -75,6 +82,10 @@ notidue = "Notification Due"
 countdown = "Event starts in"
 
 # past section
+# enable:
+#  0 - disable
+#  1 - lastyear (2018)
+# -1 - year (2019)
 [params.past]
 enable = true
 title = "Past Calls"
@@ -93,19 +104,19 @@ countdown = "Event starts in"
 # [ONE] highlight item
 [[params.highlight.list]]
 enable = 1
-name = "ICCD"
-rank="B"
-site = "http://www.iccd-conf.com"
-when = "Nov 17-20, 2019"
-open = "Nov 17, 2019"
-close= "Nov 20, 2019"
-absddl = "Jun 21, 2019"
-submddl = "Jun 28, 2019"
-notidue = "Sep 9, 2019"
-countdown = "2019-06-22 19:59:59"
+name = "ASPLOS"
+rank="A"
+site = "https://asplos-conference.org/"
+when = "March 16-20, 2020"
+open = "Mar 16, 2020"
+close= "Mar 20, 2020"
+absddl = "Aug 9, 2019"
+submddl = "Aug 16, 2019"
+notidue = "Nov 20, 2019"
+countdown = "2019/8/9 23:59:59"
 
 [[params.upcoming.list]]
-enable = -1
+enable = 0
 name = "ASPLOS"
 rank="A"
 site = "https://asplos-conference.org/"
@@ -301,17 +312,17 @@ countdownd = "2019/1/16"
 countdownc = "2019/6/24"
 
 [[params.upcoming.list]]
-enable = 0
+enable = -1
 name = "ICCD"
 rank="B"
 site = "http://www.iccd-conf.com"
 when = "Nov 17-20, 2019"
 open = "Nov 17, 2019"
 close= "Nov 20, 2019"
-absddl = "Jun 21, 2019"
-submddl = "Jun 28, 2019"
+absddl = "Jun 28, 2019"
+submddl = "Jul 7, 2019"
 notidue = "Sep 9, 2019"
-countdownd = "2019/6/21"
+countdownd = "2019/7/7"
 countdownc = "2019/11/17"
 
 [[params.current.list]]
