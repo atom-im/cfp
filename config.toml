@@ -157,7 +157,7 @@ notidue = "Nov 6, 2019"
 countdownd = "2019/7/30"
 countdownc = "2020/2/22"
 
-[[params.current.list]]
+[[params.past.list]]
 enable = -1
 name = "ISCA"
 rank="A"
@@ -199,7 +199,7 @@ notidue = "Jun 15, 2019"
 countdownd = "2019/4/10"
 countdownc = "2019/11/11"
 
-[[params.current.list]]
+[[params.past.list]]
 enable = -1
 name = "USENIX ATC"
 rank="A"
@@ -227,7 +227,7 @@ notidue = "Nov 19, 2019"
 countdownd = "2019/7/31"
 countdownc = "2020/2/22"
 
-[[params.current.list]]
+[[params.past.list]]
 enable = -1
 name = "SPAA"
 rank="B"
@@ -297,7 +297,7 @@ notidue = "Feb 15, 2020"
 countdownd = "2019/11/4"
 countdownc = "2020/4/27"
 
-[[params.current.list]]
+[[params.past.list]]
 enable = -1
 name = "HPDC"
 rank="B"
@@ -311,7 +311,7 @@ notidue = "Mar 25, 2019"
 countdownd = "2019/1/16"
 countdownc = "2019/6/24"
 
-[[params.upcoming.list]]
+[[params.current.list]]
 enable = -1
 name = "ICCD"
 rank="B"
@@ -325,7 +325,7 @@ notidue = "Sep 9, 2019"
 countdownd = "2019/7/7"
 countdownc = "2019/11/17"
 
-[[params.current.list]]
+[[params.past.list]]
 enable = -1
 name = "ICCAD"
 rank="B"
@@ -353,7 +353,7 @@ notidue = "Nov 15"
 countdownd = "2019/6/1"
 countdownc = "2020/1/20"
 
-[[params.current.list]]
+[[params.past.list]]
 enable = -1
 name = "SIGMETRICS"
 rank="B"
@@ -381,7 +381,7 @@ notidue = "May 17, 2019"
 countdownd = "2019/4/15"
 countdownc = "2019/8/5"
 
-[[params.current.list]]
+[[params.past.list]]
 enable = -1
 name = "ICS"
 rank="B"
@@ -409,7 +409,7 @@ notidue = "Dec 9, 2019"
 countdownd = "2019/10/7"
 countdownc = "2020/5/18"
 
-[[params.current.list]]
+[[params.past.list]]
 enable = -1
 name = "Performance"
 rank="B"
@@ -521,7 +521,7 @@ notidue = "Jul 24, 2018"
 countdownd = "2018/10/8"
 countdownc = "2018/10/8"
 
-[[params.current.list]]
+[[params.past.list]]
 enable = -1
 name = "PLDI"
 rank="A"
@@ -535,7 +535,7 @@ notidue = "Feb 15, 2018"
 countdownd = "2018/11/22"
 countdownc = "2019/6/22"
 
-[[params.upcoming.list]]
+[[params.current.list]]
 enable = -1
 name = "POPL"
 rank="A"
@@ -577,7 +577,7 @@ notidue = "Mar 11"
 countdownd = "2019/1/17"
 countdownc = "2019/5/12"
 
-[[params.current.list]]
+[[params.past.list]]
 enable = -1
 name = "SIGMOD"
 rank="A"
@@ -675,7 +675,7 @@ notidue = "May 20, 2019"
 countdownd = "2019/4/5"
 countdownc = "2019/8/18"
 
-[[params.current.list]]
+[[params.past.list]]
 enable = -1
 name = "HotStorage"
 rank="-"
