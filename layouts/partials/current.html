@@ -16,8 +16,8 @@
 					</tr>
 				</thead>
 				<tbody>
-{{- range $p := sort .Site.Params.current.list "open" -}}
-{{ if (eq .enable 1) }}
+{{- range $p := sort .Site.Params.cfp.list "open" -}}
+{{ if and ((time $p.submddl).Before now ) ((time $p.close).After now ) (eq .enable 1) }}
 					<tr class="item" style="background-color:white">
 						<th scope="row">
 							<a href="{{ $p.site }}" target="_blank">{{ $p.name }} {{ $.Site.Params.current.nextyear }}</a>
@@ -31,7 +31,7 @@
 							<div data-countdown="{{ $p.open }}"></div>
 						</td>
 					</tr>
-{{ else if (eq .enable -1) }}
+{{ else if and ((time $p.submddl).Before now ) ((time $p.close).After now ) (eq .enable -1) }}
 					<tr class="item" style="background-color:white">
 						<th scope="row">
 							<a href="{{ $p.site }}" target="_blank">{{ $p.name }} {{ $.Site.Params.current.year }}</a>

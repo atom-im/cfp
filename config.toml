@@ -121,9 +121,9 @@ close = "2020-03-20"
 absddl = "2019-08-09"
 submddl = "2019-08-16"
 notidue = "2019-11-20"
-countdown = "2019-08-09 23:59:59"
+countdown = "2019-08-17 07:59:59"
 
-[[params.upcoming.list]]
+[[params.cfp.list]]
 enable = 0
 name = "ASPLOS"
 rank = "A"
@@ -134,7 +134,7 @@ absddl = "2019-08-09"
 submddl = "2019-08-16"
 notidue = "2019-11-20"
 
-[[params.upcoming.list]]
+[[params.cfp.list]]
 enable = -1
 name = "FAST"
 rank = "A"
@@ -145,7 +145,7 @@ absddl = "N/A"
 submddl = "2019-09-26"
 notidue = "2019-12-11"
 
-[[params.upcoming.list]]
+[[params.cfp.list]]
 enable = -1
 name = "HPCA"
 rank = "A"
@@ -156,7 +156,7 @@ absddl = "2019-07-30"
 submddl = "2019-08-06"
 notidue = "2019-11-06"
 
-[[params.past.list]]
+[[params.cfp.list]]
 enable = -1
 name = "ISCA"
 rank = "A"
@@ -167,7 +167,7 @@ absddl = "2018-12-03"
 submddl = "2018-12-07"
 notidue = "2019-03-15"
 
-[[params.current.list]]
+[[params.cfp.list]]
 enable = -1
 name = "MICRO"
 rank = "A"
@@ -178,7 +178,7 @@ absddl = "2019-03-29"
 submddl = "2019-04-05"
 notidue = "2019-07-27"
 
-[[params.current.list]]
+[[params.cfp.list]]
 enable = -1
 name = "SC"
 rank = "A"
@@ -189,7 +189,7 @@ absddl = "2019-04-02"
 submddl = "2019-04-10"
 notidue = "2019-06-15"
 
-[[params.upcoming.list]]
+[[params.cfp.list]]
 enable = -1
 name = "ATC"
 rank = "A"
@@ -200,7 +200,7 @@ absddl = "N/A"
 submddl = "2020-01-15"
 notidue = "2020-04-24"
 
-[[params.upcoming.list]]
+[[params.cfp.list]]
 enable = -1
 name = "PPoPP"
 rank = "A"
@@ -211,7 +211,7 @@ absddl = "2019-07-31"
 submddl = "2019-08-06"
 notidue = "2019-11-19"
 
-[[params.past.list]]
+[[params.cfp.list]]
 enable = -1
 name = "SPAA"
 rank = "B"
@@ -222,7 +222,7 @@ absddl = "2019-01-08"
 submddl = "2019-01-11"
 notidue = "2019-03-11"
 
-[[params.past.list]]
+[[params.cfp.list]]
 enable = -1
 name = "PODC"
 rank = "B"
@@ -233,7 +233,7 @@ absddl = "N/A"
 submddl = "2019-02-18"
 notidue = "2019-05-05"
 
-[[params.past.list]]
+[[params.cfp.list]]
 enable = -1
 name = "DAC"
 rank = "A"
@@ -244,7 +244,7 @@ absddl = "2018-11-20"
 submddl = "2018-11-27"
 notidue = "2019-02-14"
 
-[[params.upcoming.list]]
+[[params.cfp.list]]
 enable = -1
 name = "DATE"
 rank = "B"
@@ -255,7 +255,7 @@ absddl = "N/A"
 submddl = "2019-09-08"
 notidue = "2019-11-07"
 
-[[params.upcoming.list]]
+[[params.cfp.list]]
 enable = -1
 name = "EuroSys"
 rank = "B"
@@ -266,7 +266,7 @@ absddl = "N/A"
 submddl = "2019-11-04"
 notidue = "2020-02-15"
 
-[[params.past.list]]
+[[params.cfp.list]]
 enable = -1
 name = "HPDC"
 rank = "B"
@@ -277,7 +277,7 @@ absddl = "2019-01-16"
 submddl = "2019-01-23"
 notidue = "2019-03-25"
 
-[[params.current.list]]
+[[params.cfp.list]]
 enable = -1
 name = "ICCD"
 rank = "B"
@@ -288,7 +288,7 @@ absddl = "2019-06-28"
 submddl = "2019-07-07"
 notidue = "2019-09-09"
 
-[[params.past.list]]
+[[params.cfp.list]]
 enable = -1
 name = "ICCAD"
 rank = "B"
@@ -299,7 +299,7 @@ absddl = "N/A"
 submddl = "2019-07-02"
 notidue = "2019-07-02"
 
-[[params.current.list]]
+[[params.cfp.list]]
 enable = 1
 name = "HiPEAC"
 rank = "B"
@@ -310,7 +310,7 @@ absddl = "N/A"
 submddl = "2019-06-01"
 notidue = "2019-11-15"
 
-[[params.past.list]]
+[[params.cfp.list]]
 enable = -1
 name = "SIGMETRICS"
 rank = "B"
@@ -321,7 +321,7 @@ absddl = "2018-10-22"
 submddl = "2018-10-29"
 notidue = "2018-12-17"
 
-[[params.current.list]]
+[[params.cfp.list]]
 enable = -1
 name = "ICPP"
 rank = "B"
@@ -332,7 +332,7 @@ absddl = "N/A"
 submddl = "2019-04-15"
 notidue = "2019-05-17"
 
-[[params.past.list]]
+[[params.cfp.list]]
 enable = -1
 name = "ICS"
 rank = "B"
@@ -343,7 +343,7 @@ absddl = "2019-01-25"
 submddl = "2019-02-01"
 notidue = "2019-04-01"
 
-[[params.upcoming.list]]
+[[params.cfp.list]]
 enable = -1
 name = "IPDPS"
 rank = "B"
@@ -354,7 +354,7 @@ absddl = "2019-10-07"
 submddl = "2019-10-14"
 notidue = "2019-12-09"
 
-[[params.past.list]]
+[[params.cfp.list]]
 enable = -1
 name = "Performance"
 rank = "B"
@@ -365,7 +365,7 @@ absddl = "2018-10-22"
 submddl = "2018-10-29"
 notidue = "2018-12-17"
 
-[[params.upcoming.list]]
+[[params.cfp.list]]
 enable = -1
 name = "MSST*"
 rank = "B"
@@ -376,7 +376,7 @@ absddl = "N/A"
 submddl = "2020-01-07"
 notidue = "2020-02-15"
 
-[[params.current.list]]
+[[params.cfp.list]]
 enable = -1
 name = "PACT"
 rank = "B"
@@ -387,7 +387,7 @@ absddl = "2019-04-11"
 submddl = "2019-04-15"
 notidue = "2019-06-08"
 
-[[params.current.list]]
+[[params.cfp.list]]
 enable = -1
 name = "CODES+ISSS"
 rank = "B"
@@ -398,7 +398,7 @@ absddl = "2019-04-05"
 submddl = "2019-04-12"
 notidue = "2019-07-10"
 
-[[params.current.list]]
+[[params.cfp.list]]
 enable = -1
 name = "FSE/ESEC"
 rank = "A"
@@ -409,7 +409,7 @@ absddl = "N/A"
 submddl = "2019-02-20"
 notidue = "2019-05-27"
 
-[[params.current.list]]
+[[params.cfp.list]]
 enable = -1
 name = "OOPSLA"
 rank = "A"
@@ -420,7 +420,7 @@ absddl = "N/A"
 submddl = "2019-04-05"
 notidue = "2019-07-01"
 
-[[params.upcoming.list]]
+[[params.cfp.list]]
 enable = -1
 name = "ICSE"
 rank = "A"
@@ -431,7 +431,7 @@ absddl = "N/A"
 submddl = "2019-08-23"
 notidue = "2019-12-09"
 
-[[params.past.list]]
+[[params.cfp.list]]
 enable = 1
 name = "OSDI"
 rank = "A"
@@ -442,7 +442,7 @@ absddl = "2018-04-26"
 submddl = "2018-05-03"
 notidue = "2018-07-24"
 
-[[params.past.list]]
+[[params.cfp.list]]
 enable = -1
 name = "PLDI"
 rank = "A"
@@ -453,7 +453,7 @@ absddl = "N/A"
 submddl = "2018-11-16"
 notidue = "2018-02-15"
 
-[[params.current.list]]
+[[params.cfp.list]]
 enable = -1
 name = "POPL"
 rank = "A"
@@ -464,7 +464,7 @@ absddl = "N/A"
 submddl = "2019-07-10"
 notidue = "2019-10-14"
 
-[[params.current.list]]
+[[params.cfp.list]]
 enable = -1
 name = "SOSP"
 rank = "A"
@@ -475,7 +475,7 @@ absddl = "2019-04-17"
 submddl = "2019-04-24"
 notidue = "2019-07-22"
 
-[[params.past.list]]
+[[params.cfp.list]]
 enable = -1
 name = "HotOS"
 rank = "B"
@@ -486,7 +486,7 @@ absddl = "N/A"
 submddl = "2019-01-17"
 notidue = "2019-03-11"
 
-[[params.past.list]]
+[[params.cfp.list]]
 enable = -1
 name = "SIGMOD"
 rank = "A"
@@ -497,7 +497,7 @@ absddl = "N/A"
 submddl = "2019-06-30"
 notidue = "2019-06-30"
 
-[[params.current.list]]
+[[params.cfp.list]]
 enable = -1
 name = "VLDB"
 rank = "A"
@@ -508,7 +508,7 @@ absddl = "2019-03-01"
 submddl = "2019-03-01"
 notidue = "2019-04-15"
 
-[[params.current.list]]
+[[params.cfp.list]]
 enable = 1
 name = "ICDE-1"
 rank = "A"
@@ -519,7 +519,7 @@ absddl = "2019-06-08"
 submddl = "2019-06-15"
 notidue = "2019-08-10"
 
-[[params.upcoming.list]]
+[[params.cfp.list]]
 enable = -1
 name = "ICDE-02"
 rank = "A"
@@ -530,7 +530,7 @@ absddl = "2019-10-08"
 submddl = "2019-10-15"
 notidue = "2019-12-14"
 
-[[params.upcoming.list]]
+[[params.cfp.list]]
 enable = -1
 name = "CIDR"
 rank = "A"
@@ -541,7 +541,7 @@ absddl = "N/A"
 submddl = "2019-08-23"
 notidue = "2019-10-14"
 
-[[params.current.list]]
+[[params.cfp.list]]
 enable = -1
 name = "EMSOFT"
 rank = "B"
@@ -552,7 +552,7 @@ absddl = "2019-04-05"
 submddl = "2019-04-12"
 notidue = "2019-07-10"
 
-[[params.current.list]]
+[[params.cfp.list]]
 enable = -1
 name = "NVMSA"
 rank = "-"
@@ -563,7 +563,7 @@ absddl = "2019-04-12"
 submddl = "2019-04-19"
 notidue = "2019-05-20"
 
-[[params.past.list]]
+[[params.cfp.list]]
 enable = -1
 name = "HotStorage"
 rank = "-"
@@ -574,7 +574,7 @@ absddl = "N/A"
 submddl = "2019-03-03"
 notidue = "2019-04-17"
 
-[[params.upcoming.list]]
+[[params.cfp.list]]
 enable = -1
 name = "SysML"
 rank = "-"
