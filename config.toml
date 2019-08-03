@@ -10,8 +10,8 @@ disableKinds=["404", "RSS", "sitemap"]
 fractions = false
 hrefTargetBlank = true
 
-[params]
 # Meta
+[params]
 description = "Selected call for papers from top computer architecture & system conferences."
 keywords = "conference, computer science and technology, non-volatile memory, NVM, file system, operating system"
 author = "Hu Wan"
@@ -21,6 +21,15 @@ author = "Hu Wan"
 enable = true
 title = "Call for Papers!"
 intro = "Important dates of selected conferences in computer architecture & system fields."
+
+# Links
+[params.info]
+enable = true
+info = "**Link**: [Chinese Computing Federation (CCF) Ranking List](https://ccf.atom.im)"
+
+# Footer section
+[params.footer]
+copyright = "Theme designed by [dblp](https://dblp.uni-trier.de/), customized by [atom.im](https://atom.im)."
 
 # Timeline section
 [params.timeline]
@@ -154,7 +163,7 @@ close= "Feb 26, 2020"
 absddl = "Jul 30, 2019"
 submddl = "Aug 6, 2019"
 notidue = "Nov 6, 2019"
-countdownd = "2019/7/30"
+countdownd = "2019/8/6"
 countdownc = "2020/2/22"
 
 [[params.past.list]]
@@ -199,19 +208,19 @@ notidue = "Jun 15, 2019"
 countdownd = "2019/4/10"
 countdownc = "2019/11/11"
 
-[[params.past.list]]
+[[params.upcoming.list]]
 enable = -1
-name = "USENIX ATC"
+name = "ATC"
 rank="A"
-site = "https://www.usenix.org/conference/atc19/call-for-papers"
-when = "Jul 10-12, 2019"
-open = "Jul 10, 2019"
-close= "Jul 12, 2019"
+site = "https://www.usenix.org/conference/atc20/call-for-papers"
+when = "Jul 15-17, 2020"
+open = "Jul 15, 2020"
+close= "Jul 17, 2020"
 absddl = "N/A"
-submddl = "Jan 10, 2019"
-notidue = "Apr 16, 2019"
-countdownd = "2019/1/10"
-countdownc = "2019/7/10"
+submddl = "Jan 15, 2020"
+notidue = "Apr 24, 2020"
+countdownd = "2020/1/15"
+countdownc = "2020/7/15"
 
 [[params.upcoming.list]]
 enable = -1
@@ -224,7 +233,7 @@ close= "Feb 26, 2020"
 absddl = "Jul 31, 2019"
 submddl = "Aug 6 2019"
 notidue = "Nov 19, 2019"
-countdownd = "2019/7/31"
+countdownd = "2019/8/6"
 countdownc = "2020/2/22"
 
 [[params.past.list]]
@@ -241,7 +250,7 @@ notidue = "Mar 11, 2019"
 countdownd = "2019/1/8"
 countdownc = "2019/6/22"
 
-[[params.current.list]]
+[[params.past.list]]
 enable = -1
 name = "PODC"
 rank="B"
@@ -406,7 +415,7 @@ close= "May 22, 2020"
 absddl = "Oct 7, 2019"
 submddl = "Oct 14, 2019"
 notidue = "Dec 9, 2019"
-countdownd = "2019/10/7"
+countdownd = "2019/10/14"
 countdownc = "2020/5/18"
 
 [[params.past.list]]
@@ -616,7 +625,7 @@ close= "Apr 24, 2020"
 absddl = "Jun 8, 2019"
 submddl = "Jun 15, 2019"
 notidue = "Aug 10, 2019"
-countdownd = "2019/6/8"
+countdownd = "2019/6/15"
 countdownc = "2020/4/20"
 
 [[params.upcoming.list]]
@@ -630,7 +639,7 @@ close= "Apr 24, 2020"
 absddl = "Oct 8, 2019"
 submddl = "Oct 15, 2019"
 notidue = "Dec 14, 2019"
-countdownd = "2019/10/8"
+countdownd = "2019/10/15"
 countdownc = "2020/4/20"
 
 [[params.upcoming.list]]
@@ -689,12 +698,16 @@ notidue = "Apr 17, 2019"
 countdownd = "2019/3/13"
 countdownc = "2019/7/8"
 
-# Links
-[params.info]
-enable = true
-info = "**Link**: [Chinese Computing Federation (CCF) Ranking List](https://ccf.atom.im)"
-
-# Footer section
-[params.footer]
-copyright = "Theme designed by [dblp](https://dblp.uni-trier.de/), customized by [atom.im](https://atom.im)."
-
+[[params.upcoming.list]]
+enable = -1
+name = "SysML"
+rank="-"
+site = "https://systemsandml.org"
+when = "Mar 2-4, 2020"
+open = "Mar 2, 2020"
+close= "Mar 4, 2020"
+absddl = "N/A"
+submddl= "Sep 9, 2019"
+notidue = "Jan 3, 2020"
+countdownd = "2019/9/9"
+countdownc = "2020/3/2"
