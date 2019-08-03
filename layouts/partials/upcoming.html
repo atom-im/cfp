@@ -16,7 +16,7 @@
 					</tr>
 				</thead>
 				<tbody>
-{{- range $p := .Site.Params.upcoming.list -}}
+{{- range $p := sort .Site.Params.upcoming.list "countdownd" -}}
 {{ if (eq .enable 1) }}
 					<tr class="item" style="background-color:Wheat">
 						<th scope="row">

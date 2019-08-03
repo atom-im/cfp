@@ -135,8 +135,8 @@ close= "Mar 20, 2020"
 absddl = "Aug 9, 2019"
 submddl = "Aug 16, 2019"
 notidue = "Nov 20, 2019"
-countdownd = "2019/8/9"
-countdownc = "2020/3/16"
+countdownd = "2019/08/09"
+countdownc = "2020/03/16"
 
 [[params.upcoming.list]]
 enable = -1
@@ -149,8 +149,8 @@ close= "Feb 27, 2019"
 absddl = "N/A"
 submddl = "Sep 26, 2019"
 notidue = "Dec 11, 2019"
-countdownd = "2019/9/26"
-countdownc = "2020/2/24"
+countdownd = "2019/09/26"
+countdownc = "2020/02/24"
 
 [[params.upcoming.list]]
 enable = -1
@@ -163,8 +163,8 @@ close= "Feb 26, 2020"
 absddl = "Jul 30, 2019"
 submddl = "Aug 6, 2019"
 notidue = "Nov 6, 2019"
-countdownd = "2019/8/6"
-countdownc = "2020/2/22"
+countdownd = "2019/08/06"
+countdownc = "2020/02/22"
 
 [[params.past.list]]
 enable = -1
@@ -177,8 +177,8 @@ close= "Jun 26, 2019"
 absddl = "Dec 3, 2018"
 submddl = "Dec 7, 2018"
 notidue = "Mar 15, 2019"
-countdownd = "2018/12/3"
-countdownc = "2019/6/22"
+countdownd = "2018/12/03"
+countdownc = "2019/06/22"
 
 [[params.current.list]]
 enable = -1
@@ -191,7 +191,7 @@ close= "Oct 16, 2019"
 absddl = "Mar 29, 2019"
 submddl = "Apr 5, 2019"
 notidue = "Jul 27, 2019"
-countdownd = "2019/3/30"
+countdownd = "2019/03/30"
 countdownc = "2019/10/20"
 
 [[params.current.list]]
@@ -205,7 +205,7 @@ close= "Nov 22, 2019"
 absddl = "Apr 2, 2019"
 submddl = "Apr 10, 2019"
 notidue = "Jun 15, 2019"
-countdownd = "2019/4/10"
+countdownd = "2019/04/10"
 countdownc = "2019/11/11"
 
 [[params.upcoming.list]]
@@ -219,8 +219,8 @@ close= "Jul 17, 2020"
 absddl = "N/A"
 submddl = "Jan 15, 2020"
 notidue = "Apr 24, 2020"
-countdownd = "2020/1/15"
-countdownc = "2020/7/15"
+countdownd = "2020/01/15"
+countdownc = "2020/07/15"
 
 [[params.upcoming.list]]
 enable = -1
@@ -233,8 +233,8 @@ close= "Feb 26, 2020"
 absddl = "Jul 31, 2019"
 submddl = "Aug 6 2019"
 notidue = "Nov 19, 2019"
-countdownd = "2019/8/6"
-countdownc = "2020/2/22"
+countdownd = "2019/08/06"
+countdownc = "2020/02/22"
 
 [[params.past.list]]
 enable = -1
@@ -247,8 +247,8 @@ close= "Jun 24, 2019"
 absddl = "Jan 8, 2019"
 submddl = "Jan 11, 2019"
 notidue = "Mar 11, 2019"
-countdownd = "2019/1/8"
-countdownc = "2019/6/22"
+countdownd = "2019/01/08"
+countdownc = "2019/06/22"
 
 [[params.past.list]]
 enable = -1
@@ -261,8 +261,8 @@ close= "Aug 2, 2019"
 absddl = "N/A"
 submddl = "Feb 18, 2019"
 notidue = "May 5, 2019"
-countdownd = "2019/2/18"
-countdownc = "2019/7/29"
+countdownd = "2019/02/18"
+countdownc = "2019/07/29"
 
 [[params.past.list]]
 enable = -1
@@ -276,7 +276,7 @@ absddl = "Nov 20, 2018"
 submddl = "Nov 27, 2018"
 notidue = "Feb 14, 2019"
 countdownd = "2018/11/20"
-countdownc = "2019/6/2"
+countdownc = "2019/06/02"
 
 [[params.upcoming.list]]
 enable = -1
@@ -289,8 +289,8 @@ close= "Mar 13, 2020"
 absddl = "N/A"
 submddl = "Sep 8, 2019"
 notidue = "Nov 7, 2019"
-countdownd = "2019/9/8"
-countdownc = "2020/3/9"
+countdownd = "2019/09/08"
+countdownc = "2020/03/09"
 
 [[params.upcoming.list]]
 enable = -1
@@ -303,8 +303,8 @@ close= "Apr 30, 2020"
 absddl = "N/A"
 submddl = "Nov 4, 2019"
 notidue = "Feb 15, 2020"
-countdownd = "2019/11/4"
-countdownc = "2020/4/27"
+countdownd = "2019/11/04"
+countdownc = "2020/04/27"
 
 [[params.past.list]]
 enable = -1
@@ -317,8 +317,8 @@ close= "Jun 28, 2019"
 absddl = "Jan 16, 2019"
 submddl = "Jan 23, 2019"
 notidue = "Mar 25, 2019"
-countdownd = "2019/1/16"
-countdownc = "2019/6/24"
+countdownd = "2019/01/16"
+countdownc = "2019/06/24"
 
 [[params.current.list]]
 enable = -1
@@ -331,7 +331,7 @@ close= "Nov 20, 2019"
 absddl = "Jun 28, 2019"
 submddl = "Jul 7, 2019"
 notidue = "Sep 9, 2019"
-countdownd = "2019/7/7"
+countdownd = "2019/07/07"
 countdownc = "2019/11/17"
 
 [[params.past.list]]
@@ -346,7 +346,7 @@ absddl = "N/A"
 submddl = "-"
 notidue = "-"
 countdownd = ""
-countdownc = "2019/7/2"
+countdownc = "2019/07/02"
 
 [[params.current.list]]
 enable = 1
@@ -358,9 +358,9 @@ open = "Jan 20, 2020"
 close= "Jan 22, 2020"
 absddl = "N/A"
 submddl = "Jun 1, 2019"
-notidue = "Nov 15"
-countdownd = "2019/6/1"
-countdownc = "2020/1/20"
+notidue = "Nov 15, 2019"
+countdownd = "2019/06/01"
+countdownc = "2020/01/20"
 
 [[params.past.list]]
 enable = -1
@@ -374,7 +374,7 @@ absddl = "Oct 22, 2018"
 submddl = "Oct 29, 2018"
 notidue = "Dec 17, 2018"
 countdownd = "2018/10/22"
-countdownc = "2019/6/24"
+countdownc = "2019/06/24"
 
 [[params.current.list]]
 enable = -1
@@ -387,8 +387,8 @@ close= "Aug 8, 2019"
 absddl = "N/A"
 submddl = "Apr 15, 2019"
 notidue = "May 17, 2019"
-countdownd = "2019/4/15"
-countdownc = "2019/8/5"
+countdownd = "2019/04/15"
+countdownc = "2019/08/05"
 
 [[params.past.list]]
 enable = -1
@@ -401,8 +401,8 @@ close= "Jun 28, 2019"
 absddl = "Jan 25, 2019"
 submddl = "Feb 1, 2019"
 notidue = "Mid Apr, 2019"
-countdownd = "2019/1/25"
-countdownc = "2019/6/26"
+countdownd = "2019/01/25"
+countdownc = "2019/06/26"
 
 [[params.upcoming.list]]
 enable = -1
@@ -416,7 +416,7 @@ absddl = "Oct 7, 2019"
 submddl = "Oct 14, 2019"
 notidue = "Dec 9, 2019"
 countdownd = "2019/10/14"
-countdownc = "2020/5/18"
+countdownc = "2020/05/18"
 
 [[params.past.list]]
 enable = -1
@@ -430,7 +430,7 @@ absddl = "Oct 22, 2018"
 submddl = "Oct 29, 2018"
 notidue = "Dec 17, 2018"
 countdownd = "2018/10/22"
-countdownc = "2019/6/24"
+countdownc = "2019/06/24"
 
 [[params.upcoming.list]]
 enable = -1
@@ -443,8 +443,8 @@ close= "May 8, 2020"
 absddl = "N/A"
 submddl = "Jan 7, 2020"
 notidue = "Feb 15, 2020"
-countdownd = "2020/1/7"
-countdownc = "2020/5/4"
+countdownd = "2020/01/07"
+countdownc = "2020/05/04"
 
 [[params.current.list]]
 enable = -1
@@ -457,8 +457,8 @@ close= "Sep 26, 2019"
 absddl = "Apr 11, 2019"
 submddl = "Apr 15, 2019"
 notidue = "Jun 8, 2019"
-countdownd = "2019/4/11"
-countdownc = "2019/9/23"
+countdownd = "2019/04/11"
+countdownc = "2019/09/23"
 
 [[params.current.list]]
 enable = -1
@@ -471,7 +471,7 @@ close= "Oct 18, 2019"
 absddl = "Apr 5, 2019"
 submddl = "Apr 12, 2019"
 notidue = "Jul 10, 2019"
-countdownd = "2019/4/5"
+countdownd = "2019/04/05"
 countdownc = "2019/10/13"
 
 [[params.current.list]]
@@ -485,8 +485,8 @@ close= "Aug 30, 2019"
 absddl = "N/A"
 submddl = "Feb 20, 2019"
 notidue = "May 27, 2019"
-countdownd = "2019/2/20"
-countdownc = "2019/8/26"
+countdownd = "2019/02/20"
+countdownc = "2019/08/26"
 
 [[params.current.list]]
 enable = -1
@@ -499,8 +499,8 @@ close= "Oct 25, 2019"
 absddl = "N/A"
 submddl = "Apr 5, 2019"
 notidue = "Jul 1, 2019"
-countdownd = "2019/11/4"
-countdownc = "2019/11/4"
+countdownd = "2019/11/04"
+countdownc = "2019/11/04"
 
 [[params.upcoming.list]]
 enable = -1
@@ -513,8 +513,8 @@ close= "May 29, 2020"
 absddl = "N/A"
 submddl = "Aug 23, 2019"
 notidue = "Dec 9, 2019"
-countdownd = "2019/8/23"
-countdownc = "2020/5/23"
+countdownd = "2019/08/23"
+countdownc = "2020/05/23"
 
 [[params.past.list]]
 enable = 1
@@ -527,8 +527,8 @@ close= "Oct 10, 2018"
 absddl = "Apr 26, 2018"
 submddl = "May 3, 2018"
 notidue = "Jul 24, 2018"
-countdownd = "2018/10/8"
-countdownc = "2018/10/8"
+countdownd = "2018/10/08"
+countdownc = "2018/10/08"
 
 [[params.past.list]]
 enable = -1
@@ -542,7 +542,7 @@ absddl = "N/A"
 submddl = "Nov 16, 2018"
 notidue = "Feb 15, 2018"
 countdownd = "2018/11/22"
-countdownc = "2019/6/22"
+countdownc = "2019/06/22"
 
 [[params.current.list]]
 enable = -1
@@ -555,8 +555,8 @@ close= "Jan 25, 2020"
 absddl = "N/A"
 submddl = "Jul 10, 2019"
 notidue = "Oct 14, 2019"
-countdownd = "2019/7/10"
-countdownc = "2020/1/19"
+countdownd = "2019/07/10"
+countdownc = "2020/01/19"
 
 [[params.current.list]]
 enable = -1
@@ -569,7 +569,7 @@ close= "Oct 30, 2019"
 absddl = "Apr 17, 2019"
 submddl = "Apr 24, 2019"
 notidue = "Jul 8/22, 2019"
-countdownd = "2019/4/17"
+countdownd = "2019/04/17"
 countdownc = "2019/10/27"
 
 [[params.past.list]]
@@ -582,9 +582,9 @@ open = "May 12, 2019"
 close= "May 15, 2019"
 absddl = "N/A"
 submddl = "Jan 17, 2019"
-notidue = "Mar 11"
-countdownd = "2019/1/17"
-countdownc = "2019/5/12"
+notidue = "Mar 11, 2019"
+countdownd = "2019/01/17"
+countdownc = "2019/05/12"
 
 [[params.past.list]]
 enable = -1
@@ -598,7 +598,7 @@ absddl = "N/A"
 submddl = "-"
 notidue = "-"
 countdownd = ""
-countdownc = "2019/6/30"
+countdownc = "2019/06/30"
 
 [[params.current.list]]
 enable = -1
@@ -611,8 +611,8 @@ close= "Aug 30, 2018"
 absddl = "Mar 1, 2019"
 submddl = "Mar 1, 2019"
 notidue = "Apr 15, 2019"
-countdownd = "2019/3/1"
-countdownc = "2019/8/26"
+countdownd = "2019/03/01"
+countdownc = "2019/08/26"
 
 [[params.current.list]]
 enable = 1
@@ -625,8 +625,8 @@ close= "Apr 24, 2020"
 absddl = "Jun 8, 2019"
 submddl = "Jun 15, 2019"
 notidue = "Aug 10, 2019"
-countdownd = "2019/6/15"
-countdownc = "2020/4/20"
+countdownd = "2019/06/15"
+countdownc = "2020/04/20"
 
 [[params.upcoming.list]]
 enable = -1
@@ -640,7 +640,7 @@ absddl = "Oct 8, 2019"
 submddl = "Oct 15, 2019"
 notidue = "Dec 14, 2019"
 countdownd = "2019/10/15"
-countdownc = "2020/4/20"
+countdownc = "2020/04/20"
 
 [[params.upcoming.list]]
 enable = -1
@@ -653,8 +653,8 @@ close= "Jan 15, 2020"
 absddl = "N/A"
 submddl = "Aug 23, 2019"
 notidue = "Oct 14, 2019"
-countdownd = "2019/8/23"
-countdownc = "2020/1/12"
+countdownd = "2019/08/23"
+countdownc = "2020/01/12"
 
 [[params.current.list]]
 enable = -1
@@ -667,7 +667,7 @@ close= "Oct 18, 2019"
 absddl = "Apr 5, 2019"
 submddl = "Apr 12, 2019"
 notidue = "Jul 10, 2019"
-countdownd = "2019/4/5"
+countdownd = "2019/04/05"
 countdownc = "2019/10/13"
 
 [[params.current.list]]
@@ -681,8 +681,8 @@ close= "Aug 21, 2019"
 absddl = "Apr 12, 2019"
 submddl = "Apr 19, 2019"
 notidue = "May 20, 2019"
-countdownd = "2019/4/5"
-countdownc = "2019/8/18"
+countdownd = "2019/04/05"
+countdownc = "2019/08/18"
 
 [[params.past.list]]
 enable = -1
@@ -695,8 +695,8 @@ close= "Jul 9, 2019"
 absddl = "N/A"
 submddl= "Mar 13, 2019"
 notidue = "Apr 17, 2019"
-countdownd = "2019/3/13"
-countdownc = "2019/7/8"
+countdownd = "2019/03/13"
+countdownc = "2019/07/08"
 
 [[params.upcoming.list]]
 enable = -1
@@ -709,5 +709,5 @@ close= "Mar 4, 2020"
 absddl = "N/A"
 submddl= "Sep 9, 2019"
 notidue = "Jan 3, 2020"
-countdownd = "2019/9/9"
-countdownc = "2020/3/2"
+countdownd = "2019/09/09"
+countdownc = "2020/03/02"
