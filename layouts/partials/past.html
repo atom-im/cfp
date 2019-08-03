@@ -16,19 +16,19 @@
 					</tr>
 				</thead>
 				<tbody>
-{{- range $p := sort .Site.Params.past.list "countdownc" -}}
+{{- range $p := sort .Site.Params.past.list "open" -}}
 {{ if (eq .enable 1) }}
 					<tr class="item" style="background-color:white">
 						<th scope="row">
 							<a href="{{ $p.site }}" target="_blank">{{ $p.name }} {{ $.Site.Params.past.lastyear }}</a>
 						</th>
 						<td>{{ $p.rank | markdownify }}</td>
-						<td>{{ $p.when | markdownify }}</td>
-						<td>{{ $p.absddl | markdownify }}</td>
-						<td>{{ $p.submddl | markdownify }}</td>
-						<td>{{ $p.notidue | markdownify }}</td>
+						<td>{{ dateFormat "Jan 2" $p.open}}-{{ if ne (time $p.open).Month (time $p.close).Month }}{{ dateFormat "Jan" $p.close }} {{ end }}{{ dateFormat "2, 2006" $p.close }}</td>
+						<td>{{ if ne $p.absddl "N/A" }} {{ dateFormat "Jan 2, 2006" $p.absddl}} {{ else }} {{ $p.absddl }} {{ end }}</td>
+						<td>{{ dateFormat "Jan 2, 2006" $p.submddl }}</td>
+						<td>{{ dateFormat "Jan 2, 2006" $p.notidue }}</td>
 						<td>
-							<div data-countdown="{{ $p.countdownc }}"></div>
+							<div data-countdown="{{ $p.open }}"></div>
 						</td>
 					</tr>
 {{ else if (eq .enable -1) }}
@@ -37,12 +37,12 @@
 							<a href="{{ $p.site }}" target="_blank">{{ $p.name }} {{ $.Site.Params.past.year }}</a>
 						</th>
 						<td>{{ $p.rank | markdownify }}</td>
-						<td>{{ $p.when | markdownify }}</td>
-						<td>{{ $p.absddl | markdownify }}</td>
-						<td>{{ $p.submddl | markdownify }}</td>
-						<td>{{ $p.notidue | markdownify }}</td>
+						<td>{{ dateFormat "Jan 2" $p.open}}-{{ if ne (time $p.open).Month (time $p.close).Month }}{{ dateFormat "Jan" $p.close }} {{ end }}{{ dateFormat "2, 2006" $p.close }}</td>
+						<td>{{ if ne $p.absddl "N/A" }} {{ dateFormat "Jan 2, 2006" $p.absddl}} {{ else }} {{ $p.absddl }} {{ end }}</td>
+						<td>{{ dateFormat "Jan 2, 2006" $p.submddl }}</td>
+						<td>{{ dateFormat "Jan 2, 2006" $p.notidue }}</td>
 						<td>
-							<div data-countdown="{{ $p.countdownc }}"></div>
+							<div data-countdown="{{ $p.open }}"></div>
 						</td>
 					</tr>
 {{ else }}
