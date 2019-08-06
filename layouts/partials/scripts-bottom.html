@@ -26,18 +26,17 @@
 			var $this = $(this),
 			finalDate = $(this).data('countdown');
 			$this.countdown(finalDate, function(event) {
-					var output = "Expired";
+					var output = "0 days";
 					if (event.offset.totalDays > 1) {
 					  output = '%-D days';
 					} else if (event.offset.totalDays > 0) {
 					  output = '%-D day';
 					} else if (event.offset.hours > 1) {
-					  output = ' %-H hours';
+					  output = '%-H hours';
 					} else if (event.offset.hours > 0) {
-					  output = ' %-H hour';
+					  output = '%-H hour';
 					}
 					$this.html(event.strftime(output));
-					// $this.html(event.strftime('%D days'));
 				});
 			});
 	</script>
