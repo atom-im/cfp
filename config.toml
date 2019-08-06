@@ -108,7 +108,7 @@ close= "Closing"
 absddl = "Abstract Deadline"
 submddl = "Submission Deadline"
 notidue = "Notification Due"
-countdown = "Event starts in"
+countdown = "Event Status"
 
 # [ONE] highlight item
 [[params.highlight.list]]
@@ -153,7 +153,7 @@ site = "https://www.hpca-conf.org/2020/"
 open = "2020-02-22"
 close = "2020-02-26"
 absddl = "2019-07-30"
-submddl = "2019-08-06"
+submddl = "2019-08-06 17:00:00"
 notidue = "2019-11-06"
 
 [[params.cfp.list]]
