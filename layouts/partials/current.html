@@ -28,7 +28,7 @@
 						<td>{{ dateFormat "Jan 2, 2006" $p.submddl }}</td>
 						<td>{{ dateFormat "Jan 2, 2006" $p.notidue }}</td>
 						<td>
-							{{ if ((time $p.open).Before now ) }}In Progress{{ else }}<div data-countdown="{{ $p.open }}"></div>{{ end }}
+							{{ if ((time $p.open).Before now ) }}In Progress{{ else }}<div data-countdown="{{ dateFormat `2006-01-02 15:04:05` (time $p.open).Local }}"></div>{{ end }}
 						</td>
 					</tr>
 {{ else }}
