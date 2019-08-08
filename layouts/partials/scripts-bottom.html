@@ -17,8 +17,8 @@
 	<script src="assets/js/moment.min.js"></script>
 	<script src="assets/js/moment-timezone-with-data-2012-2022.min.js"></script>
 	<script>
-	var deadline = moment.tz("{{ range .Site.Params.highlight.list }}{{ .countdown }}{{ end }}", "Asia/Hong_Kong");
-	$('#countdown').countdown(deadline.toDate(), function(event) {
+		var deadline = moment.tz("{{- range .Site.Params.cfp.list -}} {{- if eq .enable 2 -}} {{- dateFormat `2006-01-02 15:04:05` (time .submddl).Local -}} {{- end -}} {{- end -}}", "Asia/Hong_Kong");
+		$('#countdown').countdown(deadline.toDate(), function(event) {
 			$(this).html(event.strftime('%D days %H:%M:%S'));
 			});
 
@@ -41,7 +41,7 @@
 			});
 	</script>
 	<script>
-	let test_options = {
+	let timeline_options = {
 		type          : 'bar',
 		startDatetime : 'currently',
 		endDatetime   : 'auto',
@@ -69,7 +69,7 @@
 			},
 		}
 	}
-	$('#my-timeline').Timeline( test_options )
+	$('#my-timeline').Timeline( timeline_options )
 	.tooltip({
 		selector: '[data-toggle="tooltip"]',
 		html: true

@@ -17,7 +17,7 @@
 				</thead>
 				<tbody>
 {{- range $p := sort .Site.Params.cfp.list "close" "desc" -}}
-{{ if and ((time $p.close).Before now ) (ne .enable 0) }}
+{{ if and ((time $p.close).Before now ) (eq .enable 1) }}
 					<tr class="item" style="background-color:white">
 						<th scope="row">
 							<a href="{{ $p.site }}" target="_blank">{{ $p.name }} {{ (time $p.open).Year }}</a>
