@@ -85,7 +85,7 @@ notidue = "Notification Due"
 countdown = "Event Status"
 
 [[params.cfp.list]]
-enable = 2
+enable = 1
 name = "ASPLOS"
 rank = "A"
 site = "https://asplos-conference.org/"
@@ -118,15 +118,15 @@ submddl = "2019-08-06 17:00:00 -12:00"
 notidue = "2019-11-06"
 
 [[params.cfp.list]]
-enable = 1
+enable = 2
 name = "ISCA"
 rank = "A"
-site = "http://iscaconf.org/isca2019"
-open = "2019-06-22"
-close = "2019-06-26 23:59:59"
-absddl = "2018-12-03"
-submddl = "2018-12-07"
-notidue = "2019-03-15"
+site = "http://iscaconf.org/isca2020"
+open = "2019-05-30"
+close = "2019-06-03 23:59:59"
+absddl = "2019-11-19"
+submddl = "2019-11-26"
+notidue = "2019-03-04"
 
 [[params.cfp.list]]
 enable = 1
