@@ -199,11 +199,11 @@ enable = 1
 name = "DAC"
 rank = "A"
 site = "https://dac.com"
-open = "2019-06-02"
-close = "2019-06-06 23:59:59"
-absddl = "2018-11-20"
-submddl = "2018-11-27"
-notidue = "2019-02-14"
+open = "2020-06-19"
+close = "2019-06-23 23:59:59"
+absddl = "2019-11-21"
+submddl = "2019-11-27"
+notidue = "2020-02-28"
 
 [[params.cfp.list]]
 enable = 1
