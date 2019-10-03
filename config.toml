@@ -407,12 +407,12 @@ notidue = "2020-05-01"
 enable = 1
 name = "PLDI"
 rank = "A"
-site = "http://pldi19.sigplan.org"
-open = "2019-06-22"
-close = "2019-06-26 23:59:59"
+site = "http://pldi20.sigplan.org"
+open = "2020-06-15"
+close = "2020-06-20 23:59:59"
 absddl = "N/A"
-submddl = "2018-11-16"
-notidue = "2018-02-15"
+submddl = "2019-11-22"
+notidue = "2020-02-21"
 
 [[params.cfp.list]]
 enable = 1
@@ -449,14 +449,14 @@ notidue = "2019-03-11"
 
 [[params.cfp.list]]
 enable = 1
-name = "SIGMOD"
+name = "SIGMOD-2"
 rank = "A"
-site = "https://sigmod2019.org/"
-open = "2019-06-30"
-close = "2019-07-05 23:59:59"
-absddl = "N/A"
-submddl = "2019-06-30"
-notidue = "2019-06-30"
+site = "https://sigmod2020.org/"
+open = "2020-06-14"
+close = "2020-06-20 23:59:59"
+absddl = "2019-10-15"
+submddl = "2019-10-22"
+notidue = "2020-01-17"
 
 [[params.cfp.list]]
 enable = 1
@@ -482,7 +482,7 @@ notidue = "2019-08-10"
 
 [[params.cfp.list]]
 enable = 1
-name = "ICDE-02"
+name = "ICDE-2"
 rank = "A"
 site = "https://www.utdallas.edu/icde/"
 open = "2020-04-20"
