@@ -176,22 +176,22 @@ body.js .hideable a.toggle:hover{ text-decoration:none; }
 /* banner container */
 body.js #banner>div.message { display:none; }
 #banner { position:relative; text-align:center; font-size:small; margin:0px; padding:0px; }
-#banner>div.message { position:relative; min-width:500px; max-width:1150px;
+#banner>div.message { position:relative; min-width:320px; max-width:1150px;
 	background:#cccccc; border-width:0px;
-	margin:0px auto 0px; padding:4px 4em 4px 2em; }
+	margin:0px auto 0px; padding:4px 2em 4px 2em; }
 #banner>div.modest { background:#cccccc; }
 #banner>div.fancy { background:#ffd500; }
 
 /* main container */
-#main { position:relative; min-width:500px; max-width:1150px; background:#ffffff;
-	margin:0px auto; padding:10px 4em 10px 2em; }
+#main { position:relative; min-width:320px; max-width:1150px; background:#ffffff;
+	margin:0px auto; padding:10px 2em 10px 2em; }
 
 /* logo */
-#logo {height:116px; text-align:left; margin:14px 0em 24px; }
+#logo {height:116px; text-align:center; margin:14px 0em 24px; }
 #logo img { margin:0px 0em; padding:0px 0em; }
 
 /* top menu */
-nav.top { display:inline; position:absolute; top:0px; right:4em;
+nav.top { display:inline; position:absolute; top:0px; right:2em;
           color:#ffffff; background:#606b70; border-bottom:2px solid #606B70;
           margin:0px; padding:6px 40px 0px; }
 nav.top>ul { display:inline; list-style:none; white-space:nowrap; padding:0px; margin:0px; }
@@ -222,8 +222,8 @@ nav.top .drop-down>.body ul>li.separator { margin:5px 0px; }
 #announcement a { color:maroon; }
 
 /* search form */
-#search { position:absolute; display:inline; top:110px; right:4em; }
-#search>img.icon { margin-right:0.5em; vertical-align:-2px; }
+#search {text-align:center; margin:14px 0em 24px; }
+#search>img.icon { vertical-align:-2px; }
 #search>img.no-js-only.icon { vertical-align:-2px; }
 #search>input { position:relative; border:2px #cccccc solid; width:200px; height:24px; }
 
@@ -239,7 +239,7 @@ nav.top .drop-down>.body ul>li.separator { margin:5px 0px; }
 
 body.js #headline { padding:4px 24px 4px 48px; }
 body.js #headline ul.hide-control { position:absolute; display:inline;
-                                    left:24px; font-size:small;
+                                    left:24px; bottom:1px; font-size:small;
                                     padding:0px; margin:0px 0.5em 0px 0px;}
 body.js #headline ul.hide-control>li { display:table-row; list-style:none; }
 body.js #headline ul.hide-control a { color:#ebebeb; text-decoration:none; }

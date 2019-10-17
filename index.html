@@ -20,16 +20,6 @@
 
 <body class="no-js" style="overflow-y: scroll;">
 	<div id="main">
-	<!-- logo -->
-	<div id="logo">
-		<a><img alt="call for papers" src="assets/images/logo.png"></a>
-	</div>
-	<!-- search form -->
-	<div id="search">
-		<img alt="search" class="icon" src="assets/images/search.dark.16x16.png">
-		<input oninput="w3.filterHTML('#upcoming', '.item', this.value)" placeholder="Search for names..">
-	</div>
-
 	<!-- head line -->
 	<header class="noline" id="headline">
 		<h1>Call for Papers!</h1>
@@ -89,34 +79,36 @@
 			<h2>Featured Call</h2>
 		</header>
 		<div class="hide-body">
-			<table class="table table-bordered table-condensed">
-				<thead>
-					<tr>
-						<th>Name</th>
-						<th>Rank</th>
-						<th>When</th>
-						<th>Abstract Deadline</th>
-						<th>Submission Deadline</th>
-						<th>Notification Due</th>
-						<th>Countdown</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr class="item" style="background-color:purple;color:white">
-						<th scope="row">
-							<a class="hl" href="http://iscaconf.org/isca2020" target="_blank">ISCA 2019</a>
-						</th>
-						<td>A</td>
-						<td>May 30-Jun 3, 2019</td>
-						<td> Nov 19, 2019 </td>
-						<td>Nov 26, 2019</td>
-						<td>Mar 4, 2019</td>
-						<td>
-							<div id="countdown"></div>
-						</td>
-					</tr>
-				</tbody>
-			</table>
+			<div class="table-responsive">
+				<table class="table table-bordered table-condensed">
+					<thead>
+						<tr>
+							<th>Name</th>
+							<th>Rank</th>
+							<th>When</th>
+							<th>Abstract Deadline</th>
+							<th>Submission Deadline</th>
+							<th>Notification Due</th>
+							<th>Countdown</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class="item" style="background-color:purple;color:white">
+							<th scope="row">
+								<a class="hl" href="http://iscaconf.org/isca2020" target="_blank">ISCA 2019</a>
+							</th>
+							<td>A</td>
+							<td>May 30-Jun 3, 2019</td>
+							<td> Nov 19, 2019 </td>
+							<td>Nov 26, 2019</td>
+							<td>Mar 4, 2019</td>
+							<td>
+								<div id="countdown"></div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 		</div>
 	</div>
 
@@ -126,119 +118,121 @@
 			<h2>Upcoming Calls</h2>
 		</header>
 		<div class="hide-body">
-			<table class="table table-bordered table-condensed">
-				<thead>
-					<tr>
-						<th>Name</th>
-						<th>Rank</th>
-						<th>When</th>
-						<th>Abstract Deadline</th>
-						<th>Submission Deadline</th>
-						<th>Notification Due</th>
-						<th>Countdown</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr class="item" style="background-color:Wheat">
-						<th scope="row">
-							<a href="https://sigmod2020.org/" target="_blank">SIGMOD-2 2020</a>
-						</th>
-						<td>A</td>
-						<td>Jun 14-20, 2020</td>
-						<td>Oct 15, 2019</td>
-						<td>Oct 22, 2019</td>
-						<td>Jan 17, 2020</td>
-						<td>
-							<div data-countdown="2019-10-22 08:00:00"></div>
-						</td>
-					</tr>
+			<div class="table-responsive">
+				<table class="table table-bordered table-condensed">
+					<thead>
+						<tr>
+							<th>Name</th>
+							<th>Rank</th>
+							<th>When</th>
+							<th>Abstract Deadline</th>
+							<th>Submission Deadline</th>
+							<th>Notification Due</th>
+							<th>Countdown</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class="item" style="background-color:Wheat">
+							<th scope="row">
+								<a href="https://sigmod2020.org/" target="_blank">SIGMOD-2 2020</a>
+							</th>
+							<td>A</td>
+							<td>Jun 14-20, 2020</td>
+							<td>Oct 15, 2019</td>
+							<td>Oct 22, 2019</td>
+							<td>Jan 17, 2020</td>
+							<td>
+								<div data-countdown="2019-10-22 08:00:00"></div>
+							</td>
+						</tr>
 
-					<tr class="item" style="background-color:Wheat">
-						<th scope="row">
-							<a href="https://www.eurosys2020.org" target="_blank">EuroSys 2020</a>
-						</th>
-						<td>B</td>
-						<td>Apr 27-30, 2020</td>
-						<td>N/A</td>
-						<td>Nov 4, 2019</td>
-						<td>Feb 15, 2020</td>
-						<td>
-							<div data-countdown="2019-11-05 07:59:59"></div>
-						</td>
-					</tr>
+						<tr class="item" style="background-color:Wheat">
+							<th scope="row">
+								<a href="https://www.eurosys2020.org" target="_blank">EuroSys 2020</a>
+							</th>
+							<td>B</td>
+							<td>Apr 27-30, 2020</td>
+							<td>N/A</td>
+							<td>Nov 4, 2019</td>
+							<td>Feb 15, 2020</td>
+							<td>
+								<div data-countdown="2019-11-05 07:59:59"></div>
+							</td>
+						</tr>
 
-					<tr class="item" style="background-color:Wheat">
-						<th scope="row">
-							<a href="http://pldi20.sigplan.org" target="_blank">PLDI 2020</a>
-						</th>
-						<td>A</td>
-						<td>Jun 15-20, 2020</td>
-						<td>N/A</td>
-						<td>Nov 22, 2019</td>
-						<td>Feb 21, 2020</td>
-						<td>
-							<div data-countdown="2019-11-22 08:00:00"></div>
-						</td>
-					</tr>
+						<tr class="item" style="background-color:Wheat">
+							<th scope="row">
+								<a href="http://pldi20.sigplan.org" target="_blank">PLDI 2020</a>
+							</th>
+							<td>A</td>
+							<td>Jun 15-20, 2020</td>
+							<td>N/A</td>
+							<td>Nov 22, 2019</td>
+							<td>Feb 21, 2020</td>
+							<td>
+								<div data-countdown="2019-11-22 08:00:00"></div>
+							</td>
+						</tr>
 
-					<tr class="item" style="background-color:Wheat">
-						<th scope="row">
-							<a href="https://dac.com" target="_blank">DAC 2020</a>
-						</th>
-						<td>A</td>
-						<td>Jun 19-23, 2020</td>
-						<td>Nov 21, 2019</td>
-						<td>Nov 27, 2019</td>
-						<td>Feb 28, 2020</td>
-						<td>
-							<div data-countdown="2019-11-27 08:00:00"></div>
-						</td>
-					</tr>
+						<tr class="item" style="background-color:Wheat">
+							<th scope="row">
+								<a href="https://dac.com" target="_blank">DAC 2020</a>
+							</th>
+							<td>A</td>
+							<td>Jun 19-23, 2020</td>
+							<td>Nov 21, 2019</td>
+							<td>Nov 27, 2019</td>
+							<td>Feb 28, 2020</td>
+							<td>
+								<div data-countdown="2019-11-27 08:00:00"></div>
+							</td>
+						</tr>
 
-					<tr class="item" style="background-color:Wheat">
-						<th scope="row">
-							<a href="http://storageconference.us/" target="_blank">MSST 2020</a>
-						</th>
-						<td>B</td>
-						<td>May 4-8, 2020</td>
-						<td>N/A</td>
-						<td>Jan 7, 2020</td>
-						<td>Feb 15, 2020</td>
-						<td>
-							<div data-countdown="2020-01-07 08:00:00"></div>
-						</td>
-					</tr>
+						<tr class="item" style="background-color:Wheat">
+							<th scope="row">
+								<a href="http://storageconference.us/" target="_blank">MSST 2020</a>
+							</th>
+							<td>B</td>
+							<td>May 4-8, 2020</td>
+							<td>N/A</td>
+							<td>Jan 7, 2020</td>
+							<td>Feb 15, 2020</td>
+							<td>
+								<div data-countdown="2020-01-07 08:00:00"></div>
+							</td>
+						</tr>
 
-					<tr class="item" style="background-color:Wheat">
-						<th scope="row">
-							<a href="https://www.usenix.org/conference/atc20/call-for-papers" target="_blank">ATC 2020</a>
-						</th>
-						<td>A</td>
-						<td>Jul 15-17, 2020</td>
-						<td>N/A</td>
-						<td>Jan 15, 2020</td>
-						<td>Apr 24, 2020</td>
-						<td>
-							<div data-countdown="2020-01-16 12:59:59"></div>
-						</td>
-					</tr>
+						<tr class="item" style="background-color:Wheat">
+							<th scope="row">
+								<a href="https://www.usenix.org/conference/atc20/call-for-papers" target="_blank">ATC 2020</a>
+							</th>
+							<td>A</td>
+							<td>Jul 15-17, 2020</td>
+							<td>N/A</td>
+							<td>Jan 15, 2020</td>
+							<td>Apr 24, 2020</td>
+							<td>
+								<div data-countdown="2020-01-16 12:59:59"></div>
+							</td>
+						</tr>
 
-					<tr class="item" style="background-color:Wheat">
-						<th scope="row">
-							<a href="https://www.usenix.org/conference/osdi20/" target="_blank">OSDI 2020</a>
-						</th>
-						<td>A</td>
-						<td>Nov 4-6, 2020</td>
-						<td>N/A</td>
-						<td>May 1, 2020</td>
-						<td>May 1, 2020</td>
-						<td>
-							<div data-countdown="2020-05-01 08:00:00"></div>
-						</td>
-					</tr>
+						<tr class="item" style="background-color:Wheat">
+							<th scope="row">
+								<a href="https://www.usenix.org/conference/osdi20/" target="_blank">OSDI 2020</a>
+							</th>
+							<td>A</td>
+							<td>Nov 4-6, 2020</td>
+							<td>N/A</td>
+							<td>May 1, 2020</td>
+							<td>May 1, 2020</td>
+							<td>
+								<div data-countdown="2020-05-01 08:00:00"></div>
+							</td>
+						</tr>
 
-				</tbody>
-			</table>
+					</tbody>
+				</table>
+			</div>
 		</div>
 	</div>
 
@@ -247,287 +241,289 @@
 			<h2>Inactive Calls</h2>
 		</header>
 		<div class="hide-body">
-			<table class="table table-bordered table-condensed">
-				<thead>
-					<tr>
-						<th>Name</th>
-						<th>Rank</th>
-						<th>When</th>
-						<th>Abstract Deadline</th>
-						<th>Submission Deadline</th>
-						<th>Notification Due</th>
-						<th>Event starts in</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr class="item" style="background-color:white">
-						<th scope="row">
-							<a href="http://www.esweek.org" target="_blank">CODES&#43;ISSS 2019</a>
-						</th>
-						<td>B</td>
-						<td>Oct 13-18, 2019</td>
-						<td>Apr 5, 2019</td>
-						<td>Apr 12, 2019</td>
-						<td>Jul 10, 2019</td>
-						<td>
-							In Progress
-						</td>
-					</tr>
+			<div class="table-responsive">
+				<table class="table table-bordered table-condensed">
+					<thead>
+						<tr>
+							<th>Name</th>
+							<th>Rank</th>
+							<th>When</th>
+							<th>Abstract Deadline</th>
+							<th>Submission Deadline</th>
+							<th>Notification Due</th>
+							<th>Event starts in</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class="item" style="background-color:white">
+							<th scope="row">
+								<a href="http://www.esweek.org" target="_blank">CODES&#43;ISSS 2019</a>
+							</th>
+							<td>B</td>
+							<td>Oct 13-18, 2019</td>
+							<td>Apr 5, 2019</td>
+							<td>Apr 12, 2019</td>
+							<td>Jul 10, 2019</td>
+							<td>
+								In Progress
+							</td>
+						</tr>
 
-					<tr class="item" style="background-color:white">
-						<th scope="row">
-							<a href="http://www.esweek.org" target="_blank">EMSOFT 2019</a>
-						</th>
-						<td>B</td>
-						<td>Oct 13-18, 2019</td>
-						<td>Apr 5, 2019</td>
-						<td>Apr 12, 2019</td>
-						<td>Jul 10, 2019</td>
-						<td>
-							In Progress
-						</td>
-					</tr>
+						<tr class="item" style="background-color:white">
+							<th scope="row">
+								<a href="http://www.esweek.org" target="_blank">EMSOFT 2019</a>
+							</th>
+							<td>B</td>
+							<td>Oct 13-18, 2019</td>
+							<td>Apr 5, 2019</td>
+							<td>Apr 12, 2019</td>
+							<td>Jul 10, 2019</td>
+							<td>
+								In Progress
+							</td>
+						</tr>
 
-					<tr class="item" style="background-color:white">
-						<th scope="row">
-							<a href="https://2019.splashcon.org/track/splash-2019-oopsla" target="_blank">OOPSLA 2019</a>
-						</th>
-						<td>A</td>
-						<td>Oct 20-25, 2019</td>
-						<td>N/A</td>
-						<td>Apr 5, 2019</td>
-						<td>Jul 1, 2019</td>
-						<td>
-							<div data-countdown="2019-10-20 08:00:00"></div>
-						</td>
-					</tr>
+						<tr class="item" style="background-color:white">
+							<th scope="row">
+								<a href="https://2019.splashcon.org/track/splash-2019-oopsla" target="_blank">OOPSLA 2019</a>
+							</th>
+							<td>A</td>
+							<td>Oct 20-25, 2019</td>
+							<td>N/A</td>
+							<td>Apr 5, 2019</td>
+							<td>Jul 1, 2019</td>
+							<td>
+								<div data-countdown="2019-10-20 08:00:00"></div>
+							</td>
+						</tr>
 
-					<tr class="item" style="background-color:white">
-						<th scope="row">
-							<a href="https://www.sigops.org/sosp/sosp19" target="_blank">SOSP 2019</a>
-						</th>
-						<td>A</td>
-						<td>Oct 27-30, 2019</td>
-						<td>Apr 17, 2019</td>
-						<td>Apr 24, 2019</td>
-						<td>Jul 22, 2019</td>
-						<td>
-							<div data-countdown="2019-10-27 08:00:00"></div>
-						</td>
-					</tr>
+						<tr class="item" style="background-color:white">
+							<th scope="row">
+								<a href="https://www.sigops.org/sosp/sosp19" target="_blank">SOSP 2019</a>
+							</th>
+							<td>A</td>
+							<td>Oct 27-30, 2019</td>
+							<td>Apr 17, 2019</td>
+							<td>Apr 24, 2019</td>
+							<td>Jul 22, 2019</td>
+							<td>
+								<div data-countdown="2019-10-27 08:00:00"></div>
+							</td>
+						</tr>
 
-					<tr class="item" style="background-color:white">
-						<th scope="row">
-							<a href="https://sc19.supercomputing.org" target="_blank">SC 2019</a>
-						</th>
-						<td>A</td>
-						<td>Nov 17-22, 2019</td>
-						<td>Apr 2, 2019</td>
-						<td>Apr 10, 2019</td>
-						<td>Jun 15, 2019</td>
-						<td>
-							<div data-countdown="2019-11-17 08:00:00"></div>
-						</td>
-					</tr>
+						<tr class="item" style="background-color:white">
+							<th scope="row">
+								<a href="https://sc19.supercomputing.org" target="_blank">SC 2019</a>
+							</th>
+							<td>A</td>
+							<td>Nov 17-22, 2019</td>
+							<td>Apr 2, 2019</td>
+							<td>Apr 10, 2019</td>
+							<td>Jun 15, 2019</td>
+							<td>
+								<div data-countdown="2019-11-17 08:00:00"></div>
+							</td>
+						</tr>
 
-					<tr class="item" style="background-color:white">
-						<th scope="row">
-							<a href="http://www.iccd-conf.com" target="_blank">ICCD 2019</a>
-						</th>
-						<td>B</td>
-						<td>Nov 17-20, 2019</td>
-						<td>Jun 28, 2019</td>
-						<td>Jul 7, 2019</td>
-						<td>Sep 9, 2019</td>
-						<td>
-							<div data-countdown="2019-11-17 08:00:00"></div>
-						</td>
-					</tr>
+						<tr class="item" style="background-color:white">
+							<th scope="row">
+								<a href="http://www.iccd-conf.com" target="_blank">ICCD 2019</a>
+							</th>
+							<td>B</td>
+							<td>Nov 17-20, 2019</td>
+							<td>Jun 28, 2019</td>
+							<td>Jul 7, 2019</td>
+							<td>Sep 9, 2019</td>
+							<td>
+								<div data-countdown="2019-11-17 08:00:00"></div>
+							</td>
+						</tr>
 
-					<tr class="item" style="background-color:white">
-						<th scope="row">
-							<a href="http://cidrdb.org/cidr2020/" target="_blank">CIDR 2020</a>
-						</th>
-						<td>A</td>
-						<td>Jan 12-15, 2020</td>
-						<td>N/A</td>
-						<td>Aug 23, 2019</td>
-						<td>Oct 14, 2019</td>
-						<td>
-							<div data-countdown="2020-01-12 08:00:00"></div>
-						</td>
-					</tr>
+						<tr class="item" style="background-color:white">
+							<th scope="row">
+								<a href="http://cidrdb.org/cidr2020/" target="_blank">CIDR 2020</a>
+							</th>
+							<td>A</td>
+							<td>Jan 12-15, 2020</td>
+							<td>N/A</td>
+							<td>Aug 23, 2019</td>
+							<td>Oct 14, 2019</td>
+							<td>
+								<div data-countdown="2020-01-12 08:00:00"></div>
+							</td>
+						</tr>
 
-					<tr class="item" style="background-color:white">
-						<th scope="row">
-							<a href="https://popl20.sigplan.org/" target="_blank">POPL 2020</a>
-						</th>
-						<td>A</td>
-						<td>Jan 19-25, 2020</td>
-						<td>N/A</td>
-						<td>Jul 10, 2019</td>
-						<td>Oct 14, 2019</td>
-						<td>
-							<div data-countdown="2020-01-19 08:00:00"></div>
-						</td>
-					</tr>
+						<tr class="item" style="background-color:white">
+							<th scope="row">
+								<a href="https://popl20.sigplan.org/" target="_blank">POPL 2020</a>
+							</th>
+							<td>A</td>
+							<td>Jan 19-25, 2020</td>
+							<td>N/A</td>
+							<td>Jul 10, 2019</td>
+							<td>Oct 14, 2019</td>
+							<td>
+								<div data-countdown="2020-01-19 08:00:00"></div>
+							</td>
+						</tr>
 
-					<tr class="item" style="background-color:white">
-						<th scope="row">
-							<a href="http://hipeac.net/conference" target="_blank">HiPEAC 2020</a>
-						</th>
-						<td>B</td>
-						<td>Jan 20-22, 2020</td>
-						<td>N/A</td>
-						<td>Jun 1, 2019</td>
-						<td>Nov 15, 2019</td>
-						<td>
-							<div data-countdown="2020-01-20 08:00:00"></div>
-						</td>
-					</tr>
+						<tr class="item" style="background-color:white">
+							<th scope="row">
+								<a href="http://hipeac.net/conference" target="_blank">HiPEAC 2020</a>
+							</th>
+							<td>B</td>
+							<td>Jan 20-22, 2020</td>
+							<td>N/A</td>
+							<td>Jun 1, 2019</td>
+							<td>Nov 15, 2019</td>
+							<td>
+								<div data-countdown="2020-01-20 08:00:00"></div>
+							</td>
+						</tr>
 
-					<tr class="item" style="background-color:white">
-						<th scope="row">
-							<a href="https://ppopp20.sigplan.org" target="_blank">PPoPP 2020</a>
-						</th>
-						<td>A</td>
-						<td>Feb 22-26, 2020</td>
-						<td>Jul 31, 2019</td>
-						<td>Aug 6, 2019</td>
-						<td>Nov 19, 2019</td>
-						<td>
-							<div data-countdown="2020-02-22 08:00:00"></div>
-						</td>
-					</tr>
+						<tr class="item" style="background-color:white">
+							<th scope="row">
+								<a href="https://ppopp20.sigplan.org" target="_blank">PPoPP 2020</a>
+							</th>
+							<td>A</td>
+							<td>Feb 22-26, 2020</td>
+							<td>Jul 31, 2019</td>
+							<td>Aug 6, 2019</td>
+							<td>Nov 19, 2019</td>
+							<td>
+								<div data-countdown="2020-02-22 08:00:00"></div>
+							</td>
+						</tr>
 
-					<tr class="item" style="background-color:white">
-						<th scope="row">
-							<a href="https://www.hpca-conf.org/2020/" target="_blank">HPCA 2020</a>
-						</th>
-						<td>A</td>
-						<td>Feb 22-26, 2020</td>
-						<td>Jul 30, 2019</td>
-						<td>Aug 6, 2019</td>
-						<td>Nov 6, 2019</td>
-						<td>
-							<div data-countdown="2020-02-22 08:00:00"></div>
-						</td>
-					</tr>
+						<tr class="item" style="background-color:white">
+							<th scope="row">
+								<a href="https://www.hpca-conf.org/2020/" target="_blank">HPCA 2020</a>
+							</th>
+							<td>A</td>
+							<td>Feb 22-26, 2020</td>
+							<td>Jul 30, 2019</td>
+							<td>Aug 6, 2019</td>
+							<td>Nov 6, 2019</td>
+							<td>
+								<div data-countdown="2020-02-22 08:00:00"></div>
+							</td>
+						</tr>
 
-					<tr class="item" style="background-color:white">
-						<th scope="row">
-							<a href="https://www.usenix.org/conference/fast20/call-for-papers" target="_blank">FAST 2020</a>
-						</th>
-						<td>A</td>
-						<td>Feb 24-27, 2020</td>
-						<td>N/A</td>
-						<td>Sep 26, 2019</td>
-						<td>Dec 11, 2019</td>
-						<td>
-							<div data-countdown="2020-02-24 08:00:00"></div>
-						</td>
-					</tr>
+						<tr class="item" style="background-color:white">
+							<th scope="row">
+								<a href="https://www.usenix.org/conference/fast20/call-for-papers" target="_blank">FAST 2020</a>
+							</th>
+							<td>A</td>
+							<td>Feb 24-27, 2020</td>
+							<td>N/A</td>
+							<td>Sep 26, 2019</td>
+							<td>Dec 11, 2019</td>
+							<td>
+								<div data-countdown="2020-02-24 08:00:00"></div>
+							</td>
+						</tr>
 
-					<tr class="item" style="background-color:white">
-						<th scope="row">
-							<a href="https://systemsandml.org" target="_blank">SysML 2020</a>
-						</th>
-						<td>-</td>
-						<td>Mar 2-4, 2020</td>
-						<td>N/A</td>
-						<td>Sep 9, 2019</td>
-						<td>Jan 3, 2020</td>
-						<td>
-							<div data-countdown="2020-03-02 08:00:00"></div>
-						</td>
-					</tr>
+						<tr class="item" style="background-color:white">
+							<th scope="row">
+								<a href="https://systemsandml.org" target="_blank">SysML 2020</a>
+							</th>
+							<td>-</td>
+							<td>Mar 2-4, 2020</td>
+							<td>N/A</td>
+							<td>Sep 9, 2019</td>
+							<td>Jan 3, 2020</td>
+							<td>
+								<div data-countdown="2020-03-02 08:00:00"></div>
+							</td>
+						</tr>
 
-					<tr class="item" style="background-color:white">
-						<th scope="row">
-							<a href="https://www.date-conference.com/" target="_blank">DATE 2020</a>
-						</th>
-						<td>B</td>
-						<td>Mar 9-13, 2020</td>
-						<td>N/A</td>
-						<td>Sep 8, 2019</td>
-						<td>Nov 7, 2019</td>
-						<td>
-							<div data-countdown="2020-03-09 08:00:00"></div>
-						</td>
-					</tr>
+						<tr class="item" style="background-color:white">
+							<th scope="row">
+								<a href="https://www.date-conference.com/" target="_blank">DATE 2020</a>
+							</th>
+							<td>B</td>
+							<td>Mar 9-13, 2020</td>
+							<td>N/A</td>
+							<td>Sep 8, 2019</td>
+							<td>Nov 7, 2019</td>
+							<td>
+								<div data-countdown="2020-03-09 08:00:00"></div>
+							</td>
+						</tr>
 
-					<tr class="item" style="background-color:white">
-						<th scope="row">
-							<a href="https://asplos-conference.org/" target="_blank">ASPLOS 2020</a>
-						</th>
-						<td>A</td>
-						<td>Mar 16-20, 2020</td>
-						<td>Aug 9, 2019</td>
-						<td>Aug 16, 2019</td>
-						<td>Nov 20, 2019</td>
-						<td>
-							<div data-countdown="2020-03-16 08:00:00"></div>
-						</td>
-					</tr>
+						<tr class="item" style="background-color:white">
+							<th scope="row">
+								<a href="https://asplos-conference.org/" target="_blank">ASPLOS 2020</a>
+							</th>
+							<td>A</td>
+							<td>Mar 16-20, 2020</td>
+							<td>Aug 9, 2019</td>
+							<td>Aug 16, 2019</td>
+							<td>Nov 20, 2019</td>
+							<td>
+								<div data-countdown="2020-03-16 08:00:00"></div>
+							</td>
+						</tr>
 
-					<tr class="item" style="background-color:white">
-						<th scope="row">
-							<a href="https://www.utdallas.edu/icde/" target="_blank">ICDE-2 2020</a>
-						</th>
-						<td>A</td>
-						<td>Apr 20-24, 2020</td>
-						<td>Oct 8, 2019</td>
-						<td>Oct 15, 2019</td>
-						<td>Dec 14, 2019</td>
-						<td>
-							<div data-countdown="2020-04-20 08:00:00"></div>
-						</td>
-					</tr>
+						<tr class="item" style="background-color:white">
+							<th scope="row">
+								<a href="https://www.utdallas.edu/icde/" target="_blank">ICDE-2 2020</a>
+							</th>
+							<td>A</td>
+							<td>Apr 20-24, 2020</td>
+							<td>Oct 8, 2019</td>
+							<td>Oct 15, 2019</td>
+							<td>Dec 14, 2019</td>
+							<td>
+								<div data-countdown="2020-04-20 08:00:00"></div>
+							</td>
+						</tr>
 
-					<tr class="item" style="background-color:white">
-						<th scope="row">
-							<a href="https://www.utdallas.edu/icde/" target="_blank">ICDE-1 2020</a>
-						</th>
-						<td>A</td>
-						<td>Apr 20-24, 2020</td>
-						<td>Jun 8, 2019</td>
-						<td>Jun 15, 2019</td>
-						<td>Aug 10, 2019</td>
-						<td>
-							<div data-countdown="2020-04-20 08:00:00"></div>
-						</td>
-					</tr>
+						<tr class="item" style="background-color:white">
+							<th scope="row">
+								<a href="https://www.utdallas.edu/icde/" target="_blank">ICDE-1 2020</a>
+							</th>
+							<td>A</td>
+							<td>Apr 20-24, 2020</td>
+							<td>Jun 8, 2019</td>
+							<td>Jun 15, 2019</td>
+							<td>Aug 10, 2019</td>
+							<td>
+								<div data-countdown="2020-04-20 08:00:00"></div>
+							</td>
+						</tr>
 
-					<tr class="item" style="background-color:white">
-						<th scope="row">
-							<a href="http://www.ipdps.org/" target="_blank">IPDPS 2020</a>
-						</th>
-						<td>B</td>
-						<td>May 18-22, 2020</td>
-						<td>Oct 7, 2019</td>
-						<td>Oct 14, 2019</td>
-						<td>Dec 9, 2019</td>
-						<td>
-							<div data-countdown="2020-05-18 08:00:00"></div>
-						</td>
-					</tr>
+						<tr class="item" style="background-color:white">
+							<th scope="row">
+								<a href="http://www.ipdps.org/" target="_blank">IPDPS 2020</a>
+							</th>
+							<td>B</td>
+							<td>May 18-22, 2020</td>
+							<td>Oct 7, 2019</td>
+							<td>Oct 14, 2019</td>
+							<td>Dec 9, 2019</td>
+							<td>
+								<div data-countdown="2020-05-18 08:00:00"></div>
+							</td>
+						</tr>
 
-					<tr class="item" style="background-color:white">
-						<th scope="row">
-							<a href="https://conf.researchr.org/home/icse-2020" target="_blank">ICSE 2020</a>
-						</th>
-						<td>A</td>
-						<td>May 23-29, 2020</td>
-						<td>N/A</td>
-						<td>Aug 23, 2019</td>
-						<td>Dec 9, 2019</td>
-						<td>
-							<div data-countdown="2020-05-23 08:00:00"></div>
-						</td>
-					</tr>
+						<tr class="item" style="background-color:white">
+							<th scope="row">
+								<a href="https://conf.researchr.org/home/icse-2020" target="_blank">ICSE 2020</a>
+							</th>
+							<td>A</td>
+							<td>May 23-29, 2020</td>
+							<td>N/A</td>
+							<td>Aug 23, 2019</td>
+							<td>Dec 9, 2019</td>
+							<td>
+								<div data-countdown="2020-05-23 08:00:00"></div>
+							</td>
+						</tr>
 
-				</tbody>
-			</table>
+					</tbody>
+				</table>
+			</div>
 		</div>
 	</div>
 
@@ -536,231 +532,233 @@
 			<h2>Past Calls</h2>
 		</header>
 		<div class="hide-body">
-			<table class="table table-bordered table-condensed">
-				<thead>
-					<tr>
-						<th>Name</th>
-						<th>Rank</th>
-						<th>When</th>
-						<th>Abstract Deadline</th>
-						<th>Submission Deadline</th>
-						<th>Notification Due</th>
-						<th>Event Status</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr class="item" style="background-color:white">
-						<th scope="row">
-							<a href="https://www.microarch.org/micro52/" target="_blank">MICRO 2019</a>
-						</th>
-						<td>A</td>
-						<td>Oct 12-16, 2019</td>
-						<td>Mar 29, 2019</td>
-						<td>Apr 5, 2019</td>
-						<td>Jul 27, 2019</td>
-						<td>
-							Expired
-						</td>
-					</tr>
+			<div class="table-responsive">
+				<table class="table table-bordered table-condensed">
+					<thead>
+						<tr>
+							<th>Name</th>
+							<th>Rank</th>
+							<th>When</th>
+							<th>Abstract Deadline</th>
+							<th>Submission Deadline</th>
+							<th>Notification Due</th>
+							<th>Event Status</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class="item" style="background-color:white">
+							<th scope="row">
+								<a href="https://www.microarch.org/micro52/" target="_blank">MICRO 2019</a>
+							</th>
+							<td>A</td>
+							<td>Oct 12-16, 2019</td>
+							<td>Mar 29, 2019</td>
+							<td>Apr 5, 2019</td>
+							<td>Jul 27, 2019</td>
+							<td>
+								Expired
+							</td>
+						</tr>
 
-					<tr class="item" style="background-color:white">
-						<th scope="row">
-							<a href="http://hpc.pnl.gov/pact19/" target="_blank">PACT 2019</a>
-						</th>
-						<td>B</td>
-						<td>Sep 23-26, 2019</td>
-						<td>Apr 11, 2019</td>
-						<td>Apr 15, 2019</td>
-						<td>Jun 8, 2019</td>
-						<td>
-							Expired
-						</td>
-					</tr>
+						<tr class="item" style="background-color:white">
+							<th scope="row">
+								<a href="http://hpc.pnl.gov/pact19/" target="_blank">PACT 2019</a>
+							</th>
+							<td>B</td>
+							<td>Sep 23-26, 2019</td>
+							<td>Apr 11, 2019</td>
+							<td>Apr 15, 2019</td>
+							<td>Jun 8, 2019</td>
+							<td>
+								Expired
+							</td>
+						</tr>
 
-					<tr class="item" style="background-color:white">
-						<th scope="row">
-							<a href="http://vldb.org/2019/" target="_blank">VLDB 2019</a>
-						</th>
-						<td>A</td>
-						<td>Aug 26-30, 2019</td>
-						<td>Mar 1, 2019</td>
-						<td>Mar 1, 2019</td>
-						<td>Apr 15, 2019</td>
-						<td>
-							Expired
-						</td>
-					</tr>
+						<tr class="item" style="background-color:white">
+							<th scope="row">
+								<a href="http://vldb.org/2019/" target="_blank">VLDB 2019</a>
+							</th>
+							<td>A</td>
+							<td>Aug 26-30, 2019</td>
+							<td>Mar 1, 2019</td>
+							<td>Mar 1, 2019</td>
+							<td>Apr 15, 2019</td>
+							<td>
+								Expired
+							</td>
+						</tr>
 
-					<tr class="item" style="background-color:white">
-						<th scope="row">
-							<a href="https://esec-fse19.ut.ee/" target="_blank">FSE/ESEC 2019</a>
-						</th>
-						<td>A</td>
-						<td>Aug 26-30, 2019</td>
-						<td>N/A</td>
-						<td>Feb 20, 2019</td>
-						<td>May 27, 2019</td>
-						<td>
-							Expired
-						</td>
-					</tr>
+						<tr class="item" style="background-color:white">
+							<th scope="row">
+								<a href="https://esec-fse19.ut.ee/" target="_blank">FSE/ESEC 2019</a>
+							</th>
+							<td>A</td>
+							<td>Aug 26-30, 2019</td>
+							<td>N/A</td>
+							<td>Feb 20, 2019</td>
+							<td>May 27, 2019</td>
+							<td>
+								Expired
+							</td>
+						</tr>
 
-					<tr class="item" style="background-color:white">
-						<th scope="row">
-							<a href="https://nvmsa2019.github.io/index" target="_blank">NVMSA 2019</a>
-						</th>
-						<td>-</td>
-						<td>Aug 18-21, 2019</td>
-						<td>Apr 12, 2019</td>
-						<td>Apr 19, 2019</td>
-						<td>May 20, 2019</td>
-						<td>
-							Expired
-						</td>
-					</tr>
+						<tr class="item" style="background-color:white">
+							<th scope="row">
+								<a href="https://nvmsa2019.github.io/index" target="_blank">NVMSA 2019</a>
+							</th>
+							<td>-</td>
+							<td>Aug 18-21, 2019</td>
+							<td>Apr 12, 2019</td>
+							<td>Apr 19, 2019</td>
+							<td>May 20, 2019</td>
+							<td>
+								Expired
+							</td>
+						</tr>
 
-					<tr class="item" style="background-color:white">
-						<th scope="row">
-							<a href="http://www.icpp-conf.org" target="_blank">ICPP 2019</a>
-						</th>
-						<td>B</td>
-						<td>Aug 5-8, 2019</td>
-						<td>N/A</td>
-						<td>Apr 15, 2019</td>
-						<td>May 17, 2019</td>
-						<td>
-							Expired
-						</td>
-					</tr>
+						<tr class="item" style="background-color:white">
+							<th scope="row">
+								<a href="http://www.icpp-conf.org" target="_blank">ICPP 2019</a>
+							</th>
+							<td>B</td>
+							<td>Aug 5-8, 2019</td>
+							<td>N/A</td>
+							<td>Apr 15, 2019</td>
+							<td>May 17, 2019</td>
+							<td>
+								Expired
+							</td>
+						</tr>
 
-					<tr class="item" style="background-color:white">
-						<th scope="row">
-							<a href="https://www.podc.org/" target="_blank">PODC 2019</a>
-						</th>
-						<td>B</td>
-						<td>Jul 29-Aug 2, 2019</td>
-						<td>N/A</td>
-						<td>Feb 18, 2019</td>
-						<td>May 5, 2019</td>
-						<td>
-							Expired
-						</td>
-					</tr>
+						<tr class="item" style="background-color:white">
+							<th scope="row">
+								<a href="https://www.podc.org/" target="_blank">PODC 2019</a>
+							</th>
+							<td>B</td>
+							<td>Jul 29-Aug 2, 2019</td>
+							<td>N/A</td>
+							<td>Feb 18, 2019</td>
+							<td>May 5, 2019</td>
+							<td>
+								Expired
+							</td>
+						</tr>
 
-					<tr class="item" style="background-color:white">
-						<th scope="row">
-							<a href="https://www.usenix.org/conference/hotstorage19" target="_blank">HotStorage 2019</a>
-						</th>
-						<td>-</td>
-						<td>Jul 8-9, 2019</td>
-						<td>N/A</td>
-						<td>Mar 3, 2019</td>
-						<td>Apr 17, 2019</td>
-						<td>
-							Expired
-						</td>
-					</tr>
+						<tr class="item" style="background-color:white">
+							<th scope="row">
+								<a href="https://www.usenix.org/conference/hotstorage19" target="_blank">HotStorage 2019</a>
+							</th>
+							<td>-</td>
+							<td>Jul 8-9, 2019</td>
+							<td>N/A</td>
+							<td>Mar 3, 2019</td>
+							<td>Apr 17, 2019</td>
+							<td>
+								Expired
+							</td>
+						</tr>
 
-					<tr class="item" style="background-color:white">
-						<th scope="row">
-							<a href="http://www.iccad-conf.com" target="_blank">ICCAD 2019</a>
-						</th>
-						<td>B</td>
-						<td>Jul 2-4, 2019</td>
-						<td>N/A</td>
-						<td>Jul 2, 2019</td>
-						<td>Jul 2, 2019</td>
-						<td>
-							Expired
-						</td>
-					</tr>
+						<tr class="item" style="background-color:white">
+							<th scope="row">
+								<a href="http://www.iccad-conf.com" target="_blank">ICCAD 2019</a>
+							</th>
+							<td>B</td>
+							<td>Jul 2-4, 2019</td>
+							<td>N/A</td>
+							<td>Jul 2, 2019</td>
+							<td>Jul 2, 2019</td>
+							<td>
+								Expired
+							</td>
+						</tr>
 
-					<tr class="item" style="background-color:white">
-						<th scope="row">
-							<a href="https://www.sigmetrics.org/sigmetrics2019" target="_blank">Performance 2019</a>
-						</th>
-						<td>B</td>
-						<td>Jun 24-28, 2019</td>
-						<td>Oct 22, 2018</td>
-						<td>Oct 29, 2018</td>
-						<td>Dec 17, 2018</td>
-						<td>
-							Expired
-						</td>
-					</tr>
+						<tr class="item" style="background-color:white">
+							<th scope="row">
+								<a href="https://www.sigmetrics.org/sigmetrics2019" target="_blank">Performance 2019</a>
+							</th>
+							<td>B</td>
+							<td>Jun 24-28, 2019</td>
+							<td>Oct 22, 2018</td>
+							<td>Oct 29, 2018</td>
+							<td>Dec 17, 2018</td>
+							<td>
+								Expired
+							</td>
+						</tr>
 
-					<tr class="item" style="background-color:white">
-						<th scope="row">
-							<a href="http://www.hpdc.org/2019/" target="_blank">HPDC 2019</a>
-						</th>
-						<td>B</td>
-						<td>Jun 24-28, 2019</td>
-						<td>Jan 16, 2019</td>
-						<td>Jan 23, 2019</td>
-						<td>Mar 25, 2019</td>
-						<td>
-							Expired
-						</td>
-					</tr>
+						<tr class="item" style="background-color:white">
+							<th scope="row">
+								<a href="http://www.hpdc.org/2019/" target="_blank">HPDC 2019</a>
+							</th>
+							<td>B</td>
+							<td>Jun 24-28, 2019</td>
+							<td>Jan 16, 2019</td>
+							<td>Jan 23, 2019</td>
+							<td>Mar 25, 2019</td>
+							<td>
+								Expired
+							</td>
+						</tr>
 
-					<tr class="item" style="background-color:white">
-						<th scope="row">
-							<a href="https://www.sigmetrics.org/sigmetrics2019" target="_blank">SIGMETRICS 2019</a>
-						</th>
-						<td>B</td>
-						<td>Jun 24-28, 2019</td>
-						<td>Oct 22, 2018</td>
-						<td>Oct 29, 2018</td>
-						<td>Dec 17, 2018</td>
-						<td>
-							Expired
-						</td>
-					</tr>
+						<tr class="item" style="background-color:white">
+							<th scope="row">
+								<a href="https://www.sigmetrics.org/sigmetrics2019" target="_blank">SIGMETRICS 2019</a>
+							</th>
+							<td>B</td>
+							<td>Jun 24-28, 2019</td>
+							<td>Oct 22, 2018</td>
+							<td>Oct 29, 2018</td>
+							<td>Dec 17, 2018</td>
+							<td>
+								Expired
+							</td>
+						</tr>
 
-					<tr class="item" style="background-color:white">
-						<th scope="row">
-							<a href="https://ics19.eecis.udel.edu/" target="_blank">ICS 2019</a>
-						</th>
-						<td>B</td>
-						<td>Jun 26-28, 2019</td>
-						<td>Jan 25, 2019</td>
-						<td>Feb 1, 2019</td>
-						<td>Apr 1, 2019</td>
-						<td>
-							Expired
-						</td>
-					</tr>
+						<tr class="item" style="background-color:white">
+							<th scope="row">
+								<a href="https://ics19.eecis.udel.edu/" target="_blank">ICS 2019</a>
+							</th>
+							<td>B</td>
+							<td>Jun 26-28, 2019</td>
+							<td>Jan 25, 2019</td>
+							<td>Feb 1, 2019</td>
+							<td>Apr 1, 2019</td>
+							<td>
+								Expired
+							</td>
+						</tr>
 
-					<tr class="item" style="background-color:white">
-						<th scope="row">
-							<a href="http://spaa.acm.org/" target="_blank">SPAA 2019</a>
-						</th>
-						<td>B</td>
-						<td>Jun 22-24, 2019</td>
-						<td>Jan 8, 2019</td>
-						<td>Jan 11, 2019</td>
-						<td>Mar 11, 2019</td>
-						<td>
-							Expired
-						</td>
-					</tr>
+						<tr class="item" style="background-color:white">
+							<th scope="row">
+								<a href="http://spaa.acm.org/" target="_blank">SPAA 2019</a>
+							</th>
+							<td>B</td>
+							<td>Jun 22-24, 2019</td>
+							<td>Jan 8, 2019</td>
+							<td>Jan 11, 2019</td>
+							<td>Mar 11, 2019</td>
+							<td>
+								Expired
+							</td>
+						</tr>
 
-					<tr class="item" style="background-color:white">
-						<th scope="row">
-							<a href="https://www.sigops.org/2018/hotos2019/" target="_blank">HotOS 2019</a>
-						</th>
-						<td>B</td>
-						<td>May 12-15, 2019</td>
-						<td>N/A</td>
-						<td>Jan 17, 2019</td>
-						<td>Mar 11, 2019</td>
-						<td>
-							Expired
-						</td>
-					</tr>
+						<tr class="item" style="background-color:white">
+							<th scope="row">
+								<a href="https://www.sigops.org/2018/hotos2019/" target="_blank">HotOS 2019</a>
+							</th>
+							<td>B</td>
+							<td>May 12-15, 2019</td>
+							<td>N/A</td>
+							<td>Jan 17, 2019</td>
+							<td>Mar 11, 2019</td>
+							<td>
+								Expired
+							</td>
+						</tr>
 
-				</tbody>
-			</table>
+					</tbody>
+				</table>
+			</div>
 		</div>
 	</div>
 
