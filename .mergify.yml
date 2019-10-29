@@ -1,0 +1,15 @@
+pull_request_rules:
+- name: automatic merge pull request from atom-im
+  conditions:
+    - author=atom-im
+  actions:
+    merge:
+      strict: smart
+      method: squash
+- name: automatic merge pull request from huwan
+  conditions:
+    - author=huwan
+  actions:
+    merge:
+      strict: smart
+      method: squash
