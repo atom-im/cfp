@@ -118,7 +118,7 @@ submddl = "2019-08-06 17:00:00 -12:00"
 notidue = "2019-11-06"
 
 [[params.cfp.list]]
-enable = 2
+enable = 1
 name = "ISCA"
 rank = "A"
 site = "http://iscaconf.org/isca2020"
@@ -143,12 +143,12 @@ notidue = "2019-07-27"
 enable = 1
 name = "SC"
 rank = "A"
-site = "https://sc19.supercomputing.org"
-open = "2019-11-17"
-close = "2019-11-22 23:59:59"
-absddl = "2019-04-02"
-submddl = "2019-04-10"
-notidue = "2019-06-15"
+site = "https://sc20.supercomputing.org"
+open = "2020-11-15"
+close = "2020-11-20 23:59:59"
+absddl = "2020-03-31"
+submddl = "2020-04-08"
+notidue = "2020-06-15"
 
 [[params.cfp.list]]
 enable = 1
@@ -177,22 +177,22 @@ enable = 1
 name = "SPAA"
 rank = "B"
 site = "http://spaa.acm.org/"
-open = "2019-06-22"
-close = "2019-06-24 23:59:59"
-absddl = "2019-01-08"
-submddl = "2019-01-11"
-notidue = "2019-03-11"
+open = "2020-07-15"
+close = "2020-07-17 23:59:59"
+absddl = "2020-02-08"
+submddl = "2020-02-15"
+notidue = "2020-04-15"
 
 [[params.cfp.list]]
 enable = 1
 name = "PODC"
 rank = "B"
 site = "https://www.podc.org/"
-open = "2019-07-29"
-close = "2019-08-02 23:59:59"
+open = "2020-08-03"
+close = "2020-08-07 23:59:59"
 absddl = "N/A"
-submddl = "2019-02-18"
-notidue = "2019-05-05"
+submddl = "2020-02-17"
+notidue = "2020-05-04"
 
 [[params.cfp.list]]
 enable = 1
@@ -231,20 +231,20 @@ notidue = "2020-02-15"
 enable = 1
 name = "HPDC"
 rank = "B"
-site = "http://www.hpdc.org/2019/"
-open = "2019-06-24"
-close = "2019-06-28 23:59:59"
-absddl = "2019-01-16"
-submddl = "2019-01-23"
-notidue = "2019-03-25"
+site = "http://www.hpdc.org/2020/"
+open = "2020-06-23"
+close = "2020-06-26 23:59:59"
+absddl = "2020-01-16"
+submddl = "2020-01-23"
+notidue = "2020-03-27"
 
 [[params.cfp.list]]
 enable = 1
 name = "ICCD"
 rank = "B"
 site = "http://www.iccd-conf.com"
-open = "2019-11-17"
-close = "2019-11-20 23:59:59"
+open = "2020-07-01"
+close = "2020-07-03 23:59:59"
 absddl = "2019-06-28"
 submddl = "2019-07-07"
 notidue = "2019-09-09"
@@ -255,10 +255,10 @@ name = "ICCAD"
 rank = "B"
 site = "http://www.iccad-conf.com"
 open = "2019-07-02"
-close = "2019-07-04 23:59:59"
+close = "2019-07-03 23:59:59"
 absddl = "N/A"
-submddl = "2019-07-02"
-notidue = "2019-07-02"
+submddl = "2020-01-31"
+notidue = "2020-03-31"
 
 [[params.cfp.list]]
 enable = 1
@@ -275,34 +275,34 @@ notidue = "2019-11-15"
 enable = 1
 name = "SIGMETRICS"
 rank = "B"
-site = "https://www.sigmetrics.org/sigmetrics2019"
-open = "2019-06-24"
-close = "2019-06-28 23:59:59"
-absddl = "2018-10-22"
-submddl = "2018-10-29"
-notidue = "2018-12-17"
+site = "https://www.sigmetrics.org/sigmetrics2020"
+open = "2020-06-08"
+close = "2020-06-12 23:59:59"
+absddl = "2020-01-27"
+submddl = "2020-02-03"
+notidue = "2020-03-31"
 
 [[params.cfp.list]]
 enable = 1
 name = "ICPP"
 rank = "B"
 site = "http://www.icpp-conf.org"
-open = "2019-08-05"
-close = "2019-08-08 23:59:59 +09:00"
-absddl = "N/A"
-submddl = "2019-04-15"
-notidue = "2019-05-17"
+open = "2020-08-17"
+close = "2020-08-20 23:59:59 +09:00"
+absddl = "2020-03-02"
+submddl = "2020-03-09"
+notidue = "2020-05-19"
 
 [[params.cfp.list]]
 enable = 1
 name = "ICS"
 rank = "B"
-site = "https://ics19.eecis.udel.edu/"
-open = "2019-06-26"
-close = "2019-06-28 23:59:59"
-absddl = "2019-01-25"
-submddl = "2019-02-01"
-notidue = "2019-04-01"
+site = "https://ics2020.bsc.es/"
+open = "2020-06-29"
+close = "2020-07-02 23:59:59"
+absddl = "2020-01-24"
+submddl = "2020-01-31"
+notidue = "2020-04-15"
 
 [[params.cfp.list]]
 enable = 1
@@ -314,17 +314,6 @@ close = "2020-05-22 23:59:59"
 absddl = "2019-10-07 23:59:59 -12:00"
 submddl = "2019-10-14 23:59:59 -12:00"
 notidue = "2019-12-09"
-
-[[params.cfp.list]]
-enable = 1
-name = "Performance"
-rank = "B"
-site = "https://www.sigmetrics.org/sigmetrics2019"
-open = "2019-06-24"
-close = "2019-06-28 23:59:59"
-absddl = "2018-10-22"
-submddl = "2018-10-29"
-notidue = "2018-12-17"
 
 [[params.cfp.list]]
 enable = 1
@@ -350,36 +339,14 @@ notidue = "2019-06-08"
 
 [[params.cfp.list]]
 enable = 1
-name = "CODES+ISSS"
-rank = "B"
-site = "http://www.esweek.org"
-open = "2019-10-13"
-close = "2019-10-18 23:59:59"
-absddl = "2019-04-05"
-submddl = "2019-04-12"
-notidue = "2019-07-10"
-
-[[params.cfp.list]]
-enable = 1
-name = "FSE/ESEC"
-rank = "A"
-site = "https://esec-fse19.ut.ee/"
-open = "2019-08-26"
-close = "2019-08-30 23:59:59"
-absddl = "N/A"
-submddl = "2019-02-20"
-notidue = "2019-05-27"
-
-[[params.cfp.list]]
-enable = 1
 name = "OOPSLA"
 rank = "A"
-site = "https://2019.splashcon.org/track/splash-2019-oopsla"
-open = "2019-10-20"
-close = "2019-10-25 23:59:59"
+site = "https://2020.splashcon.org/"
+open = "2020-11-15"
+close = "2020-11-20 23:59:59"
 absddl = "N/A"
-submddl = "2019-04-05"
-notidue = "2019-07-01"
+submddl = "2020-04-15"
+notidue = "2020-07-01"
 
 [[params.cfp.list]]
 enable = 1
@@ -393,15 +360,15 @@ submddl = "2019-08-23 23:59:59 -12:00"
 notidue = "2019-12-09"
 
 [[params.cfp.list]]
-enable = 1
+enable = 2
 name = "OSDI"
 rank = "A"
 site = "https://www.usenix.org/conference/osdi20/"
 open = "2020-11-04"
-close = "2020-11-06 23:59:59"
-absddl = "N/A"
-submddl = "2020-05-01"
-notidue = "2020-05-01"
+close = "2020-11-06 23:59:59 -07:00"
+absddl = "2020-05-05 15:00:00 -07:00"
+submddl = "2020-05-12 15:00:00 -07:00"
+notidue = "2020-08-04"
 
 [[params.cfp.list]]
 enable = 1
@@ -462,12 +429,12 @@ notidue = "2020-01-17"
 enable = 1
 name = "VLDB"
 rank = "A"
-site = "http://vldb.org/2019/"
-open = "2019-08-26"
-close = "2019-08-30 23:59:59"
-absddl = "2019-03-01"
-submddl = "2019-03-01"
-notidue = "2019-04-15"
+site = "https://vldb2020.org/"
+open = "2020-08-31"
+close = "2020-09-04 23:59:59"
+absddl = "2020-02-20"
+submddl = "2020-03-01"
+notidue = "2020-04-15"
 
 [[params.cfp.list]]
 enable = 1
@@ -507,11 +474,22 @@ enable = 1
 name = "EMSOFT"
 rank = "B"
 site = "http://www.esweek.org"
-open = "2019-10-13"
-close = "2019-10-18 23:59:59"
-absddl = "2019-04-05"
-submddl = "2019-04-12"
-notidue = "2019-07-10"
+open = "2020-10-11"
+close = "2020-10-16 23:59:59"
+absddl = "2020-04-03"
+submddl = "2020-04-10"
+notidue = "2020-07-06"
+
+[[params.cfp.list]]
+enable = 1
+name = "CODES+ISSS"
+rank = "B"
+site = "http://www.esweek.org"
+open = "2020-10-11"
+close = "2020-10-16 23:59:59"
+absddl = "2020-04-03"
+submddl = "2020-04-10"
+notidue = "2020-07-06"
 
 [[params.cfp.list]]
 enable = 1
