@@ -122,22 +122,22 @@ enable = 1
 name = "ISCA"
 rank = "A"
 site = "http://iscaconf.org/isca2020"
-open = "2019-05-30"
-close = "2019-06-03 23:59:59"
+open = "2020-05-30"
+close = "2020-06-03 23:59:59"
 absddl = "2019-11-19"
 submddl = "2019-11-26"
-notidue = "2019-03-04"
+notidue = "2020-03-04"
 
 [[params.cfp.list]]
 enable = 1
 name = "MICRO"
 rank = "A"
-site = "https://www.microarch.org/micro52/"
-open = "2019-10-12"
-close = "2019-10-16 23:59:59"
-absddl = "2019-03-29"
-submddl = "2019-04-05"
-notidue = "2019-07-27"
+site = "https://www.microarch.org/micro53"
+open = "2020-10-17"
+close = "2020-10-21 23:59:59"
+absddl = "2020-04-10 23:59:59 -07:00"
+submddl = "2020-04-17 23:59:59 -07:00"
+notidue = "2020-07-07"
 
 [[params.cfp.list]]
 enable = 1
@@ -250,7 +250,7 @@ submddl = "2019-07-07"
 notidue = "2019-09-09"
 
 [[params.cfp.list]]
-enable = 1
+enable = 0
 name = "ICCAD"
 rank = "B"
 site = "http://www.iccad-conf.com"
@@ -265,11 +265,11 @@ enable = 1
 name = "HiPEAC"
 rank = "B"
 site = "http://hipeac.net/conference"
-open = "2020-01-20"
-close = "2020-01-22 23:59:59"
+open = "2021-01-18"
+close = "2021-01-20 23:59:59"
 absddl = "N/A"
-submddl = "2019-06-01"
-notidue = "2019-11-15"
+submddl = "2020-11-15"
+notidue = "2020-11-15"
 
 [[params.cfp.list]]
 enable = 1
@@ -330,12 +330,12 @@ notidue = "2020-02-15"
 enable = 1
 name = "PACT"
 rank = "B"
-site = "http://hpc.pnl.gov/pact19/"
-open = "2019-09-23"
-close = "2019-09-26 23:59:59"
-absddl = "2019-04-11"
-submddl = "2019-04-15"
-notidue = "2019-06-08"
+site = "https://pact20.cc.gatech.edu/"
+open = "2020-10-03"
+close = "2020-10-07 23:59:59"
+absddl = "2020-04-24"
+submddl = "2020-04-24"
+notidue = "2020-07-15"
 
 [[params.cfp.list]]
 enable = 1
@@ -385,12 +385,12 @@ notidue = "2020-02-21"
 enable = 1
 name = "POPL"
 rank = "A"
-site = "https://popl20.sigplan.org/"
-open = "2020-01-19"
-close = "2020-01-25 23:59:59"
+site = "https://popl21.sigplan.org/"
+open = "2021-01-17"
+close = "2021-01-22 23:59:59"
 absddl = "N/A"
-submddl = "2019-07-10"
-notidue = "2019-10-14"
+submddl = "2020-07-09 23:59:59 -12:00"
+notidue = "2021-01-17"
 
 [[params.cfp.list]]
 enable = 1
@@ -459,7 +459,7 @@ submddl = "2019-10-15 23:59:59 -07:00"
 notidue = "2019-12-14"
 
 [[params.cfp.list]]
-enable = 1
+enable = 0
 name = "CIDR"
 rank = "A"
 site = "http://cidrdb.org/cidr2020/"
@@ -495,12 +495,12 @@ notidue = "2020-07-06"
 enable = 1
 name = "NVMSA"
 rank = "-"
-site = "https://nvmsa2019.github.io/index"
-open = "2019-08-18"
-close = "2019-08-21 23:59:59"
-absddl = "2019-04-12"
-submddl = "2019-04-19"
-notidue = "2019-05-20"
+site = "https://nvmsa2020.github.io/index"
+open = "2020-08-19"
+close = "2020-08-21 23:59:59"
+absddl = "2020-05-01 23:59:59 +09:00"
+submddl = "2020-05-08 23:59:59 +09:00"
+notidue = "2020-05-29"
 
 [[params.cfp.list]]
 enable = 1
