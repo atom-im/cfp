@@ -107,15 +107,15 @@ submddl = "2019-09-26 23:59:59 -12:00"
 notidue = "2019-12-11"
 
 [[params.cfp.list]]
-enable = 1
+enable = 2
 name = "HPCA"
 rank = "A"
-site = "https://www.hpca-conf.org/2020/"
-open = "2020-02-22"
-close = "2020-02-26 23:59:59"
-absddl = "2019-07-30 17:00:00 -12:00"
-submddl = "2019-08-06 17:00:00 -12:00"
-notidue = "2019-11-06"
+site = "https://www.hpca-conf.org/2021/"
+open = "2021-02-27"
+close = "2021-03-03 23:59:59"
+absddl = "2020-07-24 23:59:59 +09:00"
+submddl = "2020-07-31 23:59:59 +09:00"
+notidue = "2020-10-30"
 
 [[params.cfp.list]]
 enable = 1
@@ -360,7 +360,7 @@ submddl = "2019-08-23 23:59:59 -12:00"
 notidue = "2019-12-09"
 
 [[params.cfp.list]]
-enable = 2
+enable = 1
 name = "OSDI"
 rank = "A"
 site = "https://www.usenix.org/conference/osdi20/"
