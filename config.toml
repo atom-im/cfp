@@ -99,12 +99,12 @@ notidue = "2019-11-20"
 enable = 1
 name = "FAST"
 rank = "A"
-site = "https://www.usenix.org/conference/fast20/call-for-papers"
-open = "2020-02-24"
-close = "2020-02-27 23:59:59"
+site = "https://www.usenix.org/conference/fast21/call-for-papers"
+open = "2021-02-22"
+close = "2021-02-25 23:59:59"
 absddl = "N/A"
-submddl = "2019-09-26 23:59:59 -12:00"
-notidue = "2019-12-11"
+submddl = "2020-09-24 23:59:59 -07:00"
+notidue = "2020-11-11"
 
 [[params.cfp.list]]
 enable = 2
@@ -210,22 +210,23 @@ enable = 1
 name = "DATE"
 rank = "B"
 site = "https://www.date-conference.com/"
-open = "2020-03-09"
-close = "2020-03-13 23:59:59"
-absddl = "N/A"
-submddl = "2019-09-08 23:59:59 +02:00"
-notidue = "2019-11-07"
+open = "2021-02-01"
+close = "2020-02-05 23:59:59"
+= "N/A"
+absddl = "2020-09-14 23:59:59 +02:00"
+submddl = "2020-09-21 23:59:59 +02:00"
+notidue = "2020-11-07"
 
 [[params.cfp.list]]
 enable = 1
 name = "EuroSys"
 rank = "B"
-site = "https://www.eurosys2020.org"
-open = "2020-04-27"
-close = "2020-04-30 23:59:59"
+site = "https://2021.eurosys.org/"
+open = "2020-04-26"
+close = "2020-04-29 23:59:59"
 absddl = "N/A"
-submddl = "2019-11-04 23:59:59"
-notidue = "2020-02-15"
+submddl = "2020-11-04 23:59:59"
+notidue = "2021-02-15"
 
 [[params.cfp.list]]
 enable = 1
@@ -320,8 +321,8 @@ enable = 1
 name = "MSST"
 rank = "B"
 site = "http://storageconference.us/"
-open = "2020-05-04"
-close = "2020-05-08 23:59:59"
+open = "2020-10-26"
+close = "2020-10-30 23:59:59"
 absddl = "N/A"
 submddl = "2020-01-07"
 notidue = "2020-02-15"
@@ -352,12 +353,12 @@ notidue = "2020-07-01"
 enable = 1
 name = "ICSE"
 rank = "A"
-site = "https://conf.researchr.org/home/icse-2020"
-open = "2020-05-23"
-close = "2020-05-29 23:59:59"
+site = "https://conf.researchr.org/home/icse-2021"
+open = "2021-05-23"
+close = "2021-05-29 23:59:59"
 absddl = "N/A"
-submddl = "2019-08-23 23:59:59 -12:00"
-notidue = "2019-12-09"
+submddl = "2019-08-28 23:59:59 -12:00"
+notidue = "2019-12-17"
 
 [[params.cfp.list]]
 enable = 1
@@ -506,12 +507,12 @@ notidue = "2020-05-29"
 enable = 1
 name = "HotStorage"
 rank = "-"
-site = "https://www.usenix.org/conference/hotstorage19"
-open = "2019-07-08"
-close = "2019-07-09 23:59:59"
+site = "https://www.usenix.org/conference/hotstorage20"
+open = "2020-07-13"
+close = "2020-07-14 23:59:59"
 absddl = "N/A"
-submddl = "2019-03-03"
-notidue = "2019-04-17"
+submddl = "2020-03-26"
+notidue = "2020-04-30"
 
 [[params.cfp.list]]
 enable = 1
