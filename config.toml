@@ -26,7 +26,7 @@ notes = "**Note**: Deadlines are shown in timezone from conference website. Time
 # Links
 [params.info]
 enable = true
-info = "**Link**: [Chinese Computing Federation (CCF) Ranking List](https://ccf.atom.im)"
+info = "**Link**: [Chinese Computing Federation (CCF) Ranking List](https://ccf.atom.im). Report bug at [here](https://github.com/atom-im/cfp/issues)."
 
 # Footer section
 [params.footer]
