@@ -243,11 +243,11 @@ enable = 1
 name = "ICCD"
 rank = "B"
 site = "http://www.iccd-conf.com"
-open = "2020-07-01"
-close = "2020-07-03 23:59:59"
-absddl = "2019-06-28"
-submddl = "2019-07-07"
-notidue = "2019-09-09"
+open = "2020-10-18"
+close = "2020-10-21 23:59:59"
+absddl = "2020-06-12 23:59:59 -12:00"
+submddl = "2020-06-12 23:59:59 -12:00"
+notidue = "2020-08-17"
 
 [[params.cfp.list]]
 enable = 0
