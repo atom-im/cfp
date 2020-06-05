@@ -221,11 +221,11 @@ enable = 1
 name = "EuroSys"
 rank = "B"
 site = "https://2021.eurosys.org/"
-open = "2020-04-26"
-close = "2020-04-29 23:59:59"
+open = "2021-04-26"
+close = "2021-04-29 23:59:59"
 absddl = "N/A"
-submddl = "2020-11-04 23:59:59"
-notidue = "2021-02-15"
+submddl = "TBA"
+notidue = "TBA"
 
 [[params.cfp.list]]
 enable = 1
