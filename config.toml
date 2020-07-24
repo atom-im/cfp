@@ -85,15 +85,15 @@ notidue = "Notification Due"
 countdown = "Event Status"
 
 [[params.cfp.list]]
-enable = 1
+enable = 2
 name = "ASPLOS"
 rank = "A"
 site = "https://asplos-conference.org/"
-open = "2020-03-16"
-close = "2020-03-20 23:59:59 -07:00"
-absddl = "2019-08-09 16:59:59 -07:00"
-submddl = "2019-08-16 16:59:59 -07:00"
-notidue = "2019-11-20"
+open = "2021-04-16"
+close = "2021-04-20 23:59:59 -07:00"
+absddl = "2020-08-14 16:59:59 -07:00"
+submddl = "2020-08-21 16:59:59 -07:00"
+notidue = "2020-11-19"
 
 [[params.cfp.list]]
 enable = 1
@@ -107,7 +107,7 @@ submddl = "2020-09-24 23:59:59 -07:00"
 notidue = "2020-11-11"
 
 [[params.cfp.list]]
-enable = 2
+enable = 1
 name = "HPCA"
 rank = "A"
 site = "https://www.hpca-conf.org/2021/"
@@ -165,12 +165,12 @@ notidue = "2020-04-24"
 enable = 1
 name = "PPoPP"
 rank = "A"
-site = "https://ppopp20.sigplan.org"
-open = "2020-02-22"
-close = "2020-02-26 23:59:59"
-absddl = "2019-07-31"
-submddl = "2019-08-06"
-notidue = "2019-11-19"
+site = "https://ppopp21.sigplan.org"
+open = "2021-02-27"
+close = "2021-03-03 23:59:59"
+absddl = "2020-08-06"
+submddl = "2020-08-13"
+notidue = "2020-11-16"
 
 [[params.cfp.list]]
 enable = 1
@@ -275,12 +275,12 @@ notidue = "2020-11-15"
 enable = 1
 name = "SIGMETRICS"
 rank = "B"
-site = "https://www.sigmetrics.org/sigmetrics2020"
-open = "2020-06-08"
-close = "2020-06-12 23:59:59"
-absddl = "2020-01-27"
-submddl = "2020-02-03"
-notidue = "2020-03-31"
+site = "https://www.sigmetrics.org/sigmetrics2021"
+open = "2021-06-14"
+close = "2021-06-18 23:59:59"
+absddl = "2020-10-16"
+submddl = "2020-10-23"
+notidue = "2020-12-15"
 
 [[params.cfp.list]]
 enable = 1
@@ -306,14 +306,14 @@ notidue = "2020-04-15"
 
 [[params.cfp.list]]
 enable = 1
-name = "IPDPS"
+name = "IPDPS *"
 rank = "B"
 site = "http://www.ipdps.org/"
-open = "2020-05-18"
-close = "2020-05-22 23:59:59"
-absddl = "2019-10-07 23:59:59 -12:00"
-submddl = "2019-10-14 23:59:59 -12:00"
-notidue = "2019-12-09"
+open = "2021-05-17"
+close = "2021-05-21 23:59:59"
+absddl = "2020-10-07 23:59:59 -12:00"
+submddl = "2020-10-14 23:59:59 -12:00"
+notidue = "2020-12-09"
 
 [[params.cfp.list]]
 enable = 1
@@ -372,14 +372,14 @@ notidue = "2020-08-04"
 
 [[params.cfp.list]]
 enable = 1
-name = "PLDI"
+name = "PLDI *"
 rank = "A"
-site = "http://pldi20.sigplan.org"
-open = "2020-06-15"
-close = "2020-06-20 23:59:59"
+site = "http://pldi21.sigplan.org"
+open = "2021-06-20"
+close = "2021-06-25 23:59:59"
 absddl = "N/A"
-submddl = "2019-11-22"
-notidue = "2020-02-21"
+submddl = "2020-11-22"
+notidue = "2021-02-21"
 
 [[params.cfp.list]]
 enable = 1
@@ -404,7 +404,7 @@ submddl = "2019-04-24"
 notidue = "2019-07-22"
 
 [[params.cfp.list]]
-enable = 1
+enable = 0
 name = "HotOS"
 rank = "B"
 site = "https://www.sigops.org/2018/hotos2019/"
@@ -416,14 +416,14 @@ notidue = "2019-03-11"
 
 [[params.cfp.list]]
 enable = 1
-name = "SIGMOD-2"
+name = "SIGMOD"
 rank = "A"
-site = "https://sigmod2020.org/"
-open = "2020-06-14"
-close = "2020-06-20 23:59:59"
-absddl = "2019-10-15"
-submddl = "2019-10-22"
-notidue = "2020-01-17"
+site = "https://2021.sigmod.org/"
+open = "2021-06-20"
+close = "2021-06-25 23:59:59"
+absddl = "N/A"
+submddl = "2020-09-22"
+notidue = "2020-11-30"
 
 [[params.cfp.list]]
 enable = 1
@@ -437,26 +437,26 @@ submddl = "2020-03-01"
 notidue = "2020-04-15"
 
 [[params.cfp.list]]
-enable = 1
+enable = 0
 name = "ICDE-1"
 rank = "A"
-site = "https://www.utdallas.edu/icde/"
-open = "2020-04-20"
-close = "2020-04-24 23:59:59"
-absddl = "2019-06-08"
-submddl = "2019-06-15"
-notidue = "2019-08-10"
+site = "https://icde2021.gr/"
+open = "2021-04-19"
+close = "2021-04-23 23:59:59"
+absddl = "2020-06-10"
+submddl = "2020-06-17"
+notidue = "2020-10-02"
 
 [[params.cfp.list]]
 enable = 1
-name = "ICDE-2"
+name = "ICDE"
 rank = "A"
-site = "https://www.utdallas.edu/icde/"
-open = "2020-04-20"
-close = "2020-04-24 23:59:59"
-absddl = "2019-10-08 23:59:59 -07:00"
-submddl = "2019-10-15 23:59:59 -07:00"
-notidue = "2019-12-14"
+site = "https://icde2021.gr/"
+open = "2021-04-19"
+close = "2021-04-23 23:59:59"
+absddl = "2020-10-07 23:59:59 -12:00"
+submddl = "2020-10-14 23:59:59 -12:00"
+notidue = "2021-02-09"
 
 [[params.cfp.list]]
 enable = 0
@@ -518,8 +518,8 @@ enable = 1
 name = "SysML"
 rank = "-"
 site = "https://systemsandml.org"
-open = "2020-03-02"
-close = "2020-03-04 23:59:59"
+open = "2021-04-04"
+close = "2021-04-07 23:59:59"
 absddl = "N/A"
-submddl = "2019-09-09 16:59:59 -12:00"
-notidue = "2020-01-03"
+submddl = "2020-09-22 16:59:59 -07:00"
+notidue = "2021-01-18"
