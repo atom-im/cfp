@@ -372,6 +372,17 @@ notidue = "2020-08-04"
 
 [[params.cfp.list]]
 enable = 1
+name = "OSDI"
+rank = "A"
+site = "https://www.usenix.org/conference/osdi21/"
+open = "2021-07-14"
+close = "2021-07-16 23:59:59 -07:00"
+absddl = "2020-12-03 15:00:00 -07:00"
+submddl = "2020-12-10 15:00:00 -07:00"
+notidue = "2021-03-16"
+
+[[params.cfp.list]]
+enable = 1
 name = "PLDI *"
 rank = "A"
 site = "http://pldi21.sigplan.org"
