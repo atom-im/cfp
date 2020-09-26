@@ -21,7 +21,7 @@ author = "Hu Wan"
 enable = true
 title = "Call for Papers!"
 intro = "Important dates of selected conferences in computer architecture & system fields."
-notes = "**Note**: Deadlines are shown in timezone from conference website. Timelines and countdowns are shown in Asia/Hong_Kong time. Date & time for conferences with * is set according to previous conferences."
+notes = "**Note**: Deadlines are shown in timezone from conference website. Timelines and countdowns are shown in Asia/Hong_Kong time. Deadlines for conferences with * are set according to previous conferences."
 
 # Links
 [params.info]
