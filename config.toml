@@ -124,8 +124,8 @@ rank = "A"
 site = "http://iscaconf.org/isca2021"
 open = "2021-05-22"
 close = "2021-05-26 23:59:59"
-absddl = "2020-11-19"
-submddl = "2020-11-24"
+absddl = "2020-11-19 23:59:00 -12:00"
+submddl = "2020-11-24 23:59:00 -12:00"
 notidue = "2021-03-04"
 
 [[params.cfp.list]]
