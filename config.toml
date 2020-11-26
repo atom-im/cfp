@@ -118,7 +118,7 @@ submddl = "2020-07-31 23:59:59 +09:00"
 notidue = "2020-10-30"
 
 [[params.cfp.list]]
-enable = 2
+enable = 1
 name = "ISCA"
 rank = "A"
 site = "https://iscaconf.org/isca2021"
@@ -360,18 +360,7 @@ submddl = "2020-08-28 23:59:59 -12:00"
 notidue = "2020-12-17"
 
 [[params.cfp.list]]
-enable = 1
-name = "OSDI"
-rank = "A"
-site = "https://www.usenix.org/conference/osdi20/"
-open = "2020-11-04"
-close = "2020-11-06 23:59:59 -07:00"
-absddl = "2020-05-05 15:00:00 -07:00"
-submddl = "2020-05-12 15:00:00 -07:00"
-notidue = "2020-08-04"
-
-[[params.cfp.list]]
-enable = 1
+enable = 2
 name = "OSDI"
 rank = "A"
 site = "https://www.usenix.org/conference/osdi21/"
