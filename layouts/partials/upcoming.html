@@ -9,10 +9,10 @@
 						<tr>
 							<th>{{ .Site.Params.upcoming.name }}</th>
 							<th>{{ .Site.Params.upcoming.rank }}</th>
-							<th>{{ .Site.Params.upcoming.when }}</th>
 							<th>{{ .Site.Params.upcoming.absddl }}</th>
 							<th>{{ .Site.Params.upcoming.submddl }}</th>
 							<th>{{ .Site.Params.upcoming.notidue }}</th>
+							<th>{{ .Site.Params.upcoming.when }}</th>
 							<th>{{ .Site.Params.upcoming.countdown }}</th>
 						</tr>
 					</thead>
@@ -24,10 +24,10 @@
 								<a href="{{ $p.site }}" target="_blank">{{ $p.name }} {{ (time $p.open).Year }}</a>
 							</th>
 							<td>{{ $p.rank | markdownify }}</td>
-							<td>{{ dateFormat "Jan 2" $p.open}}-{{ if ne (time $p.open).Month (time $p.close).Month }}{{ dateFormat "Jan" $p.close }} {{ end }}{{ dateFormat "2, 2006" $p.close }}</td>
 							<td>{{ if ne $p.absddl "N/A" }}{{ dateFormat "Jan 2, 2006" $p.absddl}}{{ else }}{{ $p.absddl }}{{ end }}</td>
 							<td>{{ if ne $p.submddl "TBA" }}{{ dateFormat "Jan 2, 2006" $p.submddl}}{{ else }}{{ $p.submddl }}{{ end }}</td>
 							<td>{{ if ne $p.notidue "TBA" }}{{ dateFormat "Jan 2, 2006" $p.notidue}}{{ else }}{{ $p.notidue }}{{ end }}</td>
+							<td>{{ dateFormat "Jan 2" $p.open}}-{{ if ne (time $p.open).Month (time $p.close).Month }}{{ dateFormat "Jan" $p.close }} {{ end }}{{ dateFormat "2, 2006" $p.close }}</td>
 							<td>
 								N/A
 							</td>
@@ -38,10 +38,10 @@
 								<a href="{{ $p.site }}" target="_blank">{{ $p.name }} {{ (time $p.open).Year }}</a>
 							</th>
 							<td>{{ $p.rank | markdownify }}</td>
-							<td>{{ dateFormat "Jan 2" $p.open}}-{{ if ne (time $p.open).Month (time $p.close).Month }}{{ dateFormat "Jan" $p.close }} {{ end }}{{ dateFormat "2, 2006" $p.close }}</td>
 							<td>{{ if ne $p.absddl "N/A" }}{{ dateFormat "Jan 2, 2006" $p.absddl}}{{ else }}{{ $p.absddl }}{{ end }}</td>
 							<td>{{ if ne $p.submddl "TBA" }}{{ dateFormat "Jan 2, 2006" $p.submddl}}{{ else }}{{ $p.submddl }}{{ end }}</td>
 							<td>{{ if ne $p.notidue "TBA" }}{{ dateFormat "Jan 2, 2006" $p.notidue}}{{ else }}{{ $p.notidue }}{{ end }}</td>
+							<td>{{ dateFormat "Jan 2" $p.open}}-{{ if ne (time $p.open).Month (time $p.close).Month }}{{ dateFormat "Jan" $p.close }} {{ end }}{{ dateFormat "2, 2006" $p.close }}</td>
 							<td>
 								<div data-countdown="{{ dateFormat `2006-01-02 15:04:05` (time $p.submddl).Local }}"></div>
 							</td>
