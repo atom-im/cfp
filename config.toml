@@ -151,15 +151,15 @@ submddl = "2020-04-08"
 notidue = "2020-06-15"
 
 [[params.cfp.list]]
-enable = 1
-name = "ATC*"
+enable = 2
+name = "ATC"
 rank = "A"
 site = "https://www.usenix.org/conference/atc21/call-for-papers"
 open = "2021-07-14"
 close = "2021-07-16 23:59:59"
 absddl = "N/A"
-submddl = "2021-01-15 23:59:59 -05:00"
-notidue = "2021-04-24"
+submddl = "2021-01-12 23:59:59 +00:00"
+notidue = "2021-04-26"
 
 [[params.cfp.list]]
 enable = 1
@@ -231,12 +231,12 @@ notidue = "2021-01-20"
 enable = 1
 name = "HPDC"
 rank = "B"
-site = "http://www.hpdc.org/2020/"
-open = "2020-06-23"
-close = "2020-06-26 23:59:59"
-absddl = "2020-01-16"
-submddl = "2020-01-23"
-notidue = "2020-03-27"
+site = "http://www.hpdc.org/2021/"
+open = "2021-06-21"
+close = "2021-06-25 23:59:59"
+absddl = "2021-01-17"
+submddl = "2021-01-24"
+notidue = "2021-03-28"
 
 [[params.cfp.list]]
 enable = 1
@@ -306,13 +306,13 @@ notidue = "2020-04-15"
 
 [[params.cfp.list]]
 enable = 1
-name = "IPDPS*"
+name = "IPDPS"
 rank = "B"
 site = "http://www.ipdps.org/"
 open = "2021-05-17"
 close = "2021-05-21 23:59:59"
-absddl = "2020-10-05 23:59:59 -12:00"
-submddl = "2020-10-12 23:59:59 -12:00"
+absddl = "2020-10-12 23:59:59 -12:00"
+submddl = "2020-10-19 23:59:59 -12:00"
 notidue = "2020-12-09"
 
 [[params.cfp.list]]
@@ -360,7 +360,7 @@ submddl = "2020-08-28 23:59:59 -12:00"
 notidue = "2020-12-17"
 
 [[params.cfp.list]]
-enable = 2
+enable = 1
 name = "OSDI"
 rank = "A"
 site = "https://www.usenix.org/conference/osdi21/"
@@ -396,12 +396,12 @@ notidue = "2021-01-17"
 enable = 1
 name = "SOSP"
 rank = "A"
-site = "https://www.sigops.org/sosp/sosp19"
-open = "2019-10-27"
-close = "2019-10-30 23:59:59"
-absddl = "2019-04-17"
-submddl = "2019-04-24"
-notidue = "2019-07-22"
+site = "https://sosp2021.mpi-sws.org/cfs.html"
+open = "2021-10-25"
+close = "2021-10-28 23:59:59"
+absddl = "N/A"
+submddl = "TBA"
+notidue = "TBA"
 
 [[params.cfp.list]]
 enable = 0
