@@ -552,7 +552,7 @@ notidue = "2021-05-14"
 
 [[params.cfp.list]]
 enable = 1
-name = "FPL"
+name = "FPT"
 rank = "C"
 site = "http://www.icfpt.org/"
 open = "2021-12-06"
@@ -563,7 +563,7 @@ notidue = "2021-09-10"
 
 [[params.cfp.list]]
 enable = 1
-name = "FPL"
+name = "FCCM"
 rank = "C"
 site = "https://www.fccm.org/"
 open = "2021-05-09"
