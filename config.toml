@@ -84,6 +84,10 @@ submddl = "Submission Deadline"
 notidue = "Notification Due"
 countdown = "Event Status"
 
+# Important dates of conferences
+# NOTE 1: enable (0: hide, 1: show, 2: highlight)
+# NOTE 2: date format: 2006-01-02 15:04:05 -07:00
+#         must two digits for each field
 [[params.cfp.list]]
 enable = 1
 name = "ASPLOS"
@@ -99,12 +103,12 @@ notidue = "2020-11-19"
 enable = 1
 name = "FAST"
 rank = "A"
-site = "https://www.usenix.org/conference/fast21/call-for-papers"
-open = "2021-02-22"
-close = "2021-02-25 23:59:59"
+site = "https://www.usenix.org/conference/fast22/call-for-papers"
+open = "2022-02-21"
+close = "2022-02-24 23:59:59"
 absddl = "N/A"
-submddl = "2020-09-24 23:59:59 -07:00"
-notidue = "2020-11-11"
+submddl = "2021-09-23 23:59:59 -07:00"
+notidue = "2021-12-10"
 
 [[params.cfp.list]]
 enable = 1
@@ -243,11 +247,11 @@ enable = 1
 name = "ICCD"
 rank = "B"
 site = "http://www.iccd-conf.com"
-open = "2020-10-18"
-close = "2020-10-21 23:59:59"
-absddl = "2020-06-12 23:59:59 -12:00"
-submddl = "2020-06-12 23:59:59 -12:00"
-notidue = "2020-08-17"
+open = "2021-10-24"
+close = "2021-10-27 23:59:59"
+absddl = "2021-05-28 23:59:59 -12:00"
+submddl = "2021-06-04 23:59:59 -12:00"
+notidue = "2021-08-20"
 
 [[params.cfp.list]]
 enable = 0
@@ -287,22 +291,22 @@ enable = 1
 name = "ICPP"
 rank = "B"
 site = "http://www.icpp-conf.org"
-open = "2020-08-17"
-close = "2020-08-20 23:59:59 +09:00"
-absddl = "2020-03-02"
-submddl = "2020-03-09"
-notidue = "2020-05-19"
+open = "2021-08-09"
+close = "2021-08-12 23:59:59 +09:00"
+absddl = "2021-04-10"
+submddl = "2021-04-16"
+notidue = "2021-06-11"
 
 [[params.cfp.list]]
 enable = 1
 name = "ICS"
 rank = "B"
-site = "https://ics2020.bsc.es/"
-open = "2020-06-29"
-close = "2020-07-02 23:59:59"
-absddl = "2020-01-24"
-submddl = "2020-01-31"
-notidue = "2020-04-15"
+site = "https://ics21.github.io/"
+open = "2021-06-14"
+close = "2021-06-17 23:59:59"
+absddl = "2021-01-28"
+submddl = "2021-02-04"
+notidue = "2021-03-31"
 
 [[params.cfp.list]]
 enable = 1
@@ -385,12 +389,12 @@ notidue = "2021-02-25"
 enable = 1
 name = "POPL"
 rank = "A"
-site = "https://popl21.sigplan.org/"
-open = "2021-01-17"
-close = "2021-01-22 23:59:59"
+site = "https://popl22.sigplan.org/"
+open = "2022-01-16"
+close = "2022-01-21 23:59:59"
 absddl = "N/A"
-submddl = "2020-07-09 23:59:59 -12:00"
-notidue = "2021-01-17"
+submddl = "2021-07-08 23:59:59 -12:00"
+notidue = "2021-10-01"
 
 [[params.cfp.list]]
 enable = 1
@@ -399,9 +403,9 @@ rank = "A"
 site = "https://sosp2021.mpi-sws.org/cfs.html"
 open = "2021-10-25"
 close = "2021-10-28 23:59:59"
-absddl = "N/A"
-submddl = "TBA"
-notidue = "TBA"
+absddl = "2021-04-30 02:59:59 -07:00"
+submddl = "2021-05-07 02:59:59 -07:00"
+notidue = "2021-08-09"
 
 [[params.cfp.list]]
 enable = 0
@@ -429,12 +433,12 @@ notidue = "2020-11-30"
 enable = 1
 name = "VLDB"
 rank = "A"
-site = "https://vldb2020.org/"
-open = "2020-08-31"
-close = "2020-09-04 23:59:59"
-absddl = "2020-02-20"
-submddl = "2020-03-01"
-notidue = "2020-04-15"
+site = "http://vldb.org/2021/"
+open = "2021-08-16"
+close = "2021-08-20 23:59:59"
+absddl = "2021-02-20"
+submddl = "2021-03-01"
+notidue = "2021-04-15"
 
 [[params.cfp.list]]
 enable = 0
@@ -506,12 +510,12 @@ notidue = "2020-05-29"
 enable = 1
 name = "HotStorage"
 rank = ""
-site = "https://www.usenix.org/conference/hotstorage20"
-open = "2020-07-13"
-close = "2020-07-14 23:59:59"
+site = "https://www.hotstorage.org/2021/"
+open = "2021-07-27"
+close = "2021-07-28 23:59:59"
 absddl = "N/A"
-submddl = "2020-03-26"
-notidue = "2020-04-30"
+submddl = "2021-04-30"
+notidue = "2021-06-08"
 
 [[params.cfp.list]]
 enable = 1
@@ -523,3 +527,47 @@ close = "2021-04-07 23:59:59"
 absddl = "N/A"
 submddl = "2020-09-22 16:59:59 -07:00"
 notidue = "2021-01-18"
+
+[[params.cfp.list]]
+enable = 1
+name = "FPGA"
+rank = "B"
+site = "https://isfpga.org/"
+open = "2021-02-28"
+close = "2021-03-02 23:59:59"
+absddl = "2020-09-07"
+submddl = "2020-09-14"
+notidue = "2020-10-24"
+
+[[params.cfp.list]]
+enable = 1
+name = "FPL"
+rank = "C"
+site = "https://www.fpl2021.org/"
+open = "2021-08-30"
+close = "2021-09-03 23:59:59"
+absddl = "2021-03-15"
+submddl = "2021-03-22"
+notidue = "2021-05-14"
+
+[[params.cfp.list]]
+enable = 1
+name = "FPL"
+rank = "C"
+site = "http://www.icfpt.org/"
+open = "2021-12-06"
+close = "2021-12-10 23:59:59"
+absddl = "2021-07-12"
+submddl = "2021-07-19"
+notidue = "2021-09-10"
+
+[[params.cfp.list]]
+enable = 1
+name = "FPL"
+rank = "C"
+site = "https://www.fccm.org/"
+open = "2021-05-09"
+close = "2021-05-12 23:59:59"
+absddl = "2021-01-11"
+submddl = "2021-01-18"
+notidue = "2021-03-08"
