@@ -93,11 +93,11 @@ enable = 1
 name = "ASPLOS"
 rank = "A"
 site = "https://asplos-conference.org/"
-open = "2021-04-16"
-close = "2021-04-20 23:59:59 -07:00"
-absddl = "2020-08-14 14:59:59 -07:00"
-submddl = "2020-08-21 14:59:59 -07:00"
-notidue = "2020-11-19"
+open = "2022-02-28"
+close = "2022-03-04 23:59:59 -07:00"
+absddl = "2021-08-06 14:59:59 -07:00"
+submddl = "2021-08-13 14:59:59 -07:00"
+notidue = "2021-11-15"
 
 [[params.cfp.list]]
 enable = 1
