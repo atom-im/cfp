@@ -29,7 +29,7 @@
 							<td>{{ if ne $p.notidue "TBA" }}{{ dateFormat "Jan 2, 2006" $p.notidue}}{{ else }}{{ $p.notidue }}{{ end }}</td>
 							<td>{{ dateFormat "Jan 2" $p.open}}-{{ if ne (time $p.open).Month (time $p.close).Month }}{{ dateFormat "Jan" $p.close }} {{ end }}{{ dateFormat "2, 2006" $p.close }}</td>
 							<td>
-								Completed
+								Ended
 							</td>
 						</tr>
 {{ else }}
