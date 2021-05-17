@@ -6,6 +6,8 @@ title = "Call for papers"
 # Do not build files for websites. Need them? Set to false
 disableKinds=["404", "RSS", "sitemap"]
 
+disableHugoGeneratorInject = true
+
 [blackfriday]
 fractions = false
 hrefTargetBlank = true
