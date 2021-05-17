@@ -9,9 +9,10 @@ jobs:
   deploy:
     runs-on: ubuntu-18.04
     steps:
-      - uses: actions/set-timezone-action@v1.1
+      - name: Setup timezone
+        uses: zcong1993/setup-timezone@v1.1.1
         with:
-          timezoneLinux: "Asia/Hong_Kong"
+          timezone: Asia/Hong_Kong
 
       - uses: actions/checkout@v2
 
