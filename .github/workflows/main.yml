@@ -31,7 +31,7 @@ jobs:
         run: |
           cd ./public
           changes="$(git diff -U0|grep @@|wc -l)"
-          updated="$(git diff|grep updated)”
+          updated="$(git diff|grep updated)"
           if [ "$changes" = "1" ] && [ ! -z "$updated" ]; then
             git checkout .
           fi
