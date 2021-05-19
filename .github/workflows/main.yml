@@ -31,7 +31,9 @@ jobs:
         working-directory: ./public
         run: |
           CHANGES="$(git diff -U0|grep @@|wc -l)"
-          echo "$CHANGES"
+          UPDATED="$(git diff|grep UPDATED)"
+          echo "LOG: $CHANGES"
+          echo "LOG: $UPDATED"
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
