@@ -30,8 +30,8 @@ jobs:
       - name: Check Changes
         working-directory: ./public
         run: |
-          changes="$(git diff -U0|grep @@|wc -l)"
-          updated="$(git diff|grep updated)"
+          changes=($(git diff -U0|grep @@|wc -l))
+          updated=($(git diff|grep updated))
           echo "LOG: $changes"
           echo "LOG: $updated"
           if [ "$changes" = "1" ] && [ ! -z "$updated" ]; then
