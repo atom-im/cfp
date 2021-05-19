@@ -30,13 +30,8 @@ jobs:
       - name: Check Changes
         working-directory: ./public
         run: |
-          changes=($(git diff -U0|grep @@|wc -l))
-          updated=($(git diff|grep updated))
-          echo "LOG: $changes"
-          echo "LOG: $updated"
-          if [ "$changes" = "1" ] && [ ! -z "$updated" ]; then
-            git checkout .
-          fi
+          CHANGES="$(git diff -U0|grep @@|wc -l)"
+          echo "$CHANGES"
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
