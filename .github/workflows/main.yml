@@ -31,7 +31,7 @@ jobs:
         working-directory: ./public
         run: |
           CHANGES="$(git diff -U0|grep @@|wc -l)"
-          UPDATED="$(git diff|grep UPDATED)"
+          UPDATED="$(git diff|grep updated)"
           echo "LOG: $CHANGES"
           echo "LOG: $UPDATED"
 
