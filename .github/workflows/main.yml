@@ -17,7 +17,13 @@ jobs:
         with:
           timezone: Asia/Hong_Kong
 
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Checkout gh-pages
+        uses: actions/checkout@v2
+        with:
+          ref: gh-pages
+          path: public
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
