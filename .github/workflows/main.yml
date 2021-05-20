@@ -19,7 +19,8 @@ jobs:
 
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Checkout gh-pages
+
+      - name: Nested checkout branch
         uses: actions/checkout@v2
         with:
           ref: gh-pages
@@ -36,16 +37,10 @@ jobs:
       - name: Check Changes
         working-directory: ./public
         run: |
-          echo $PWD
-          ls -l
           CHANGES="$(git diff -U0 --word-diff|grep @@|wc -l)"
-          echo $CHANGES
           UPDATED="$(git diff -U0 --word-diff|grep updated|wc -l)"
-          echo $UPDATED
           if [ "$CHANGES" = "1" ] && [ "$UPDATED" = "1" ]; then
-            echo "No more changes."
             git checkout .
-            echo "$(git diff -U0 --word-diff|grep updated|wc -l)"
           fi
 
       - name: Deploy
