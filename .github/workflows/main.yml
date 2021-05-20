@@ -30,6 +30,8 @@ jobs:
       - name: Check Changes
         working-directory: ./public
         run: |
+          echo $PWD
+          ls -l
           CHANGES="$(git diff -U0 --word-diff|grep @@|wc -l)"
           echo $CHANGES
           UPDATED="$(git diff -U0 --word-diff|grep updated|wc -l)"
