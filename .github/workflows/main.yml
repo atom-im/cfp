@@ -31,9 +31,13 @@ jobs:
         working-directory: ./public
         run: |
           CHANGES="$(git diff -U0 --word-diff|grep @@|wc -l)"
+          echo $CHANGES
           UPDATED="$(git diff -U0 --word-diff|grep updated|wc -l)"
+          echo $UPDATED
           if [ "$CHANGES" = "1" ] && [ "$UPDATED" = "1" ]; then
+            echo "No more changes."
             git checkout .
+            echo "$(git diff -U0 --word-diff|grep updated|wc -l)"
           fi
 
       - name: Deploy
