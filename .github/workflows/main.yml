@@ -6,6 +6,7 @@ on:
       - master
   schedule:
     - cron: '1 */1 * * *'
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -16,7 +17,14 @@ jobs:
         with:
           timezone: Asia/Hong_Kong
 
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Nested checkout branch
+        uses: actions/checkout@v2
+        with:
+          ref: gh-pages
+          path: public
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -25,6 +33,15 @@ jobs:
 
       - name: Build
         run: hugo
+
+      - name: Check Changes
+        working-directory: ./public
+        run: |
+          CHANGES="$(git diff -U0 --word-diff|grep @@|wc -l)"
+          UPDATED="$(git diff -U0 --word-diff|grep updated|wc -l)"
+          if [ "$CHANGES" = "1" ] && [ "$UPDATED" = "1" ]; then
+            git checkout .
+          fi
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
