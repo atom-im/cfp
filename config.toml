@@ -41,7 +41,7 @@ enable = true
 # Highlight section
 [params.highlight]
 enable = true
-title = "Featured Call"
+title = "Featured CFPs"
 name = "Name"
 rank="Rank"
 when = "When"
@@ -53,7 +53,7 @@ countdown = "Countdown"
 # Upcoming section
 [params.upcoming]
 enable = true
-title = "Upcoming Calls"
+title = "Upcoming CFPs"
 name = "Name"
 rank="Rank"
 when = "When"
@@ -65,7 +65,7 @@ countdown = "Countdown"
 # current section
 [params.current]
 enable = true
-title = "Inactive Calls"
+title = "Inactive CFPs"
 name = "Name"
 rank="Rank"
 when = "When"
@@ -77,7 +77,7 @@ countdown = "Event starts in"
 # past section
 [params.past]
 enable = true
-title = "Past Calls"
+title = "Past CFPs"
 name = "Name"
 rank="Rank"
 when = "When"
