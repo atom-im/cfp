@@ -461,7 +461,7 @@ site = "https://icde2022.ieeecomputer.my/"
 open = "2022-05-09"
 close = "2022-05-12 23:59:59"
 absddl = "N/A"
-submddl = "2021-11-17 23:59:59 -8:00"
+submddl = "2021-11-17 23:59:59 -08:00"
 notidue = "2021-11-10"
 
 [[params.cfp.list]]
