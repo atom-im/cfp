@@ -224,7 +224,7 @@ notidue = "2021-11-11"
 
 [[params.cfp.list]]
 enable = 1
-name = "EuroSys*"
+name = "EuroSys"
 rank = "B"
 site = "https://2022.eurosys.org/"
 open = "2022-04-05"
