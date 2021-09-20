@@ -380,12 +380,12 @@ notidue = "2021-03-16"
 enable = 1
 name = "PLDI"
 rank = "A"
-site = "http://pldi21.sigplan.org"
-open = "2021-06-20"
-close = "2021-06-25 23:59:59"
+site = "http://pldi22.sigplan.org"
+open = "2022-06-20"
+close = "2022-06-24 23:59:59"
 absddl = "N/A"
-submddl = "2020-11-20"
-notidue = "2021-02-25"
+submddl = "2021-11-19"
+notidue = "2022-02-25"
 
 [[params.cfp.list]]
 enable = 1
