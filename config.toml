@@ -369,12 +369,12 @@ notidue = "2021-12-03"
 enable = 1
 name = "OSDI"
 rank = "A"
-site = "https://www.usenix.org/conference/osdi21/"
-open = "2021-07-14"
-close = "2021-07-16 23:59:59 -07:00"
-absddl = "2020-12-03 15:00:00 -07:00"
-submddl = "2020-12-10 15:00:00 -07:00"
-notidue = "2021-03-16"
+site = "https://www.usenix.org/conference/osdi22/"
+open = "2022-07-11"
+close = "2022-07-13 23:59:59 -07:00"
+absddl = "2021-12-07 15:00:00 -07:00"
+submddl = "2021-12-14 15:00:00 -07:00"
+notidue = "2022-03-16"
 
 [[params.cfp.list]]
 enable = 1
