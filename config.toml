@@ -102,7 +102,7 @@ submddl = "2021-08-13 14:59:59 -07:00"
 notidue = "2021-11-15"
 
 [[params.cfp.list]]
-enable = 2
+enable = 1
 name = "FAST"
 rank = "A"
 site = "https://www.usenix.org/conference/fast22/call-for-papers"
@@ -124,7 +124,7 @@ submddl = "2021-07-30 23:59:59 +00:00"
 notidue = "2021-10-27"
 
 [[params.cfp.list]]
-enable = 1
+enable = 2
 name = "ISCA"
 rank = "A"
 site = "https://iscaconf.org/isca2022"
@@ -366,7 +366,7 @@ submddl = "2021-09-03 23:59:59"
 notidue = "2021-12-03"
 
 [[params.cfp.list]]
-enable = 1
+enable = 2
 name = "OSDI"
 rank = "A"
 site = "https://www.usenix.org/conference/osdi22/"
