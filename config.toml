@@ -366,7 +366,7 @@ submddl = "2021-09-03 23:59:59"
 notidue = "2021-12-03"
 
 [[params.cfp.list]]
-enable = 2
+enable = 1
 name = "OSDI"
 rank = "A"
 site = "https://www.usenix.org/conference/osdi22/"
