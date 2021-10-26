@@ -104,19 +104,6 @@
 								<div id="countdown"></div>
 							</td>
 						</tr>
-						<tr class="item" style="background-color:purple;color:white">
-							<th scope="row">
-								<a class="hl" href="https://www.usenix.org/conference/osdi22/" target="_blank">OSDI 2022</a>
-							</th>
-							<td>A</td>
-							<td> Dec 7, 2021 </td>
-							<td>Dec 14, 2021</td>
-							<td>Mar 16, 2022</td>
-							<td>Jul 11-13, 2022</td>
-							<td>
-								<div id="countdown"></div>
-							</td>
-						</tr>
 					</tbody>
 				</table>
 			</div>
@@ -196,6 +183,20 @@
 							<td>Jul 10-14, 2022</td>
 							<td>
 								<div data-countdown="2021-11-23 09:00:00"></div>
+							</td>
+						</tr>
+
+						<tr class="item" style="background-color:Wheat">
+							<th scope="row">
+								<a href="https://www.usenix.org/conference/osdi22/" target="_blank">OSDI 2022</a>
+							</th>
+							<td>A</td>
+							<td>Dec 7, 2021</td>
+							<td>Dec 14, 2021</td>
+							<td>Mar 16, 2022</td>
+							<td>Jul 11-13, 2022</td>
+							<td>
+								<div data-countdown="2021-12-15 06:00:00"></div>
 							</td>
 						</tr>
 
@@ -776,7 +777,7 @@
 	<script src="assets/js/moment.min.js"></script>
 	<script src="assets/js/moment-timezone-with-data-2012-2022.min.js"></script>
 	<script>
-		var deadline = moment.tz("2021-11-24 19:59:002021-12-15 06:00:00", "Asia/Hong_Kong");
+		var deadline = moment.tz("2021-11-24 19:59:00", "Asia/Hong_Kong");
 		$('#countdown').countdown(deadline.toDate(), function(event) {
 			$(this).html(event.strftime('%D days %H:%M:%S'));
 			});
