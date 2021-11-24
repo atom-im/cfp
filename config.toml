@@ -157,7 +157,7 @@ submddl = "2021-04-09"
 notidue = "2021-06-21"
 
 [[params.cfp.list]]
-enable = 1
+enable = 2
 name = "ATC"
 rank = "A"
 site = "https://www.usenix.org/conference/atc22"
@@ -201,7 +201,7 @@ submddl = "2021-02-15"
 notidue = "2021-04-30"
 
 [[params.cfp.list]]
-enable = 2
+enable = 1
 name = "DAC"
 rank = "A"
 site = "https://dac.com"
