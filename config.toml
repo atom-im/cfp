@@ -303,12 +303,12 @@ notidue = "2022-06-14"
 enable = 1
 name = "ICS"
 rank = "B"
-site = "https://ics21.github.io/"
-open = "2021-06-14"
-close = "2021-06-17 23:59:59"
-absddl = "2021-01-28"
-submddl = "2021-02-04"
-notidue = "2021-03-31"
+site = "https://ics2022.github.io/"
+open = "2022-06-27"
+close = "2022-06-30 23:59:59"
+absddl = "2022-01-28"
+submddl = "2022-02-04"
+notidue = "2022-04-14"
 
 [[params.cfp.list]]
 enable = 1
@@ -336,12 +336,12 @@ notidue = "2020-02-15"
 enable = 1
 name = "PACT"
 rank = "B"
-site = "http://ssd.sscc.ru/conference/pact2021/"
-open = "2021-10-03"
-close = "2021-10-07 23:59:59"
+site = "https://pact22.cs.illinois.edu/"
+open = "2022-10-10"
+close = "2022-10-12 23:59:59"
 absddl = "N/A"
-submddl = "2021-03-31"
-notidue = "2021-04-15"
+submddl = "2022-04-18"
+notidue = "2022-04-25"
 
 [[params.cfp.list]]
 enable = 1
@@ -480,22 +480,22 @@ enable = 1
 name = "EMSOFT"
 rank = "B"
 site = "http://www.esweek.org"
-open = "2021-10-10"
-close = "2021-10-15 23:59:59"
-absddl = "2021-04-02"
-submddl = "2021-04-09"
-notidue = "2021-07-05"
+open = "2022-10-07"
+close = "2022-10-14 23:59:59"
+absddl = "2022-03-31"
+submddl = "2022-04-07"
+notidue = "2022-07-05"
 
 [[params.cfp.list]]
 enable = 1
 name = "CODES+ISSS"
 rank = "B"
 site = "http://www.esweek.org"
-open = "2021-10-10"
-close = "2021-10-15 23:59:59"
-absddl = "2021-04-02"
-submddl = "2021-04-09"
-notidue = "2021-07-05"
+open = "2022-10-07"
+close = "2022-10-14 23:59:59"
+absddl = "2022-03-31"
+submddl = "2022-04-07"
+notidue = "2022-07-05"
 
 [[params.cfp.list]]
 enable = 1
@@ -512,12 +512,12 @@ notidue = "2021-06-25"
 enable = 1
 name = "HotStorage"
 rank = ""
-site = "https://www.hotstorage.org/2021/"
-open = "2021-07-27"
-close = "2021-07-28 23:59:59"
+site = "https://www.hotstorage.org/2022/"
+open = "2022-06-27"
+close = "2022-06-28 23:59:59"
 absddl = "N/A"
-submddl = "2021-04-30"
-notidue = "2021-06-08"
+submddl = "2022-03-29"
+notidue = "2022-06-06"
 
 [[params.cfp.list]]
 enable = 1
@@ -545,12 +545,12 @@ notidue = "2021-10-31"
 enable = 1
 name = "FPL"
 rank = "C"
-site = "https://www.fpl2021.org/"
-open = "2021-08-30"
-close = "2021-09-03 23:59:59"
-absddl = "2021-03-15"
-submddl = "2021-03-22"
-notidue = "2021-05-14"
+site = "https://www.fpl.org/"
+open = "2022-08-29"
+close = "2022-09-02 23:59:59"
+absddl = "2022-03-07"
+submddl = "2022-03-14"
+notidue = "2022-05-09"
 
 [[params.cfp.list]]
 enable = 1
