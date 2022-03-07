@@ -511,14 +511,14 @@ notidue = "2022-07-05"
 
 [[params.cfp.list]]
 enable = 1
-name = "NVMSA*"
+name = "NVMSA"
 rank = ""
 site = "https://nvmsa2022.github.io/index"
 open = "2022-08-23"
-close = "2022-08-24 23:59:59"
-absddl = "2022-05-14 23:59:59 -12:00"
-submddl = "2022-05-21 23:59:59 -12:00"
-notidue = "2022-06-25"
+close = "2022-08-25 23:59:59"
+absddl = "N/A"
+submddl = "2022-04-15 23:59:59 -12:00"
+notidue = "2022-05-31"
 
 [[params.cfp.list]]
 enable = 1
