@@ -157,7 +157,7 @@ submddl = "2022-04-01 23:59:00 -12:00"
 notidue = "2022-06-13"
 
 [[params.cfp.list]]
-enable = 2
+enable = 1
 name = "ATC"
 rank = "A"
 site = "https://www.usenix.org/conference/atc22"
@@ -476,14 +476,26 @@ submddl = "2019-08-23 23:59:59 -07:00"
 notidue = "2019-10-14"
 
 [[params.cfp.list]]
+enable = 2
+name = "ESWEEK"
+rank = "B"
+site = "http://www.esweek.org"
+open = "2022-10-07"
+close = "2022-10-14 23:59:59"
+absddl = "2022-03-31 23:59:59 -12:00"
+submddl = "2022-04-07 23:59:59 -12:00"
+notidue = "2022-07-05"
+
+
+[[params.cfp.list]]
 enable = 1
 name = "EMSOFT"
 rank = "B"
 site = "http://www.esweek.org"
 open = "2022-10-07"
 close = "2022-10-14 23:59:59"
-absddl = "2022-03-31"
-submddl = "2022-04-07"
+absddl = "2022-03-31 23:59:59 -12:00"
+submddl = "2022-04-07 23:59:59 -12:00"
 notidue = "2022-07-05"
 
 [[params.cfp.list]]
@@ -493,8 +505,8 @@ rank = "B"
 site = "http://www.esweek.org"
 open = "2022-10-07"
 close = "2022-10-14 23:59:59"
-absddl = "2022-03-31"
-submddl = "2022-04-07"
+absddl = "2022-03-31 23:59:59 -12:00"
+submddl = "2022-04-07 23:59:59 -12:00"
 notidue = "2022-07-05"
 
 [[params.cfp.list]]
