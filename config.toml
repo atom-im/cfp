@@ -92,14 +92,25 @@ countdown = "Event Status"
 #         must two digits for each field
 [[params.cfp.list]]
 enable = 1
-name = "ASPLOS"
+name = "ASPLOS Summer"
 rank = "A"
 site = "https://asplos-conference.org/"
-open = "2022-02-28"
-close = "2022-03-04 23:59:59 -07:00"
-absddl = "2021-08-06 14:59:59 -07:00"
-submddl = "2021-08-13 14:59:59 -07:00"
-notidue = "2021-11-15"
+open = "2023-02-28"
+close = "2023-03-04 23:59:59 -04:00"
+absddl = "2022-06-30 17:59:59 -04:00"
+submddl = "2022-07-07 17:59:59 -04:00"
+notidue = "2022-09-22"
+
+[[params.cfp.list]]
+enable = 1
+name = "ASPLOS Fall"
+rank = "A"
+site = "https://asplos-conference.org/"
+open = "2023-02-28"
+close = "2023-03-04 23:59:59 -04:00"
+absddl = "2022-10-13 17:59:59 -04:00"
+submddl = "2022-10-20 17:59:59 -04:00"
+notidue = "2023-01-19"
 
 [[params.cfp.list]]
 enable = 1
