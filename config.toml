@@ -116,12 +116,12 @@ notidue = "2023-01-19"
 enable = 1
 name = "FAST"
 rank = "A"
-site = "https://www.usenix.org/conference/fast22/call-for-papers"
-open = "2022-02-21"
-close = "2022-02-24 23:59:59"
+site = "https://www.usenix.org/conference/fast23/call-for-papers"
+open = "2023-02-20"
+close = "2023-02-23 23:59:59"
 absddl = "N/A"
-submddl = "2021-09-23 23:59:59 -07:00"
-notidue = "2021-12-10"
+submddl = "2022-09-22 23:59:59 -07:00"
+notidue = "2022-12-09"
 
 [[params.cfp.list]]
 enable = 1
