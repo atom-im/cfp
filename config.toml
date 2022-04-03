@@ -227,11 +227,11 @@ enable = 1
 name = "DATE"
 rank = "B"
 site = "https://www.date-conference.com/"
-open = "2022-03-14"
-close = "2022-03-23 23:59:59"
-absddl = "2021-09-12 23:59:59 -12:00"
-submddl = "2021-09-19 23:59:59 -12:00"
-notidue = "2021-11-11"
+open = "2023-04-17"
+close = "2023-04-19 23:59:59"
+absddl = "2022-09-18 23:59:59 -12:00"
+submddl = "2022-09-25 23:59:59 -12:00"
+notidue = "2022-11-11"
 
 [[params.cfp.list]]
 enable = 1
