@@ -72,7 +72,6 @@
 		<li data-timeline-node="{start:'2022-06-12 00:00:00',end:'2022-06-17 23:59:59',row:2,bgColor:'#63bb55',color:'Black', extend:'{toggle:\'tooltip\'}'}"><strong class="event-label">SIGMOD 2022</strong><p class="event-content">CCF Rank: A, When: Jun 12-17, 2022, Abstract Deadline: N/A, Submission Deadline: 2021-09-15, Notification Due: 2022-03-07</p></li>
 		<li data-timeline-node="{start:'2022-09-05 00:00:00',end:'2022-09-09 23:59:59',row:2,bgColor:'#63bb55',color:'Black', extend:'{toggle:\'tooltip\'}'}"><strong class="event-label">VLDB 2022</strong><p class="event-content">CCF Rank: A, When: Sep 5-9, 2022, Abstract Deadline: 2022-02-20, Submission Deadline: 2022-03-01, Notification Due: 2022-04-15</p></li>
 		<li data-timeline-node="{start:'2022-05-09 00:00:00',end:'2022-05-12 23:59:59',row:2,bgColor:'#63bb55',color:'Black', extend:'{toggle:\'tooltip\'}'}"><strong class="event-label">ICDE 2022</strong><p class="event-content">CCF Rank: A, When: May 9-12, 2022, Abstract Deadline: N/A, Submission Deadline: 2021-11-17 23:59:59 -08:00, Notification Due: 2021-11-10</p></li>
-		<li data-timeline-node="{start:'2022-10-07 00:00:00',end:'2022-10-14 23:59:59',row:2,bgColor:'#63bb55',color:'Black', extend:'{toggle:\'tooltip\'}'}"><strong class="event-label">ESWEEK 2022</strong><p class="event-content">CCF Rank: B, When: Oct 7-14, 2022, Abstract Deadline: 2022-03-31 23:59:59 -12:00, Submission Deadline: 2022-04-07 23:59:59 -12:00, Notification Due: 2022-07-05</p></li>
 		<li data-timeline-node="{start:'2022-10-07 00:00:00',end:'2022-10-14 23:59:59',row:2,bgColor:'#63bb55',color:'Black', extend:'{toggle:\'tooltip\'}'}"><strong class="event-label">EMSOFT 2022</strong><p class="event-content">CCF Rank: B, When: Oct 7-14, 2022, Abstract Deadline: 2022-03-31 23:59:59 -12:00, Submission Deadline: 2022-04-07 23:59:59 -12:00, Notification Due: 2022-07-05</p></li>
 		<li data-timeline-node="{start:'2022-10-07 00:00:00',end:'2022-10-14 23:59:59',row:2,bgColor:'#63bb55',color:'Black', extend:'{toggle:\'tooltip\'}'}"><strong class="event-label">CODES&#43;ISSS 2022</strong><p class="event-content">CCF Rank: B, When: Oct 7-14, 2022, Abstract Deadline: 2022-03-31 23:59:59 -12:00, Submission Deadline: 2022-04-07 23:59:59 -12:00, Notification Due: 2022-07-05</p></li>
 		<li data-timeline-node="{start:'2022-06-27 00:00:00',end:'2022-06-28 23:59:59',row:2,bgColor:'#63bb55',color:'Black', extend:'{toggle:\'tooltip\'}'}"><strong class="event-label">HotStorage 2022</strong><p class="event-content">CCF Rank: , When: Jun 27-28, 2022, Abstract Deadline: N/A, Submission Deadline: 2022-03-29, Notification Due: 2022-06-06</p></li>
@@ -105,13 +104,13 @@
 					<tbody>
 						<tr class="item" style="background-color:purple;color:white">
 							<th scope="row">
-								<a class="hl" href="http://www.esweek.org" target="_blank">ESWEEK 2022</a>
+								<a class="hl" href="https://asplos-conference.org/" target="_blank">ASPLOS Summer 2023</a>
 							</th>
-							<td>B</td>
-							<td> Mar 31, 2022 </td>
-							<td>Apr 7, 2022</td>
-							<td>Jul 5, 2022</td>
-							<td>Oct 7-14, 2022</td>
+							<td>A</td>
+							<td> Jun 30, 2022 </td>
+							<td>Jul 7, 2022</td>
+							<td>Sep 22, 2022</td>
+							<td>Feb 28-Mar 4, 2023</td>
 							<td>
 								<div id="countdown"></div>
 							</td>
@@ -223,20 +222,6 @@
 							<td>Dec 5-8, 2022</td>
 							<td>
 								<div data-countdown="2022-05-27 19:59:00"></div>
-							</td>
-						</tr>
-
-						<tr class="item" style="background-color:Wheat">
-							<th scope="row">
-								<a href="https://asplos-conference.org/" target="_blank">ASPLOS Summer 2023</a>
-							</th>
-							<td>A</td>
-							<td>Jun 30, 2022</td>
-							<td>Jul 7, 2022</td>
-							<td>Sep 22, 2022</td>
-							<td>Feb 28-Mar 4, 2023</td>
-							<td>
-								<div data-countdown="2022-07-08 05:59:59"></div>
 							</td>
 						</tr>
 
@@ -845,7 +830,7 @@
 	<script src="assets/js/moment.min.js"></script>
 	<script src="assets/js/moment-timezone-with-data-2012-2022.min.js"></script>
 	<script>
-		var deadline = moment.tz("2022-04-08 19:59:59", "Asia/Hong_Kong");
+		var deadline = moment.tz("2022-07-08 05:59:59", "Asia/Hong_Kong");
 		$('#countdown').countdown(deadline.toDate(), function(event) {
 			$(this).html(event.strftime('%D days %H:%M:%S'));
 			});
