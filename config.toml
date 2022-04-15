@@ -607,3 +607,25 @@ close = "2022-08-24 23:59:59"
 absddl = "2022-04-29 23:59:00 -04:00"
 submddl = "2022-05-06 23:59:00 -04:00"
 notidue = "2022-06-17"
+
+[[params.cfp.list]]
+enable = 1
+name = "RTSS"
+rank = "A"
+site = "http://2022.rtss.org/"
+open = "2022-12-05"
+close = "2022-12-08 23:59:59"
+absddl = "N/A"
+submddl = "2022-05-26 23:59:00 -12:00"
+notidue = "2022-08-05"
+
+[[params.cfp.list]]
+enable = 1
+name = "RTAS"
+rank = "B"
+site = "http://2022.rtas.org/"
+open = "2022-05-04"
+close = "2022-05-06 23:59:59"
+absddl = "N/A"
+submddl = "2021-10-29 23:59:00 -12:00"
+notidue = "2022-01-17"
