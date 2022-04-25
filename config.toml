@@ -235,14 +235,25 @@ notidue = "2022-11-11"
 
 [[params.cfp.list]]
 enable = 1
-name = "EuroSys"
+name = "EuroSys (Spring)"
 rank = "B"
-site = "https://2022.eurosys.org/"
-open = "2022-04-05"
-close = "2022-04-08 23:59:59"
-absddl = "2021-10-01"
-submddl = "2021-10-09"
-notidue = "2022-01-20"
+site = "https://2023.eurosys.org/"
+open = "2023-05-09"
+close = "2023-05-12 23:59:59"
+absddl = "2022-05-11"
+submddl = "2022-05-18"
+notidue = "2022-08-10"
+
+[[params.cfp.list]]
+enable = 1
+name = "EuroSys (Fall)"
+rank = "B"
+site = "https://2023.eurosys.org/"
+open = "2023-05-09"
+close = "2023-05-12 23:59:59"
+absddl = "2022-10-12"
+submddl = "2022-10-19"
+notidue = "2023-01-18"
 
 [[params.cfp.list]]
 enable = 1
