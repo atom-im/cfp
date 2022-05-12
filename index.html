@@ -106,13 +106,13 @@
 					<tbody>
 						<tr class="item" style="background-color:purple;color:white">
 							<th scope="row">
-								<a class="hl" href="https://2023.eurosys.org/" target="_blank">EuroSys (Spring) 2023</a>
+								<a class="hl" href="https://asplos-conference.org/" target="_blank">ASPLOS Summer 2023</a>
 							</th>
-							<td>B</td>
-							<td> May 11, 2022 </td>
-							<td>May 18, 2022</td>
-							<td>Aug 10, 2022</td>
-							<td>May 9-12, 2023</td>
+							<td>A</td>
+							<td> Jun 30, 2022 </td>
+							<td>Jul 7, 2022</td>
+							<td>Sep 22, 2022</td>
+							<td>Feb 28-Mar 4, 2023</td>
 							<td>
 								<div id="countdown"></div>
 							</td>
@@ -145,6 +145,20 @@
 					<tbody>
 						<tr class="item" style="background-color:Wheat">
 							<th scope="row">
+								<a href="https://2023.eurosys.org/" target="_blank">EuroSys (Spring) 2023</a>
+							</th>
+							<td>B</td>
+							<td>May 11, 2022</td>
+							<td>May 18, 2022</td>
+							<td>Aug 10, 2022</td>
+							<td>May 9-12, 2023</td>
+							<td>
+								<div data-countdown="2022-05-19 19:59:59"></div>
+							</td>
+						</tr>
+
+						<tr class="item" style="background-color:Wheat">
+							<th scope="row">
 								<a href="http://2022.rtss.org/" target="_blank">RTSS 2022</a>
 							</th>
 							<td>A</td>
@@ -168,20 +182,6 @@
 							<td>Oct 23-26, 2022</td>
 							<td>
 								<div data-countdown="2022-06-12 19:59:59"></div>
-							</td>
-						</tr>
-
-						<tr class="item" style="background-color:Wheat">
-							<th scope="row">
-								<a href="https://asplos-conference.org/" target="_blank">ASPLOS Summer 2023</a>
-							</th>
-							<td>A</td>
-							<td>Jun 30, 2022</td>
-							<td>Jul 7, 2022</td>
-							<td>Sep 22, 2022</td>
-							<td>Feb 28-Mar 4, 2023</td>
-							<td>
-								<div data-countdown="2022-07-08 05:59:59"></div>
 							</td>
 						</tr>
 
@@ -822,7 +822,7 @@
 	<div class="clear-both"></div>
 	<div id="footer">
 		<div class="info">
-			<p>Theme designed by <a href="https://dblp.uni-trier.de/">dblp</a>, customized by <a href="https://atom.im">atom.im</a>. Last updated on May 9, 2022.</p>
+			<p>Theme designed by <a href="https://dblp.uni-trier.de/">dblp</a>, customized by <a href="https://atom.im">atom.im</a>. Last updated on May 12, 2022.</p>
 		</div>
 	</div>
 
@@ -846,7 +846,7 @@
 	<script src="assets/js/moment.min.js"></script>
 	<script src="assets/js/moment-timezone-with-data-2012-2022.min.js"></script>
 	<script>
-		var deadline = moment.tz("2022-05-19 19:59:59", "Asia/Hong_Kong");
+		var deadline = moment.tz("2022-07-08 05:59:59", "Asia/Hong_Kong");
 		$('#countdown').countdown(deadline.toDate(), function(event) {
 			$(this).html(event.strftime('%D days %H:%M:%S'));
 			});
