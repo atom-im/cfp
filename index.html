@@ -115,13 +115,13 @@
 					<tbody>
 						<tr class="item" style="background-color:purple;color:white">
 							<th scope="row">
-								<a class="hl" href="https://asplos-conference.org/" target="_blank">ASPLOS Summer 2023</a>
+								<a class="hl" href="https://www.usenix.org/conference/osdi23/" target="_blank">OSDI 2023</a>
 							</th>
 							<td>A</td>
-							<td> Jun 30, 2022 </td>
-							<td>Jul 7, 2022</td>
-							<td>Sep 22, 2022</td>
-							<td>Feb 28-Mar 4, 2023</td>
+							<td> Dec 6, 2022 </td>
+							<td>Dec 13, 2022</td>
+							<td>Mar 23, 2022</td>
+							<td>Jul 10-12, 2023</td>
 							<td>
 								<div id="countdown"></div>
 							</td>
@@ -275,20 +275,6 @@
 							<td>Jul 9-13, 2023</td>
 							<td>
 								<div data-countdown="2022-11-22 09:00:00"></div>
-							</td>
-						</tr>
-
-						<tr class="item" style="background-color:Wheat">
-							<th scope="row">
-								<a href="https://www.usenix.org/conference/osdi23/" target="_blank">OSDI 2023</a>
-							</th>
-							<td>A</td>
-							<td>Dec 6, 2022</td>
-							<td>Dec 13, 2022</td>
-							<td>Mar 23, 2022</td>
-							<td>Jul 10-12, 2023</td>
-							<td>
-								<div data-countdown="2022-12-14 06:59:00"></div>
 							</td>
 						</tr>
 
@@ -627,6 +613,20 @@
 
 						<tr class="item" style="background-color:white">
 							<th scope="row">
+								<a href="https://asplos-conference.org/" target="_blank">ASPLOS Summer 2023</a>
+							</th>
+							<td>A</td>
+							<td>Jun 30, 2022</td>
+							<td>Jul 7, 2022</td>
+							<td>Sep 22, 2022</td>
+							<td>Feb 28-Mar 4, 2023</td>
+							<td>
+								<div data-countdown="2023-02-28 08:00:00"></div>
+							</td>
+						</tr>
+
+						<tr class="item" style="background-color:white">
+							<th scope="row">
 								<a href="https://icde2023.ics.uci.edu/" target="_blank">ICDE 2023</a>
 							</th>
 							<td>A</td>
@@ -883,7 +883,7 @@
 	<script src="assets/js/moment.min.js"></script>
 	<script src="assets/js/moment-timezone-with-data-2012-2022.min.js"></script>
 	<script>
-		var deadline = moment.tz("2022-07-08 05:59:59", "Asia/Hong_Kong");
+		var deadline = moment.tz("2022-12-14 06:59:00", "Asia/Hong_Kong");
 		$('#countdown').countdown(deadline.toDate(), function(event) {
 			$(this).html(event.strftime('%D days %H:%M:%S'));
 			});
