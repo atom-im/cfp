@@ -91,7 +91,7 @@ countdown = "Event Status"
 # NOTE 2: date format: 2006-01-02 15:04:05 -07:00
 #         must two digits for each field
 [[params.cfp.list]]
-enable = 2
+enable = 1
 name = "ASPLOS Summer"
 rank = "A"
 site = "https://asplos-conference.org/"
@@ -399,7 +399,7 @@ submddl = "2022-09-01 23:59:59 -12:00"
 notidue = "2022-12-09"
 
 [[params.cfp.list]]
-enable = 1
+enable = 2
 name = "OSDI"
 rank = "A"
 site = "https://www.usenix.org/conference/osdi23/"
