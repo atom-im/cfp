@@ -138,12 +138,12 @@ notidue = "2022-10-18"
 enable = 1
 name = "ISCA"
 rank = "A"
-site = "https://iscaconf.org/isca2022"
-open = "2022-06-11"
-close = "2022-06-15 23:59:59"
-absddl = "2021-11-16 23:59:00 -12:00"
-submddl = "2021-11-23 23:59:00 -12:00"
-notidue = "2022-03-02"
+site = "https://iscaconf.org/isca2023"
+open = "2023-06-17"
+close = "2023-06-23 23:59:59"
+absddl = "2022-11-14 23:59:00 -12:00"
+submddl = "2022-11-21 23:59:00 -12:00"
+notidue = "2023-03-09"
 
 [[params.cfp.list]]
 enable = 1
