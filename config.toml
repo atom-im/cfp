@@ -257,14 +257,14 @@ notidue = "2023-01-18"
 
 [[params.cfp.list]]
 enable = 1
-name = "HPDC*"
+name = "HPDC"
 rank = "B"
 site = "http://www.hpdc.org/2023/"
 open = "2023-06-16"
 close = "2023-06-23 23:59:59"
-absddl = "2023-01-20 23:59:59 -12:00"
+absddl = "N/A"
 submddl = "2023-01-27 23:59:59 -12:00"
-notidue = "2023-03-31"
+notidue = "2023-03-29"
 
 [[params.cfp.list]]
 enable = 1
