@@ -36,7 +36,7 @@ copyright = "Theme designed by [dblp](https://dblp.uni-trier.de/), customized by
 
 # Timeline section
 [params.timeline]
-enable = true
+enable = false
 
 # Highlight section
 [params.highlight]
