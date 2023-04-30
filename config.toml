@@ -362,8 +362,8 @@ site = "http://storageconference.us/"
 open = "2023-05-22"
 close = "2023-05-26 23:59:59"
 absddl = "N/A"
-submddl = "N/A"
-notidue = "N/A"
+submddl = "2023-01-01"
+notidue = "2023-01-01"
 
 [[params.cfp.list]]
 enable = 1
