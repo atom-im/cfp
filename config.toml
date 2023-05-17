@@ -262,8 +262,8 @@ rank = "B"
 site = "https://www.eurosys.org/news/eurosys-2024"
 open = "2024-04-23"
 close = "2024-04-26 23:59:59"
-absddl = "2023-05-18 23:59:59 -12:00"
-submddl = "2023-05-18 23:59:59 -12:00"
+absddl = "2023-05-24 23:59:59 -12:00"
+submddl = "2023-05-24 23:59:59 -12:00"
 notidue = "2023-09-12 23:59:59 -12:00"
 
 [[params.cfp.list]]
