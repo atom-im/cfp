@@ -102,7 +102,7 @@ submddl = "2023-08-10 17:59:59 -04:00"
 notidue = "2023-11-15"
 
 [[params.cfp.list]]
-enable = 2
+enable = 1
 name = "ASPLOS Fall*"
 rank = "A"
 site = "https://asplos-conference.org/"
@@ -168,15 +168,15 @@ submddl = "2023-04-06 23:59:00 -12:00"
 notidue = "2023-06-16"
 
 [[params.cfp.list]]
-enable = 1
+enable = 2
 name = "ATC"
 rank = "A"
-site = "https://www.usenix.org/conference/atc23"
-open = "2023-07-10"
-close = "2023-07-12 23:59:59"
-absddl= "2023-01-05 23:59:59 +00:00"
-submddl = "2023-01-12 23:59:59 +00:00"
-notidue = "2023-04-28"
+site = "https://www.usenix.org/conference/atc24"
+open = "2024-07-10"
+close = "2024-07-12 23:59:59"
+absddl= "2024-01-09 23:59:59 +00:00"
+submddl = "2024-01-16 23:59:59 +00:00"
+notidue = "2024-04-30"
 
 [[params.cfp.list]]
 enable = 1
