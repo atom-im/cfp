@@ -647,7 +647,7 @@ notidue = "TBA"
 [[params.cfp.list]]
 enable = 1
 name = "SAC"
-rank = "-"
+rank = ""
 site = "https://www.sigapp.org/sac/sac2025/"
 open = "2025-03-31"
 close = "2025-04-04 23:59:59"
