@@ -52,13 +52,13 @@
 					<tbody>
 						<tr class="item" style="background-color:purple;color:white">
 							<th scope="row">
-								<a class="hl" href="https://www.asplos-conference.org/" target="_blank">ASPLOS Fall 2025</a>
+								<a class="hl" href="https://www.hpca-conf.org/2025/" target="_blank">HPCA 2025</a>
 							</th>
 							<td>A</td>
-							<td> Oct 11, 2024 </td>
-							<td>Oct 18, 2024</td>
-							<td>Feb 7, 2025</td>
-							<td>Mar 30-Apr 3, 2025</td>
+							<td> Jul 26, 2024 </td>
+							<td>Aug 2, 2024</td>
+							<td>Nov 5, 2024</td>
+							<td>Mar 1-5, 2025</td>
 							<td>
 								<div id="countdown"></div>
 							</td>
@@ -142,20 +142,6 @@
 							<td>Dec 10-12, 2024</td>
 							<td>
 								<div data-countdown="2024-07-21 08:00:00"></div>
-							</td>
-						</tr>
-
-						<tr class="item" style="background-color:Wheat">
-							<th scope="row">
-								<a href="https://www.hpca-conf.org/2025/" target="_blank">HPCA 2025</a>
-							</th>
-							<td>A</td>
-							<td>Jul 26, 2024</td>
-							<td>Aug 2, 2024</td>
-							<td>Nov 5, 2024</td>
-							<td>Mar 1-5, 2025</td>
-							<td>
-								<div data-countdown="2024-08-03 07:59:59"></div>
 							</td>
 						</tr>
 
@@ -268,6 +254,20 @@
 							<td>Jun 22-27, 2025</td>
 							<td>
 								<div data-countdown="2024-10-17 08:00:00"></div>
+							</td>
+						</tr>
+
+						<tr class="item" style="background-color:Wheat">
+							<th scope="row">
+								<a href="https://www.asplos-conference.org/" target="_blank">ASPLOS Fall 2025</a>
+							</th>
+							<td>A</td>
+							<td>Oct 11, 2024</td>
+							<td>Oct 18, 2024</td>
+							<td>Feb 7, 2025</td>
+							<td>Mar 30-Apr 3, 2025</td>
+							<td>
+								<div data-countdown="2024-10-19 19:59:59"></div>
 							</td>
 						</tr>
 
@@ -837,7 +837,7 @@
 	<script src="assets/js/moment.min.js"></script>
 	<script src="assets/js/moment-timezone-with-data-2012-2022.min.js"></script>
 	<script>
-		var deadline = moment.tz("2024-10-19 19:59:59", "Asia/Hong_Kong");
+		var deadline = moment.tz("2024-08-03 07:59:59", "Asia/Hong_Kong");
 		$('#countdown').countdown(deadline.toDate(), function(event) {
 			$(this).html(event.strftime('%D days %H:%M:%S'));
 			});
