@@ -225,7 +225,7 @@ notidue = "2024-11-21"
 
 [[params.cfp.list]]
 enable = 1
-name = "EuroSys (Fall)"
+name = "EuroSys Fall"
 rank = "A"
 site = "https://www.eurosys.org/news/eurosys-2025"
 open = "2025-03-30"
