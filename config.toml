@@ -646,11 +646,11 @@ notidue = "TBA"
 
 [[params.cfp.list]]
 enable = 1
-name = "SAC"
+name = "SAC CPS"
 rank = ""
 site = "https://www.sigapp.org/sac/sac2025/"
 open = "2025-03-31"
 close = "2025-04-04 23:59:59"
 absddl = "N/A"
-submddl = "2022-09-20 23:59:00 -12:00"
+submddl = "2024-09-20 23:59:00 -12:00"
 notidue = "TBA"
