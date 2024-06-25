@@ -92,7 +92,7 @@ countdown = "Event Status"
 #         must two digits for each field
 
 [[params.cfp.list]]
-enable = 2
+enable = 1
 name = "ASPLOS Fall"
 rank = "A"
 site = "https://www.asplos-conference.org/"
@@ -114,7 +114,7 @@ submddl = "2024-09-17 23:59:59 -07:00"
 notidue = "2024-12-06"
 
 [[params.cfp.list]]
-enable = 1
+enable = 2
 name = "HPCA"
 rank = "A"
 site = "https://www.hpca-conf.org/2025/"
