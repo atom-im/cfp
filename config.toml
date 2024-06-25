@@ -270,7 +270,7 @@ notidue = "2025-03-31"
 
 [[params.cfp.list]]
 enable = 1
-name = "SIGMETRICS (Summer)"
+name = "SIGMETRICS Summer"
 rank = "B"
 site = "https://www.sigmetrics.org/sigmetrics2025"
 open = "2025-06-09"
@@ -281,7 +281,7 @@ notidue = "2024-09-24"
 
 [[params.cfp.list]]
 enable = 1
-name = "SIGMETRICS (Fall)"
+name = "SIGMETRICS Fall"
 rank = "B"
 site = "https://www.sigmetrics.org/sigmetrics2025"
 open = "2025-06-09"
@@ -292,7 +292,7 @@ notidue = "2024-12-10"
 
 [[params.cfp.list]]
 enable = 1
-name = "SIGMETRICS (Winter)"
+name = "SIGMETRICS Winter"
 rank = "B"
 site = "https://www.sigmetrics.org/sigmetrics2025"
 open = "2025-06-09"
