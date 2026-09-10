@@ -1,6 +1,7 @@
 # Page settings
 baseurl = "https://cfp.atom.im"
 languageCode = "en-us"
+timeZone = "Asia/Hong_Kong"
 title = "Call for papers"
 
 # Do not build files for websites. Need them? Set to false
@@ -23,7 +24,7 @@ author = "Hu Wan"
 enable = true
 title = "Call for Papers!"
 intro = "Important dates of selected conferences in computer architecture & system fields."
-notes = "**Note**: Deadlines are shown in timezone from conference website. Timelines and countdowns are shown in Asia/Hong_Kong timezone. Deadlines for conferences with * have not yet been announced."
+notes = "**Note**: Deadline times use the official CFP timezone (AoE = UTC-12). Countdowns use the same exact deadline worldwide; event countdowns count calendar days in Asia/Hong_Kong. TBA means unannounced or unresolved; N/A means no separate deadline. Dates without an exact time have no submission countdown. Official CFPs take precedence. **Last CFP review: September 10, 2026.**"
 
 # Links
 [params.info]
@@ -87,701 +88,935 @@ notidue = "Notification Due"
 countdown = "Event Status"
 
 # Important dates of conferences
-# NOTE 1: enable (0: hide, 1: show, 2: highlight)
-# NOTE 2: date format: 2006-01-02 15:04:05 -07:00
-#         must two digits for each field
+# enable: 0 = hidden, 1 = normal, 2 = featured while submissions are open.
+# Use TBA for unannounced/unresolved values; never extrapolate deadlines.
+# Exact deadlines include a UTC offset. Date-only values do not get a countdown.
+# year is explicit so an announced edition can have an unknown event date.
+# Sources checked on 2026-09-10. Historical superseded editions remain in git history.
 
 [[params.cfp.list]]
 enable = 1
-name = "ASPLOS Spring"
+name = "ASPLOS April"
+year = 2027
 rank = "A"
-site = "https://www.asplos-conference.org/asplos2026/"
-open = "2026-03-22"
-close = "2026-03-26 23:59:59 -05:00"
-absddl = "2025-03-05 23:59:59 -05:00"
-submddl = "2025-03-12 23:59:59 -05:00"
-notidue = "2025-06-24"
+site = "https://www.asplos-conference.org/asplos2027/"
+open = "2027-04-11"
+close = "2027-04-15"
+absddl = "N/A"
+submddl = "2026-04-15 23:59:59 -12:00"
+notidue = "2026-07-27"
+source = "https://www.asplos-conference.org/asplos2027/cfp/"
 
 [[params.cfp.list]]
 enable = 1
-name = "ASPLOS Summer"
+name = "ASPLOS September"
+year = 2027
 rank = "A"
-site = "https://www.asplos-conference.org/asplos2026/"
-open = "2026-03-22"
-close = "2026-03-26 23:59:59 -05:00"
-absddl = "2025-08-13 23:59:59 -05:00"
-submddl = "2025-08-20 23:59:59 -05:00"
-notidue = "2025-11-24"
+site = "https://www.asplos-conference.org/asplos2027/"
+open = "2027-04-11"
+close = "2027-04-15"
+absddl = "N/A"
+submddl = "2026-09-09 23:59:00 -12:00"
+notidue = "2026-12-21"
+source = "https://www.asplos-conference.org/asplos2027/cfp/"
 
 [[params.cfp.list]]
 enable = 1
 name = "FAST Spring"
+year = 2027
 rank = "A"
-site = "https://www.usenix.org/conference/fast26"
-open = "2026-02-24"
-close = "2026-02-26 23:59:59"
+site = "https://www.usenix.org/conference/fast27"
+open = "2027-02-23"
+close = "2027-02-25"
 absddl = "N/A"
-submddl = "2025-03-18 23:59:59 -12:00"
-notidue = "2025-06-05"
+submddl = "2026-03-17 23:59:00 -12:00"
+notidue = "2026-06-04"
+source = "https://www.usenix.org/conference/fast27/call-for-papers"
 
 [[params.cfp.list]]
 enable = 1
 name = "FAST Fall"
+year = 2027
 rank = "A"
-site = "https://www.usenix.org/conference/fast26"
-open = "2026-02-24"
-close = "2026-02-26 23:59:59"
+site = "https://www.usenix.org/conference/fast27"
+open = "2027-02-23"
+close = "2027-02-25"
 absddl = "N/A"
-submddl = "2025-09-16 23:59:59 -12:00"
-notidue = "2025-12-08"
+submddl = "2026-09-15 23:59:00 -12:00"
+notidue = "2026-12-08"
+source = "https://www.usenix.org/conference/fast27/call-for-papers"
 
 [[params.cfp.list]]
 enable = 1
 name = "HPCA"
+year = 2027
 rank = "A"
-site = "https://www.hpca-conf.org/2026/"
-open = "2026-01-31"
-close = "2026-02-04 23:59:59 +11:00"
-absddl = "2025-07-25 23:59:59 +00:00"
-submddl = "2025-08-01 23:59:59 +00:00"
-notidue = "2025-11-07"
+site = "https://conf.researchr.org/home/hpca-2027"
+open = "2027-03-20"
+close = "2027-03-24"
+absddl = "2026-07-24 23:59:00 -12:00"
+submddl = "2026-07-31 23:59:00 -12:00"
+notidue = "2026-11-06"
+source = "https://conf.researchr.org/track/hpca-2027/hpca-2027-main-conference"
 
 [[params.cfp.list]]
 enable = 1
 name = "ISCA"
+year = 2026
 rank = "A"
 site = "https://iscaconf.org/isca2026/"
 open = "2026-06-27"
-close = "2026-07-01 23:59:59"
-absddl = "2025-11-10 23:59:59 -12:00"
-submddl = "2025-11-17 23:59:59 -12:00"
+close = "2026-07-01"
+absddl = "2025-11-10 23:59:00 -12:00"
+submddl = "2025-11-17 23:59:00 -12:00"
 notidue = "2026-03-27"
+source = "https://iscaconf.org/isca2026/submit/callforpapers.php"
+notes = "2027 CFP not yet announced."
 
 [[params.cfp.list]]
 enable = 1
 name = "MICRO"
+year = 2026
 rank = "A"
 site = "https://www.microarch.org/micro59/"
-open = "2026-10-18"
-close = "2026-10-22 23:59:59"
-absddl = "2026-03-31 23:59:59 -04:00"
-submddl = "2026-04-07 23:59:59 -04:00"
+open = "2026-10-31"
+close = "2026-11-04"
+absddl = "2026-03-31 23:59:00 -04:00"
+submddl = "2026-04-07 23:59:00 -04:00"
 notidue = "2026-07-07"
+source = "https://www.microarch.org/micro59/"
 
 [[params.cfp.list]]
 enable = 1
 name = "SC"
+year = 2026
 rank = "A"
-site = "https://sc26.supercomputing.org"
+site = "https://sc26.supercomputing.org/"
 open = "2026-11-15"
-close = "2026-11-20 23:59:59"
-absddl = "2026-04-01 23:59:59 -12:00"
-submddl = "2026-04-08 23:59:59 -12:00"
+close = "2026-11-20"
+absddl = "2026-04-01 23:59:00 -12:00"
+submddl = "2026-04-08 23:59:00 -12:00"
 notidue = "2026-07-01"
+source = "https://sc26.supercomputing.org/all-dates-deadlines/"
 
 [[params.cfp.list]]
-enable = 0
+enable = 1
 name = "ATC"
+year = 2026
 rank = "A"
-site = "https://www.usenix.org/conference/atc26"
-open = "2026-07-08"
-close = "2026-07-10 23:59:59"
-absddl= "2026-01-06 23:59:59 +00:00"
-submddl = "2026-01-13 23:59:59 +00:00"
-notidue = "2026-04-28"
+site = "https://sigops.org/s/conferences/atc/2026/"
+open = "2026-11-15"
+close = "2026-11-18"
+absddl = "N/A"
+submddl = "2026-06-10 23:59:59 -12:00"
+notidue = "2026-09-18"
+source = "https://sigops.org/s/conferences/atc/2026/cfp.html"
+notes = "ACM SIGOPS ATC; November 15 includes workshops."
 
 [[params.cfp.list]]
 enable = 1
 name = "PPoPP"
+year = 2027
 rank = "A"
-site = "https://ppopp26.sigplan.org"
-open = "2026-01-31"
-close = "2026-02-04 23:59:59 +11:00"
+site = "https://ppopp27.sigplan.org/"
+open = "2027-03-20"
+close = "2027-03-24"
 absddl = "N/A"
-submddl = "2025-09-01 23:59:59 -12:00"
-notidue = "2025-11-10"
-
-[[params.cfp.list]]
-enable = 0
-name = "SPAA"
-rank = "B"
-site = "https://spaa.acm.org/"
-open = "2025-07-28"
-close = "2025-08-01 23:59:59"
-absddl = "2025-02-21 23:59:59 -12:00"
-submddl = "2025-02-28 23:59:59 -12:00"
-notidue = "2025-05-20"
+submddl = "2026-08-03 23:59:59 -12:00"
+notidue = "2026-10-26"
+source = "https://ppopp27.sigplan.org/track/PPoPP-2027-papers"
 
 [[params.cfp.list]]
 enable = 1
-name = "SPAA"
+name = "SPAA Cycle 1"
+year = 2027
 rank = "B"
 site = "https://spaa.acm.org/"
-open = "2026-07-06"
-close = "2026-07-10 23:59:59"
-absddl = "2026-02-20 23:59:59 -12:00"
-submddl = "2026-02-27 23:59:59 -12:00"
-notidue = "2026-05-15"
+open = "2027-06-05"
+close = "2027-06-11"
+absddl = "2026-09-18 23:59:59 -12:00"
+submddl = "2026-09-25 23:59:59 -12:00"
+notidue = "2026-12-05"
+source = "https://spaa.acm.org/spaa-2027-call-for-papers/"
+event_note = "FCRC week; exact SPAA days TBA."
 
 [[params.cfp.list]]
-enable = 0
-name = "PODC"
+enable = 1
+name = "SPAA Cycle 2"
+year = 2027
 rank = "B"
-site = "https://www.podc.org/"
-open = "2025-06-16"
-close = "2025-06-20 23:59:59"
-absddl = "2025-02-04 23:59:59 -12:00"
-submddl = "2025-02-08 23:59:59 -12:00"
-notidue = "2025-04-17"
+site = "https://spaa.acm.org/"
+open = "2027-06-05"
+close = "2027-06-11"
+absddl = "2027-01-22 23:59:59 -12:00"
+submddl = "2027-01-29 23:59:59 -12:00"
+notidue = "2027-04-10"
+source = "https://spaa.acm.org/spaa-2027-call-for-papers/"
+event_note = "FCRC week; exact SPAA days TBA."
 
 [[params.cfp.list]]
 enable = 1
 name = "PODC"
+year = 2027
 rank = "B"
-site = "https://www.podc.org/"
-open = "2026-07-06"
-close = "2026-07-10 23:59:59"
-absddl = "2026-02-11 23:59:59 -12:00"
-submddl = "2026-02-16 23:59:59 -12:00"
-notidue = "2026-04-29"
+site = "https://www.podc.org/podc2026/next-podc/"
+open = "2027-06-21"
+close = "2027-06-25"
+absddl = "TBA"
+submddl = "TBA"
+notidue = "TBA"
+source = "https://www.podc.org/podc2026/next-podc/"
+notes = "2027 CFP not yet announced."
+event_note = "Tentative"
 
 [[params.cfp.list]]
-enable = 0
+enable = 1
 name = "DAC"
+year = 2027
 rank = "A"
-site = "https://dac.com"
-open = "2025-06-22"
-close = "2025-06-25 23:59:59"
-absddl = "2024-11-12 17:00:00 -08:00"
-submddl = "2024-11-19 17:00:00 -08:00"
-notidue = "2025-02-24"
-
-[[params.cfp.list]]
-enable = 1
-name = "DAC*"
-rank = "A"
-site = "https://dac.com"
-open = "2026-07-25"
-close = "2026-07-29 23:59:59"
-absddl = "2025-11-11 17:00:00 -08:00"
-submddl = "2025-11-18 17:00:00 -08:00"
-notidue = "2026-02-23"
+site = "https://dac.com/2027"
+open = "2027-07-11"
+close = "2027-07-14"
+absddl = "TBA"
+submddl = "2026-11-17"
+notidue = "2027-03-08"
+source = "https://dac.com/2027/event-type/research-manuscripts"
+notes = "Abstract deadline and exact submission time TBA; submission site opens October 1."
 
 [[params.cfp.list]]
 enable = 1
 name = "DATE"
+year = 2027
 rank = "B"
 site = "https://www.date-conference.com/"
-open = "2026-04-20"
-close = "2026-04-22 23:59:59"
-absddl = "2025-09-07 23:59:59 -12:00"
-submddl = "2025-09-14 23:59:59 -12:00"
-notidue = "2025-11-10"
+open = "2027-03-22"
+close = "2027-03-24"
+absddl = "2026-09-13 23:59:59 -12:00"
+submddl = "2026-09-20 23:59:59 -12:00"
+notidue = "2026-11-23"
+source = "https://www.date-conference.com/call-for-papers"
 
 [[params.cfp.list]]
 enable = 1
 name = "EuroSys Spring"
+year = 2027
 rank = "A"
-site = "https://2026.eurosys.org/"
-open = "2026-04-27"
-close = "2026-04-30 23:59:59"
-absddl = "2025-05-08 23:59:59 -12:00"
-submddl = "2025-05-15 23:59:59 -12:00"
-notidue = "2025-08-22"
+site = "https://2027.eurosys.org/"
+open = "2027-04-19"
+close = "2027-04-23"
+absddl = "2026-05-07 23:59:59 -12:00"
+submddl = "2026-05-14 23:59:59 -12:00"
+notidue = "2026-08-21"
+source = "https://2027.eurosys.org/cfp.html"
 
 [[params.cfp.list]]
 enable = 1
 name = "EuroSys Fall"
+year = 2027
 rank = "A"
-site = "https://2026.eurosys.org/"
-open = "2026-04-27"
-close = "2026-04-30 23:59:59"
-absddl = "2025-09-18 23:59:59 -12:00"
-submddl = "2025-09-25 23:59:59 -12:00"
-notidue = "2026-01-30"
-
+site = "https://2027.eurosys.org/"
+open = "2027-04-19"
+close = "2027-04-23"
+absddl = "2026-09-17 23:59:59 -12:00"
+submddl = "2026-09-24 23:59:59 -12:00"
+notidue = "2027-01-29"
+source = "https://2027.eurosys.org/cfp.html"
 
 [[params.cfp.list]]
-enable = 0
+enable = 1
 name = "HPDC"
+year = 2026
 rank = "B"
-site = "https://hpdc.sci.utah.edu/2025/"
-open = "2025-07-20"
-close = "2025-07-23 23:59:59"
-absddl = "N/A"
-submddl = "2025-02-06 23:59:59 -12:00"
-notidue = "2025-04-04"
-
-[[params.cfp.list]]
-enable = 1
-name = "HPDC*"
-rank = "B"
-site = "http://www.hpdc.org/"
-open = "2026-07-19"
-close = "2026-07-22 23:59:59"
-absddl = "N/A"
+site = "https://hpdc.sci.utah.edu/2026/"
+open = "2026-07-13"
+close = "2026-07-16"
+absddl = "2026-01-29 23:59:59 -12:00"
 submddl = "2026-02-05 23:59:59 -12:00"
-notidue = "2026-04-03"
-
-[[params.cfp.list]]
-enable = 0
-name = "ICCD"
-rank = "B"
-site = "https://www.iccd-conf.com/"
-open = "2025-11-10"
-close = "2025-11-12 23:59:59"
-absddl = "2025-05-17 23:59:59 -12:00"
-submddl = "2025-05-17 23:59:59 -12:00"
-notidue = "2025-07-29"
+notidue = "2026-03-31"
+source = "https://hpdc.sci.utah.edu/2026/calls-cfp.html"
+notes = "2027 CFP not yet announced."
 
 [[params.cfp.list]]
 enable = 1
-name = "ICCAD*"
+name = "ICCD"
+year = 2026
+rank = "B"
+site = "https://www.iccd-conf.com/2026/home.html"
+open = "2026-11-16"
+close = "2026-11-18"
+absddl = "2026-06-03 23:59:00 -12:00"
+submddl = "2026-06-10 23:59:00 -12:00"
+notidue = "2026-08-20"
+source = "https://www.iccd-conf.com/2026/home.html"
+
+[[params.cfp.list]]
+enable = 1
+name = "ICCAD"
+year = 2026
 rank = "B"
 site = "https://iccad.com/2026"
-open = "2026-10-25"
-close = "2026-10-29 23:59:59"
-absddl = "2026-04-07 23:59:59 -12:00"
-submddl = "2026-04-14 23:59:59 -12:00"
+open = "2026-11-08"
+close = "2026-11-12"
+absddl = "2026-04-07"
+submddl = "2026-04-14"
 notidue = "2026-07-11"
+source = "https://iccad.com/2026/authors/call-for-papers"
 
 [[params.cfp.list]]
 enable = 1
 name = "SIGMETRICS Summer"
+year = 2027
 rank = "B"
-site = "https://www.sigmetrics.org/sigmetrics2026/"
-open = "2026-06-08"
-close = "2026-06-12 23:59:59"
-absddl = "2025-07-22 23:59:59 -12:00"
-submddl = "2025-07-29 23:59:59 -12:00"
-notidue = "2025-09-26"
+site = "https://www.sigmetrics.org/sigmetrics2027/"
+open = "2027-06-07"
+close = "2027-06-11"
+absddl = "2026-07-03 23:59:59 -12:00"
+submddl = "2026-07-10 23:59:59 -12:00"
+notidue = "2026-09-09"
+source = "https://www.sigmetrics.org/sigmetrics2027/"
 
 [[params.cfp.list]]
 enable = 1
 name = "SIGMETRICS Fall"
+year = 2027
 rank = "B"
-site = "https://www.sigmetrics.org/sigmetrics2026/"
-open = "2026-06-08"
-close = "2026-06-12 23:59:59"
-absddl = "2025-10-07 23:59:59 -12:00"
-submddl = "2025-10-14 23:59:59 -12:00"
-notidue = "2025-12-12"
+site = "https://www.sigmetrics.org/sigmetrics2027/"
+open = "2027-06-07"
+close = "2027-06-11"
+absddl = "2026-10-02 23:59:59 -12:00"
+submddl = "2026-10-09 23:59:59 -12:00"
+notidue = "2026-12-09"
+source = "https://www.sigmetrics.org/sigmetrics2027/"
 
 [[params.cfp.list]]
 enable = 1
 name = "SIGMETRICS Winter"
+year = 2027
 rank = "B"
-site = "https://www.sigmetrics.org/sigmetrics2026/"
-open = "2026-06-08"
-close = "2026-06-12 23:59:59"
-absddl = "2026-01-06 23:59:59 -12:00"
-submddl = "2026-01-13 23:59:59 -12:00"
-notidue = "2026-03-13"
+site = "https://www.sigmetrics.org/sigmetrics2027/"
+open = "2027-06-07"
+close = "2027-06-11"
+absddl = "2027-01-04 23:59:59 -12:00"
+submddl = "2027-01-11 23:59:59 -12:00"
+notidue = "2027-03-10"
+source = "https://www.sigmetrics.org/sigmetrics2027/"
 
 [[params.cfp.list]]
 enable = 1
 name = "ICPP"
+year = 2026
 rank = "B"
 site = "https://icpp2026.github.io/"
 open = "2026-09-28"
-close = "2026-10-01 23:59:59"
+close = "2026-10-01"
 absddl = "2026-04-24 23:59:59 -12:00"
 submddl = "2026-05-01 23:59:59 -12:00"
 notidue = "2026-06-30"
+source = "https://icpp2026.github.io/call-for-papers/"
 
 [[params.cfp.list]]
-enable = 0
+enable = 1
 name = "ICS Cycle 1"
+year = 2026
 rank = "B"
-site = "https://hpcrl.github.io/ICS2025-webpage/"
-open = "2025-06-08"
-close = "2025-06-11 23:59:59"
-absddl = "2025-01-13 23:59:59 -12:00"
-submddl = "2025-01-16 23:59:59 -12:00"
-notidue = "2025-03-14"
+site = "https://dipsa-qub.github.io/ICS2026-webpage/"
+open = "2026-07-06"
+close = "2026-07-09"
+absddl = "2025-12-09"
+submddl = "2025-12-16"
+notidue = "2026-02-24"
+source = "https://dipsa-qub.github.io/ICS2026-webpage/call-for/call-for-papers.html"
 
 [[params.cfp.list]]
-enable = 0
+enable = 1
 name = "ICS Cycle 2"
+year = 2026
 rank = "B"
-site = "https://hpcrl.github.io/ICS2025-webpage/"
-open = "2025-06-08"
-close = "2025-06-11 23:59:59"
-absddl = "2025-02-24 23:59:59 -12:00"
-submddl = "2025-02-27 23:59:59 -12:00"
-notidue = "2025-04-10"
+site = "https://dipsa-qub.github.io/ICS2026-webpage/"
+open = "2026-07-06"
+close = "2026-07-09"
+absddl = "2026-02-02"
+submddl = "2026-02-09"
+notidue = "2026-04-06"
+source = "https://dipsa-qub.github.io/ICS2026-webpage/call-for/call-for-papers.html"
+
+[[params.cfp.list]]
+enable = 1
+name = "ICS"
+year = 2027
+rank = "B"
+site = "https://www.ics-conference.org/"
+open = "TBA"
+close = "TBA"
+absddl = "TBA"
+submddl = "TBA"
+notidue = "TBA"
+source = "https://www.ics-conference.org/"
+notes = "Atlanta / FCRC; dates and CFP not yet announced."
 
 [[params.cfp.list]]
 enable = 1
 name = "IPDPS"
+year = 2027
 rank = "B"
 site = "https://www.ipdps.org/"
-open = "2026-05-25"
-close = "2026-05-29 23:59:59"
-absddl = "2025-10-02 23:59:59 -12:00"
-submddl = "2025-10-09 23:59:59 -12:00"
-notidue = "2026-02-02"
-
-[[params.cfp.list]]
-enable = 0
-name = "MSST Special"
-rank = "B"
-site = "https://www.msstconference.org/"
-open = "2025-09-22"
-close = "2025-09-24 23:59:59"
-absddl = "2025-08-01 23:59:59 -12:00"
-submddl = "2025-08-01 23:59:59 -12:00"
-notidue = "2025-08-15"
+open = "2027-06-01"
+close = "2027-06-05"
+absddl = "2026-10-01 23:59:59 -12:00"
+submddl = "2026-10-08 23:59:59 -12:00"
+notidue = "2026-12-18"
+source = "https://www.ipdps.org/ipdps2027/2027-call-for-papers.html"
+notes = "Initial decision. Final notification TBA: official CFP lists February 1 and 2."
 
 [[params.cfp.list]]
 enable = 1
-name = "MSST*"
+name = "MSST"
+year = 2026
 rank = "B"
-site = "https://www.msstconference.org/"
+site = "https://msstconference.org/2026/index.html"
 open = "2026-06-01"
-close = "2026-06-05 23:59:59"
+close = "2026-06-05"
 absddl = "N/A"
-submddl = "2026-01-14"
-notidue = "2026-03-15"
-
-[[params.cfp.list]]
-enable = 0
-name = "PACT"
-rank = "B"
-site = "https://pact2025.github.io/"
-open = "2025-11-03"
-close = "2025-11-06 23:59:59"
-absddl = "2025-04-18 23:59:59 -12:00"
-submddl = "2025-04-25 23:59:59 -12:00"
-notidue = "2025-07-31"
+submddl = "2026-04-14"
+notidue = "2026-05-01"
+source = "https://msstconference.org/2026/research-cfp.html"
 
 [[params.cfp.list]]
 enable = 1
-name = "OOPSLA*"
+name = "MSST"
+year = 2027
+rank = "B"
+site = "https://msstconference.org/"
+open = "2027-05-17"
+close = "2027-05-21"
+absddl = "TBA"
+submddl = "TBA"
+notidue = "TBA"
+source = "https://msstconference.org/2026/index.html"
+notes = "2027 research CFP not yet announced."
+event_note = "Announced conference week"
+
+[[params.cfp.list]]
+enable = 1
+name = "PACT"
+year = 2026
+rank = "B"
+site = "https://pact2026.github.io/"
+open = "2026-10-19"
+close = "2026-10-22"
+absddl = "2026-04-23"
+submddl = "2026-04-30"
+notidue = "2026-08-05"
+source = "https://pact2026.github.io/"
+
+[[params.cfp.list]]
+enable = 1
+name = "OOPSLA R1"
+year = 2026
 rank = "A"
 site = "https://2026.splashcon.org/"
 open = "2026-10-04"
-close = "2026-10-09 23:59:59"
+close = "2026-10-09"
 absddl = "N/A"
-submddl = "2026-04-04 23:59:59 -12:00"
-notidue = "2026-07-04"
+submddl = "2025-10-10 23:59:59 -12:00"
+notidue = "2025-12-17"
+source = "https://2026.splashcon.org/track/oopsla-2026"
+notes = "Initial decision shown; revision notification February 17, 2026."
 
 [[params.cfp.list]]
 enable = 1
-name = "ICSE Cycle 1"
+name = "OOPSLA R2"
+year = 2026
 rank = "A"
-site = "https://conf.researchr.org/home/icse-2026"
-open = "2026-04-12"
-close = "2026-04-18 23:59:59"
-absddl = "2025-03-07 23:59:59 -12:00"
-submddl = "2025-03-14 23:59:59 -12:00"
-notidue = "2025-06-20"
+site = "https://2026.splashcon.org/"
+open = "2026-10-04"
+close = "2026-10-09"
+absddl = "N/A"
+submddl = "2026-03-17 23:59:59 -12:00"
+notidue = "2026-06-10"
+source = "https://2026.splashcon.org/track/oopsla-2026"
+notes = "Initial decision shown; revision notification August 7, 2026."
 
 [[params.cfp.list]]
 enable = 1
-name = "ICSE Cycle 2"
+name = "OOPSLA R1"
+year = 2027
 rank = "A"
-site = "https://conf.researchr.org/home/icse-2026"
-open = "2026-04-12"
-close = "2026-04-18 23:59:59"
-absddl = "2025-07-11 23:59:59 -12:00"
-submddl = "2025-07-18 23:59:59 -12:00"
-notidue = "2025-11-15"
+site = "https://2027.splashcon.org/"
+open = "2027-10-10"
+close = "2027-10-15"
+absddl = "N/A"
+submddl = "2026-10-14 23:59:59 -12:00"
+notidue = "2026-12-18"
+source = "https://2027.splashcon.org/track/splashoopsla2027"
+notes = "Initial decision shown; revision notification February 12, 2027."
+
+[[params.cfp.list]]
+enable = 1
+name = "OOPSLA R2"
+year = 2027
+rank = "A"
+site = "https://2027.splashcon.org/"
+open = "2027-10-10"
+close = "2027-10-15"
+absddl = "N/A"
+submddl = "2027-04-07 23:59:59 -12:00"
+notidue = "2027-07-02"
+source = "https://2027.splashcon.org/track/splashoopsla2027"
+notes = "Initial decision shown; revision notification August 13, 2027."
+
+[[params.cfp.list]]
+enable = 1
+name = "ICSE"
+year = 2027
+rank = "A"
+site = "https://conf.researchr.org/home/icse-2027"
+open = "2027-04-25"
+close = "2027-05-01"
+absddl = "2026-06-23 23:59:59 -12:00"
+submddl = "2026-06-30 23:59:59 -12:00"
+notidue = "2026-10-20"
+source = "https://conf.researchr.org/track/icse-2027/icse-2027-research-track"
+notes = "One research cycle. Major-revision decisions December 18."
 
 [[params.cfp.list]]
 enable = 2
 name = "OSDI"
+year = 2027
 rank = "A"
-site = "https://www.usenix.org/conference/osdi26/"
-open = "2026-07-13"
-close = "2026-07-15 23:59:59 -07:00"
-absddl = "2025-12-04 17:59:00 -05:00"
-submddl = "2025-12-11 17:59:00 -05:00"
-notidue = "2026-03-26"
+site = "https://www.usenix.org/conference/osdi27"
+open = "2027-07-07"
+close = "2027-07-09"
+absddl = "2026-12-01 17:59:00 -05:00"
+submddl = "2026-12-08 17:59:00 -05:00"
+notidue = "2027-03-16"
+source = "https://www.usenix.org/conference/osdi27/call-for-papers"
 
 [[params.cfp.list]]
 enable = 1
 name = "PLDI"
+year = 2027
 rank = "A"
-site = "https://pldi26.sigplan.org/"
-open = "2026-06-15"
-close = "2026-06-19 23:59:59"
-absddl = "N/A"
-submddl = "2025-11-13 23:59:59 -12:00"
-notidue = "2026-03-05"
+site = "https://pldi27.sigplan.org/"
+open = "2027-06-05"
+close = "2027-06-11"
+absddl = "TBA"
+submddl = "2026-11-12 23:59:59 -12:00"
+notidue = "2027-03-04"
+source = "https://pldi27.sigplan.org/track/pldi-2027-papers"
+notes = "Initial notification shown; final acceptance April 1. Full CFP pending."
 
 [[params.cfp.list]]
 enable = 1
 name = "POPL"
+year = 2027
 rank = "A"
-site = "https://popl26.sigplan.org/"
-open = "2026-01-11"
-close = "2026-01-17 23:59:59"
+site = "https://popl27.sigplan.org/"
+open = "2027-01-10"
+close = "2027-01-16"
 absddl = "N/A"
-submddl = "2025-07-10 23:59:59 -12:00"
-notidue = "2025-10-02"
+submddl = "2026-07-09 23:59:00 -12:00"
+notidue = "2026-10-05"
+source = "https://popl27.sigplan.org/track/POPL-2027-popl-research-papers"
+notes = "Initial notification shown; final acceptance November 9."
 
 [[params.cfp.list]]
 enable = 1
 name = "SOSP"
+year = 2026
 rank = "A"
 site = "https://sigops.org/s/conferences/sosp/2026/"
 open = "2026-09-29"
-close = "2026-10-02 23:59:59"
+close = "2026-10-02"
 absddl = "2026-03-26 23:59:59 -12:00"
 submddl = "2026-04-01 23:59:59 -12:00"
 notidue = "2026-07-03"
+source = "https://sigops.org/s/conferences/sosp/2026/cfp.html"
 
 [[params.cfp.list]]
 enable = 1
 name = "SIGMOD R1"
+year = 2027
 rank = "A"
-site = "https://2026.sigmod.org/"
-open = "2026-05-31"
-close = "2026-06-05 23:59:59"
+site = "https://2027.sigmod.org/"
+open = "2027-06-13"
+close = "2027-06-19"
 absddl = "2026-01-10 23:59:59 -12:00"
 submddl = "2026-01-17 23:59:59 -12:00"
-notidue = "2026-03-15"
+notidue = "2026-04-19"
+source = "https://2027.sigmod.org/calls_papers_sigmod_research.shtml"
+notes = "Initial decision shown; final decision June 12, 2026."
 
 [[params.cfp.list]]
 enable = 1
 name = "SIGMOD R2"
+year = 2027
 rank = "A"
-site = "https://2026.sigmod.org/"
-open = "2026-05-31"
-close = "2026-06-05 23:59:59"
+site = "https://2027.sigmod.org/"
+open = "2027-06-13"
+close = "2027-06-19"
 absddl = "2026-04-10 23:59:59 -12:00"
 submddl = "2026-04-17 23:59:59 -12:00"
-notidue = "2026-06-15"
+notidue = "2026-07-19"
+source = "https://2027.sigmod.org/calls_papers_sigmod_research.shtml"
+notes = "Initial decision shown; final decision September 12, 2026."
 
 [[params.cfp.list]]
 enable = 1
 name = "SIGMOD R3"
+year = 2027
 rank = "A"
-site = "https://2026.sigmod.org/"
-open = "2026-05-31"
-close = "2026-06-05 23:59:59"
-absddl = "2025-07-10 23:59:59 -12:00"
-submddl = "2025-07-17 23:59:59 -12:00"
-notidue = "2025-09-15"
+site = "https://2027.sigmod.org/"
+open = "2027-06-13"
+close = "2027-06-19"
+absddl = "2026-07-10 23:59:59 -12:00"
+submddl = "2026-07-17 23:59:59 -12:00"
+notidue = "2026-10-19"
+source = "https://2027.sigmod.org/calls_papers_sigmod_research.shtml"
+notes = "Initial decision shown; final decision December 12, 2026."
 
 [[params.cfp.list]]
 enable = 1
 name = "SIGMOD R4"
+year = 2027
 rank = "A"
-site = "https://2026.sigmod.org/"
-open = "2026-05-31"
-close = "2026-06-05 23:59:59"
-absddl = "2025-10-10 23:59:59 -12:00"
-submddl = "2025-10-17 23:59:59 -12:00"
-notidue = "2025-12-15"
+site = "https://2027.sigmod.org/"
+open = "2027-06-13"
+close = "2027-06-19"
+absddl = "2026-10-10 23:59:59 -12:00"
+submddl = "2026-10-17 23:59:59 -12:00"
+notidue = "2027-01-19"
+source = "https://2027.sigmod.org/calls_papers_sigmod_research.shtml"
+notes = "Initial decision shown; final decision March 12, 2027."
 
 [[params.cfp.list]]
 enable = 1
-name = "VLDB (Monthly)"
+name = "VLDB Oct"
+year = 2027
 rank = "A"
-site = "https://vldb.org/2026/"
-open = "2026-08-31"
-close = "2026-09-04 23:59:59"
-absddl = "N/A"
-submddl = "2026-03-01 17:00:00 -08:00"
-notidue = "2026-03-15"
+site = "https://vldb.org/2027/"
+open = "2027-08-23"
+close = "2027-08-27"
+absddl = "2026-09-25 17:00:00 -07:00"
+submddl = "2026-10-01 17:00:00 -07:00"
+notidue = "2026-11-15"
+source = "https://vldb.org/2027/submission-guidelines.html"
+notes = "Monthly cycle; abstract registration required."
+notification_note = "Usual notification date"
+
+[[params.cfp.list]]
+enable = 1
+name = "VLDB Nov"
+year = 2027
+rank = "A"
+site = "https://vldb.org/2027/"
+open = "2027-08-23"
+close = "2027-08-27"
+absddl = "2026-10-25 17:00:00 -07:00"
+submddl = "2026-11-01 17:00:00 -08:00"
+notidue = "2026-12-15"
+source = "https://vldb.org/2027/submission-guidelines.html"
+notes = "Monthly cycle; abstract registration required."
+notification_note = "Usual notification date"
+
+[[params.cfp.list]]
+enable = 1
+name = "VLDB Dec"
+year = 2027
+rank = "A"
+site = "https://vldb.org/2027/"
+open = "2027-08-23"
+close = "2027-08-27"
+absddl = "2026-11-25 17:00:00 -08:00"
+submddl = "2026-12-01 17:00:00 -08:00"
+notidue = "2027-01-15"
+source = "https://vldb.org/2027/submission-guidelines.html"
+notes = "Monthly cycle; abstract registration required."
+notification_note = "Usual notification date"
+
+[[params.cfp.list]]
+enable = 1
+name = "VLDB Jan"
+year = 2027
+rank = "A"
+site = "https://vldb.org/2027/"
+open = "2027-08-23"
+close = "2027-08-27"
+absddl = "2026-12-25 17:00:00 -08:00"
+submddl = "2027-01-01 17:00:00 -08:00"
+notidue = "2027-02-15"
+source = "https://vldb.org/2027/submission-guidelines.html"
+notes = "Monthly cycle; abstract registration required."
+notification_note = "Usual notification date"
+
+[[params.cfp.list]]
+enable = 1
+name = "VLDB Feb"
+year = 2027
+rank = "A"
+site = "https://vldb.org/2027/"
+open = "2027-08-23"
+close = "2027-08-27"
+absddl = "2027-01-25 17:00:00 -08:00"
+submddl = "2027-02-01 17:00:00 -08:00"
+notidue = "2027-03-15"
+source = "https://vldb.org/2027/submission-guidelines.html"
+notes = "Monthly cycle; abstract registration required."
+notification_note = "Usual notification date"
+
+[[params.cfp.list]]
+enable = 1
+name = "VLDB Mar"
+year = 2027
+rank = "A"
+site = "https://vldb.org/2027/"
+open = "2027-08-23"
+close = "2027-08-27"
+absddl = "2027-02-25 17:00:00 -08:00"
+submddl = "2027-03-01 17:00:00 -08:00"
+notidue = "2027-04-15"
+source = "https://vldb.org/2027/submission-guidelines.html"
+notes = "Monthly cycle; abstract registration required."
+notification_note = "Usual notification date"
 
 [[params.cfp.list]]
 enable = 1
 name = "ICDE R1"
+year = 2027
 rank = "A"
-site = "https://icde2026.github.io/"
-open = "2026-05-04"
-close = "2026-05-08 23:59:59"
+site = "https://icde2027.github.io/"
+open = "2027-05-17"
+close = "2027-05-21"
 absddl = "N/A"
-submddl = "2025-06-18 17:00:00 -08:00"
-notidue = "2025-08-18"
+submddl = "2026-06-11 17:00:00 -07:00"
+notidue = "2026-09-10"
+source = "https://icde2027.github.io/important-dates.html"
+notification_note = "Approximate"
 
 [[params.cfp.list]]
 enable = 1
 name = "ICDE R2"
+year = 2027
 rank = "A"
-site = "https://icde2026.github.io/"
-open = "2026-05-04"
-close = "2026-05-08 23:59:59"
+site = "https://icde2027.github.io/"
+open = "2027-05-17"
+close = "2027-05-21"
 absddl = "N/A"
-submddl = "2025-10-27 17:00:00 -08:00"
-notidue = "2025-12-22"
+submddl = "2026-11-11 17:00:00 -08:00"
+notidue = "2027-02-10"
+source = "https://icde2027.github.io/important-dates.html"
+notification_note = "Approximate"
 
 [[params.cfp.list]]
 enable = 1
 name = "CIDR"
+year = 2027
 rank = "B"
-site = "https://www.cidrdb.org/cidr2026/"
-open = "2026-01-18"
-close = "2026-01-21 23:59:59"
+site = "https://www.cidrdb.org/cidr2027/"
+open = "2027-01-24"
+close = "2027-01-27"
 absddl = "N/A"
-submddl = "2025-08-05 23:59:59 -08:00"
-notidue = "2025-10-06"
+submddl = "2026-08-04 23:59:59 -07:00"
+notidue = "2026-10-06"
+source = "https://www.cidrdb.org/cidr2027/cfp.html"
 
 [[params.cfp.list]]
 enable = 1
 name = "EMSOFT"
+year = 2026
 rank = "B"
 site = "https://esweek.org/"
 open = "2026-10-04"
-close = "2026-10-09 23:59:59"
+close = "2026-10-09"
 absddl = "2026-03-23 23:59:59 -12:00"
 submddl = "2026-03-30 23:59:59 -12:00"
 notidue = "2026-07-17"
+source = "https://esweek.org/emsoft_cfp/"
 
 [[params.cfp.list]]
 enable = 1
 name = "CODES+ISSS"
+year = 2026
 rank = "B"
 site = "https://esweek.org/"
 open = "2026-10-04"
-close = "2026-10-09 23:59:59"
+close = "2026-10-09"
 absddl = "2026-03-23 23:59:59 -12:00"
 submddl = "2026-03-30 23:59:59 -12:00"
 notidue = "2026-07-17"
+source = "https://esweek.org/codes_isss_cfp/"
 
 [[params.cfp.list]]
 enable = 1
 name = "NVMSA"
+year = 2026
 rank = ""
 site = "https://nvmsa2026.github.io/"
 open = "2026-08-11"
-close = "2026-08-13 23:59:59"
-absddl = "2026-04-20 23:59:59 -12:00"
-submddl = "2026-04-27 23:59:59 -12:00"
-notidue = "2026-05-20"
+close = "2026-08-13"
+absddl = "2026-05-04 23:59:59 -12:00"
+submddl = "2026-05-04 23:59:59 -12:00"
+notidue = "2026-05-27"
+source = "https://nvmsa2026.github.io/"
 
 [[params.cfp.list]]
-enable = 0
+enable = 1
 name = "HotStorage"
+year = 2026
 rank = ""
-site = "https://www.hotstorage.org/2025/"
-open = "2025-07-06"
-close = "2025-07-07 23:59:59"
+site = "https://www.hotstorage.org/2026/"
+open = "2026-09-28"
+close = "2026-09-29"
 absddl = "N/A"
-submddl = "2025-04-04 23:59:59 -12:00"
-notidue = "2025-05-16"
+submddl = "2026-06-12 23:59:59 -12:00"
+notidue = "2026-07-24"
+source = "https://www.hotstorage.org/2026/cfp.html"
 
 [[params.cfp.list]]
 enable = 1
 name = "MLSys"
+year = 2027
 rank = ""
-site = "https://mlsys.org/"
-open = "2026-05-17"
-close = "2026-05-22 23:59:59"
+site = "https://mlsys.org/Conferences/2027"
+open = "TBA"
+close = "TBA"
 absddl = "N/A"
-submddl = "2025-10-30 20:00:00 +00:00"
-notidue = "2026-01-25"
+submddl = "2026-10-30"
+notidue = "2027-02-28"
+source = "https://mlsys.org/Conferences/2027/CallForResearchPapers"
+notes = "Deadline time conflicts: CFP 20:00 UTC; dates page 19:00 UTC. Confirm with organizers."
 
 [[params.cfp.list]]
 enable = 1
 name = "FPGA"
+year = 2027
 rank = "B"
 site = "https://isfpga.org/"
-open = "2026-02-22"
-close = "2026-02-24 23:59:59"
-absddl = "2025-09-24 23:59:59 -12:00"
-submddl = "2025-10-01 23:59:59 -12:00"
-notidue = "2025-11-23"
+open = "2027-03-14"
+close = "2027-03-16"
+absddl = "2026-10-01 23:59:00 -12:00"
+submddl = "2026-10-08 23:59:00 -12:00"
+notidue = "2026-11-24"
+source = "https://wp.isfpga.org/call-for-papers/"
+notes = "Abstract cutoff follows the CFP; the submission-site header lists a conflicting time."
 
 [[params.cfp.list]]
-enable = 0
+enable = 1
 name = "FPL"
+year = 2026
 rank = "C"
-site = "https://2025.fpl.org/"
-open = "2025-09-01"
-close = "2025-09-05 23:59:59"
-absddl = "2025-03-21 23:59:59 -12:00"
-submddl = "2025-03-30 23:59:59 -12:00"
-notidue = "2025-05-27"
+site = "https://2026.fpl.org/"
+open = "2026-09-07"
+close = "2026-09-11"
+absddl = "2026-03-27"
+submddl = "2026-04-03"
+notidue = "2026-06-01"
+source = "https://easychair.org/cfp/fpl2026"
 
 [[params.cfp.list]]
-enable = 0
+enable = 1
 name = "FPT"
+year = 2026
 rank = "C"
-site = "https://fpt2025.shanghaitech.edu.cn/"
-open = "2025-12-02"
-close = "2025-12-05 23:59:59"
-absddl = "2025-07-20 23:59:59 +08:00"
-submddl = "2025-08-01 23:59:59 +08:00"
-notidue = "2025-10-10"
+site = "https://fpt2026.uark.edu/"
+open = "2026-12-07"
+close = "2026-12-10"
+absddl = "2026-06-19 23:59:59 -12:00"
+submddl = "2026-06-19 23:59:59 -12:00"
+notidue = "2026-08-21"
+source = "https://fpt2026.uark.edu/"
 
 [[params.cfp.list]]
 enable = 1
 name = "FCCM"
+year = 2026
 rank = "C"
 site = "https://www.fccm.org/call-for-papers-2026/"
 open = "2026-05-13"
-close = "2026-05-16 23:59:59"
+close = "2026-05-16"
 absddl = "2026-01-10 23:59:59 -12:00"
 submddl = "2026-01-17 23:59:59 -12:00"
 notidue = "2026-03-16"
+source = "https://www.fccm.org/"
+notes = "2027 CFP not yet announced."
 
 [[params.cfp.list]]
-enable = 0
+enable = 1
 name = "APSys"
+year = 2026
 rank = ""
-site = "https://apsys2025.github.io/"
-open = "2025-10-12"
-close = "2025-10-13 23:59:59"
-absddl = "2025-05-29 23:59:59 -12:00"
-submddl = "2025-06-05 23:59:59 -12:00"
-notidue = "2025-08-04"
+site = "https://apsys26.github.io/"
+open = "2026-09-17"
+close = "2026-09-18"
+absddl = "2026-05-13 23:59:59 -12:00"
+submddl = "2026-05-20 23:59:59 -12:00"
+notidue = "2026-07-29"
+source = "https://apsys26.github.io/"
 
 [[params.cfp.list]]
 enable = 1
 name = "RTSS"
+year = 2026
 rank = "A"
 site = "https://2026.rtss.org/"
 open = "2026-12-08"
-close = "2026-12-11 23:59:59"
-absddl = "N/A"
-submddl = "2026-05-21 23:59:59 -12:00"
+close = "2026-12-11"
+absddl = "2026-05-21 23:59:59 -12:00"
+submddl = "2026-05-26 23:59:59 -12:00"
 notidue = "2026-07-25"
+source = "https://2026.rtss.org/submissions/dates/"
 
 [[params.cfp.list]]
 enable = 1
 name = "RTAS"
+year = 2027
 rank = "B"
-site = "https://2026.rtas.org/cfp/"
-open = "2026-05-12"
-close = "2026-05-14 23:59:59"
+site = "https://2027.rtas.org/"
+open = "2027-05-17"
+close = "2027-05-20"
 absddl = "N/A"
-submddl = "2025-11-13 23:59:59 -12:00"
-notidue = "2026-01-29"
+submddl = "2026-11-05 23:59:59 -12:00"
+notidue = "2027-01-28"
+source = "https://2027.rtas.org/cfp/"
+notification_note = "Tentative"
 
 [[params.cfp.list]]
 enable = 1
 name = "CGO R1"
+year = 2027
 rank = "B"
-site = "https://2026.cgo.org/"
-open = "2026-01-31"
-close = "2026-02-04 23:59:59"
+site = "https://2027.cgo.org/"
+open = "2027-03-20"
+close = "2027-03-24"
 absddl = "N/A"
-submddl = "2025-05-29 23:59:59 -12:00"
-notidue = "2025-07-21"
+submddl = "2026-06-11 23:59:59 -12:00"
+notidue = "2026-08-03"
+source = "https://2027.cgo.org/track/cgo-2027-papers"
 
 [[params.cfp.list]]
 enable = 1
 name = "CGO R2"
+year = 2027
 rank = "B"
-site = "https://2026.cgo.org/"
-open = "2026-01-31"
-close = "2026-02-04 23:59:59"
+site = "https://2027.cgo.org/"
+open = "2027-03-20"
+close = "2027-03-24"
 absddl = "N/A"
-submddl = "2025-09-11 23:59:59 -12:00"
-notidue = "2025-11-03"
-
+submddl = "2026-09-10 23:59:59 -12:00"
+notidue = "TBA"
+source = "https://2027.cgo.org/track/cgo-2027-papers"
+notes = "Notification TBA: official page lists both November 2 and November 9."
 
 [[params.cfp.list]]
 enable = 1
 name = "SAC"
+year = 2027
 rank = ""
-site = "https://www.sigapp.org/sac/sac2026/"
-open = "2026-03-23"
-close = "2026-03-27 23:59:59"
+site = "https://www.sigapp.org/sac/sac2027/"
+open = "2027-04-05"
+close = "2027-04-09"
 absddl = "N/A"
-submddl = "2025-10-17 23:59:59 -04:00"
-notidue = "2025-11-21"
+submddl = "2026-10-02"
+notidue = "2026-11-13"
+source = "https://www.sigapp.org/sac/sac2027/"
+notes = "Deadline date is stated in EST; exact time not specified."
