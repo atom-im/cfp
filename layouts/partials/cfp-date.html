@@ -1,0 +1,5 @@
+{{- if in (slice "N/A" "TBA" "TBD") . -}}
+  {{- . -}}
+{{- else -}}
+  <time datetime="{{ if gt (len .) 10 }}{{ dateFormat `2006-01-02T15:04:05Z07:00` . }}{{ else }}{{ . }}{{ end }}">{{ dateFormat "Jan 2, 2006" . }}{{ if gt (len .) 19 }}<br><small>{{ dateFormat "15:04" . }} UTC{{ dateFormat "-07:00" . }}</small>{{ end }}</time>
+{{- end -}}

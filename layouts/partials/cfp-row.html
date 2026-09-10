@@ -1,0 +1,30 @@
+{{- /* Hong Kong calendar date, independent of the build host timezone. */ -}}
+{{- $today := (now.UTC.Add (time.Duration "hour" 8)).Format "2006-01-02" -}}
+{{- $p := .cfp -}}
+{{- $section := .section -}}
+{{- $year := $p.year -}}
+{{- if and (not $year) (not (in (slice "TBA" "TBD" "N/A") $p.open)) -}}{{- $year = (time $p.open).Year -}}{{- end -}}
+<tr class="item"{{ if eq $section "highlight" }} style="background-color:purple;color:white"{{ else if eq $section "upcoming" }} style="background-color:Wheat"{{ else }} style="background-color:white"{{ end }}>
+  <th scope="row">
+    <a{{ if eq $section "highlight" }} class="hl"{{ end }} href="{{ $p.site }}" target="_blank" rel="noopener">{{ $p.name }} {{ $year }}</a>
+    {{ with $p.source }}<br><small><a{{ if eq $section "highlight" }} class="hl"{{ end }} href="{{ . }}" target="_blank" rel="noopener">CFP source</a></small>{{ end }}
+    {{ with $p.notes }}<br><small class="cfp-note">{{ . }}</small>{{ end }}
+  </th>
+  <td>{{ $p.rank | markdownify }}</td>
+  <td>{{ partial "cfp-date.html" $p.absddl }}</td>
+  <td>{{ partial "cfp-date.html" $p.submddl }}</td>
+  <td>{{ partial "cfp-date.html" $p.notidue }}{{ with $p.notification_note }}<br><small>{{ . }}</small>{{ end }}</td>
+  <td>{{ if or (in (slice "TBA" "TBD" "N/A") $p.open) (in (slice "TBA" "TBD" "N/A") $p.close) }}TBA{{ else }}{{ dateFormat "Jan 2" $p.open }}–{{ if ne (time $p.open).Month (time $p.close).Month }}{{ dateFormat "Jan" $p.close }} {{ end }}{{ dateFormat "2, 2006" $p.close }}{{ end }}{{ with $p.event_note }}<br><small>{{ . }}</small>{{ end }}</td>
+  <td>
+    {{- if eq $section "past" -}}Ended
+    {{- else if eq $section "current" -}}
+      {{- if in (slice "TBA" "TBD" "N/A") $p.open -}}TBA
+      {{- else if le (dateFormat "2006-01-02" $p.open) $today -}}In Progress
+      {{- else -}}<span data-event-date="{{ dateFormat `2006-01-02` $p.open }}">{{ dateFormat "Jan 2, 2006" $p.open }}</span>
+      {{- end -}}
+    {{- else if in (slice "TBA" "TBD" "N/A") $p.submddl -}}TBA
+    {{- else if gt (len $p.submddl) 19 -}}<span data-countdown="{{ dateFormat `2006-01-02T15:04:05Z07:00` $p.submddl }}">{{ dateFormat "Jan 2, 2006" $p.submddl }}</span>
+    {{- else -}}See CFP
+    {{- end -}}
+  </td>
+</tr>

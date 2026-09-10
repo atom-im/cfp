@@ -1,0 +1,24 @@
+{{- /* Hong Kong calendar date, independent of the build host timezone. */ -}}
+{{- $today := (now.UTC.Add (time.Duration "hour" 8)).Format "2006-01-02" -}}
+{{- $status := "hidden" -}}
+{{- if gt .enable 0 -}}
+  {{- $status = "upcoming" -}}
+  {{- if not (in (slice "TBA" "TBD" "N/A") .close) -}}
+    {{- if lt (dateFormat "2006-01-02" .close) $today -}}
+      {{- $status = "past" -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if and (ne $status "past") (not (in (slice "TBA" "TBD" "N/A") .submddl)) -}}
+    {{- $closed := false -}}
+    {{- if eq (len .submddl) 10 -}}
+      {{- $closed = lt .submddl $today -}}
+    {{- else -}}
+      {{- $closed = not ((time .submddl).After now) -}}
+    {{- end -}}
+    {{- if $closed -}}{{- $status = "current" -}}{{- end -}}
+  {{- end -}}
+  {{- if and (eq .enable 2) (eq $status "upcoming") -}}
+    {{- $status = "highlight" -}}
+  {{- end -}}
+{{- end -}}
+{{- return $status -}}

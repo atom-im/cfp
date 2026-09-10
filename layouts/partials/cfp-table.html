@@ -1,0 +1,27 @@
+{{- $section := .section -}}
+{{- $settings := index .page.Site.Params $section -}}
+{{- $rows := slice -}}
+{{- $sort := "submddl" -}}
+{{- $order := "asc" -}}
+{{- if eq $section "current" -}}{{- $sort = "open" -}}{{- end -}}
+{{- if eq $section "past" -}}{{- $sort = "close" -}}{{- $order = "desc" -}}{{- end -}}
+{{- range sort .page.Site.Params.cfp.list $sort $order -}}
+  {{- if eq (partial "cfp-status.html" .) $section -}}{{- $rows = $rows | append . -}}{{- end -}}
+{{- end -}}
+{{- if $rows -}}
+<div class="hideable" id="{{ $section }}">
+  <header class="hide-head nowrap"><h2>{{ $settings.title }}</h2></header>
+  <div class="hide-body">
+    <div class="table-responsive">
+      <table class="table table-bordered table-condensed">
+        <thead><tr>
+          <th>{{ $settings.name }}</th><th>{{ $settings.rank }}</th>
+          <th>{{ $settings.absddl }}</th><th>{{ $settings.submddl }}</th>
+          <th>{{ $settings.notidue }}</th><th>{{ $settings.when }}</th><th>{{ $settings.countdown }}</th>
+        </tr></thead>
+        <tbody>{{ range $rows }}{{ partial "cfp-row.html" (dict "cfp" . "section" $section) }}{{ end }}</tbody>
+      </table>
+    </div>
+  </div>
+</div>
+{{- end -}}
